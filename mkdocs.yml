@@ -53,7 +53,7 @@ extra:
   generator: true
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/jonathanduncan-dev/
+      link: https://linkedin.com/in/jonathan-duncan-ai-dev
     - icon: fontawesome/brands/github
       link: https://github.com/JonathanDDuncan
   analytics:
@@ -96,4 +96,4 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
 
 copyright: |
-  &copy; 2026 <a href="https://www.linkedin.com/in/jonathanduncan-dev/" target="_blank" rel="noopener">Jonathan Duncan</a>. All rights reserved.
+  &copy; 2026 <a href="https://linkedin.com/in/jonathan-duncan-ai-dev" target="_blank" rel="noopener">Jonathan Duncan</a>. All rights reserved.
