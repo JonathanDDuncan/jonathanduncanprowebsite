@@ -1,17 +1,24 @@
-site_name: Your Site Name
-site_description: Your site description
-site_url: https://yourdomain.com
+site_name: Jonathan Duncan | Custom Software & AI Integration
+site_description: I build custom software and AI integrations that replace manual workflows, cut costs, and unlock revenue for established businesses.
+site_url: https://jonathandduncan.github.io/jonathanduncanprowebsite/
 
 nav:
-  - Home:
-    - About: index.md
+  - Home: index.md
+  - Services: services.md
   - Case Studies:
     - Overview: portfolio/index.md
     - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
+      - portfolio/projects/automotive-operations-platform.md
+      - portfolio/projects/canadian-geocoding-api.md
+      - portfolio/projects/climate-data-pipeline.md
+      - portfolio/projects/diagnostic-visualization-platform.md
+      - portfolio/projects/real-time-file-monitoring.md
+  - Testimonials: testimonials.md
   - Blog:
-    - blog/index.md 
+    - blog/index.md
+  - About: about.md
+  - FAQ: faq.md
+  - Contact: contact.md
 
 theme:
   name: material
@@ -52,14 +59,10 @@ theme:
 extra:
   generator: true
   social:
-    - icon: fontawesome/solid/building
-      link: https://company.com
-    - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/jonathanduncan-dev/
+    - icon: fontawesome/brands/github
+      link: https://github.com/JonathanDDuncan
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -99,8 +102,5 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
 
-extra_files:
-  - docs/robots.txt
-
 copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.
+  &copy; 2026 <a href="https://www.linkedin.com/in/jonathanduncan-dev/" target="_blank" rel="noopener">Jonathan Duncan</a>. All rights reserved.
