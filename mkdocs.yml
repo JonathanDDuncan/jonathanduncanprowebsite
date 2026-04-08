@@ -57,8 +57,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/JonathanDDuncan
   analytics:
-    # provider: google
-    # property: G-W9Y130NXVZ
+    provider: google
+    property: G-643671WQ33
 
 extra_css:
   - stylesheets/extra.css

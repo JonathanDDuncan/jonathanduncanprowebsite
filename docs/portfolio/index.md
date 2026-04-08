@@ -3,7 +3,7 @@ title: Case Studies | Custom Software & AI Projects
 description: Selected case studies from custom software, cloud architecture, and AI integration projects. Real business problems, real technical solutions, measurable outcomes.
 ---
 
-# Projects
+# Case Studies
 
 Selected projects showing how I design and deliver full-stack, cloud, and AI-enabled systems when off-the-shelf tools are not enough. Each case study highlights the business problem, technical approach, and strategic outcome.
 
@@ -87,6 +87,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
 
     [:octicons-arrow-right-24: Read full case study](projects/real-time-file-monitoring.md)
+    [:material-arrow-top-right: Need resilient file processing? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-map-marker:{ .lg .middle } **Canadian Geocoding API**
 
