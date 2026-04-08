@@ -13,12 +13,6 @@ nav:
       - portfolio/projects/climate-data-pipeline.md
       - portfolio/projects/diagnostic-visualization-platform.md
       - portfolio/projects/real-time-file-monitoring.md
-  - Testimonials: testimonials.md
-  - Blog:
-    - blog/index.md
-  - About: about.md
-  - FAQ: faq.md
-  - Contact: contact.md
 
 theme:
   name: material
@@ -52,8 +46,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  icon:
-    logo: material/slash-forward-box
+  logo: assets/logo.svg
   favicon: assets/favicon.png
 
 extra:
