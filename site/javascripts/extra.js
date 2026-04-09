@@ -251,3 +251,97 @@ document$.subscribe(() => {
     }, { threshold: 0.2 }).observe(bottomCta);
   }
 });
+
+/**
+ * Hero image carousel — crossfade between SVG illustrations.
+ * Inlines SVGs so we can control their internal CSS animations.
+ * Each SVG's entrance animation plays after the crossfade completes.
+ * Cycles every 6 seconds. Pauses when off-screen.
+ * Respects prefers-reduced-motion.
+ */
+document$.subscribe(() => {
+  "use strict";
+
+  var carousel = document.querySelector(".hero-image-carousel");
+  if (!carousel) return;
+
+  var imgs = carousel.querySelectorAll(".hero-carousel-img");
+  if (imgs.length < 2) return;
+
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (prefersReduced) return;
+
+  var INTERVAL_MS = 6000;
+  var CROSSFADE_MS = 1000; /* must match CSS transition duration */
+  var current = 0;
+  var timer = null;
+  var svgs = [];
+
+  /* Fetch each SVG, parse it, and inject inline so we can toggle
+     the "animated" class that controls internal CSS animations. */
+  var promises = Array.from(imgs).map(function (img, i) {
+    return fetch(img.getAttribute("src"))
+      .then(function (r) { return r.text(); })
+      .then(function (text) {
+        var doc = new DOMParser().parseFromString(text, "image/svg+xml");
+        var svg = doc.documentElement;
+
+        /* Transfer carousel classes */
+        svg.classList.add("hero-carousel-img");
+        if (img.classList.contains("active")) {
+          svg.classList.add("active");
+          /* Keep "animated" on the first visible SVG so it plays
+             immediately — avoids a flash of invisible content. */
+        } else {
+          svg.classList.remove("animated");
+        }
+
+        /* Accessibility — carry over alt text */
+        svg.setAttribute("role", "img");
+        svg.setAttribute("aria-label", img.alt || "");
+
+        img.replaceWith(svg);
+        svgs[i] = svg;
+      });
+  });
+
+  Promise.all(promises).then(function () {
+    /* Refresh references after DOM replacement */
+    svgs = Array.from(carousel.querySelectorAll(".hero-carousel-img"));
+
+    /* Start carousel only when the hero is in the viewport */
+    var visObserver = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { start(); }
+      else { stop(); }
+    }, { threshold: 0.1 });
+
+    visObserver.observe(carousel);
+  });
+
+  function advance() {
+    var outgoing = svgs[current];
+    outgoing.classList.remove("active");
+    /* Remove "animated" so internal elements reset to opacity 0.
+       Next time this SVG becomes active, animations replay. */
+    outgoing.classList.remove("animated");
+
+    current = (current + 1) % svgs.length;
+    var incoming = svgs[current];
+    incoming.classList.add("active");
+
+    /* After the CSS opacity crossfade finishes, trigger the
+       SVG's internal entrance animations. */
+    setTimeout(function () {
+      incoming.classList.add("animated");
+    }, CROSSFADE_MS);
+  }
+
+  function start() {
+    if (!timer) timer = setInterval(advance, INTERVAL_MS);
+  }
+
+  function stop() {
+    clearInterval(timer);
+    timer = null;
+  }
+});

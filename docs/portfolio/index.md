@@ -3,7 +3,7 @@ title: Case Studies | Custom Software & AI Projects
 description: Selected case studies from custom software, cloud architecture, and AI integration projects. Real business problems, real technical solutions, measurable outcomes.
 ---
 
-# Case Studies
+# Projects
 
 Selected projects showing how I design and deliver full-stack, cloud, and AI-enabled systems when off-the-shelf tools are not enough. Each case study highlights the business problem, technical approach, and strategic outcome.
 
@@ -30,7 +30,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *ASP.NET Core · Azure · QuickBooks API · PDF Processing*
 
     [:octicons-arrow-right-24: Read full case study](projects/automotive-operations-platform.md)
-    [:material-arrow-top-right: Facing a similar workflow problem? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Facing a similar workflow problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-weather-cloudy:{ .lg .middle } **Climate Data Integration Pipeline**
 
@@ -49,7 +49,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *Python · GCP · Apache Airflow · PostGIS*
 
     [:octicons-arrow-right-24: Read full case study](projects/climate-data-pipeline.md)
-    [:material-arrow-top-right: Facing a similar data problem? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Facing a similar data problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-engine:{ .lg .middle } **Diagnostic Visualization Platform**
 
@@ -68,7 +68,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *.NET WPF · Azure Virtual Desktop*
 
     [:octicons-arrow-right-24: Read full case study](projects/diagnostic-visualization-platform.md)
-    [:material-arrow-top-right: Need custom visualization for your team? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Need custom visualization for your team? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-file-search:{ .lg .middle } **Real-Time File Monitoring System**
 
@@ -87,7 +87,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
 
     [:octicons-arrow-right-24: Read full case study](projects/real-time-file-monitoring.md)
-    [:material-arrow-top-right: Need resilient file processing? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Need reliable file processing at scale? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-map-marker:{ .lg .middle } **Canadian Geocoding API**
 
@@ -106,7 +106,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *FastAPI · PostgreSQL · PostGIS · Statistics Canada Data*
 
     [:octicons-arrow-right-24: Read full case study](projects/canadian-geocoding-api.md)
-    [:material-arrow-top-right: Have a similar API or data challenge? Book a call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Have a similar API or data challenge? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 

@@ -9,6 +9,8 @@ You're here because something in your operations is broken, slow, or fragile, an
 
 I'm Jonathan Duncan, a freelance Software and AI Engineer with 25+ years building custom systems for businesses whose operations are too complex, too specific, or too interconnected for generic tools. My clients are CTOs, technical founders, and operations leaders who need architecture-level thinking paired with hands-on delivery, not just someone to write code to a spec.
 
+![Jonathan Duncan — Freelance Software & AI Engineer](assets/jonathan-duncan.jpg){ .about-author-photo align=right alt="Jonathan Duncan — Freelance Software & AI Engineer specializing in custom business automation for SMBs" }
+
 I've seen a $1,500 invoice go unbilled because a job slipped through a Google Sheet. I've seen research teams waste weeks collecting data by hand. Those are the problems I build against.
 
 ## What I build

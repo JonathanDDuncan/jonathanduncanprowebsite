@@ -150,7 +150,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"This is better than I could have possibly imagined."* — Scot Nichols, after platform delivery
 
-    [:material-arrow-top-right: Map your automation opportunity](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Map your automation opportunity :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 
@@ -187,7 +187,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."* — Paul Davis, Upwork verified
 
-    [:material-arrow-top-right: Assess where AI creates real value](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Assess where AI creates real value :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 
@@ -224,7 +224,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan did great work modernizing our legacy systems into a new environment. He is a strong coder, easy to work with, and knows exactly what he's doing."* — Adrian Noble, Upwork verified
 
-    [:material-arrow-top-right: Get a cloud architecture assessment](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Get a cloud architecture assessment :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 
@@ -261,7 +261,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan was great to work with. He understood requirements quickly, suggested improvements, and asked strong clarifying questions when things were unclear. I'd work with him again."* — Katherine Labelle, Upwork verified
 
-    [:material-arrow-top-right: Discuss your platform requirements](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Discuss your platform requirements :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 
@@ -298,7 +298,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan provided a very detailed report, clearly explained the likely issue, and proposed solutions to our web app problems. He was very knowledgeable and understood our concerns."* — Jack Wongpaitoonpiya, Upwork verified
 
-    [:material-arrow-top-right: Tell me your hypothesis. I'll say if it's buildable in weeks](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Tell me your hypothesis. I'll say if it's buildable in weeks :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 
@@ -335,7 +335,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."* — Alberto Jaramillo, Upwork verified
 
-    [:material-arrow-top-right: Schedule an architecture advisory session](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Schedule an architecture advisory session :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
 

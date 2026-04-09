@@ -40,9 +40,18 @@ document$.subscribe(() => {
   var targets = document.querySelectorAll(".reveal-target");
   if (!targets.length) return;
 
-  /* Reset all targets so they can animate fresh on page swap */
+  /* On instant-nav re-runs, elements already in the viewport should
+     NOT flash invisible then animate back in. Only reset elements
+     that are below the fold; above-fold ones stay visible.          */
+  var viewH = window.innerHeight || document.documentElement.clientHeight;
   targets.forEach(function (el) {
-    el.classList.remove("revealed");
+    var rect = el.getBoundingClientRect();
+    if (rect.top < viewH && rect.bottom > 0) {
+      /* Already visible — keep it shown, no animation replay */
+      el.classList.add("revealed");
+    } else {
+      el.classList.remove("revealed");
+    }
     /* Clear stagger items from previous run */
     el.querySelectorAll(".stagger-item").forEach(function (card) {
       card.classList.remove("stagger-item");
@@ -249,5 +258,142 @@ document$.subscribe(() => {
       bottomVisible = entries[0].isIntersecting;
       updateBar();
     }, { threshold: 0.2 }).observe(bottomCta);
+  }
+});
+
+/**
+ * Hero image carousel — crossfade between SVG illustrations.
+ * Inlines SVGs so we can control their internal CSS animations.
+ * Each SVG's entrance animation plays after the crossfade completes.
+ * Cycles every 6 seconds. Pauses when off-screen.
+ * Respects prefers-reduced-motion.
+ */
+document$.subscribe(() => {
+  "use strict";
+
+  var carousel = document.querySelector(".hero-image-carousel");
+  if (!carousel) return;
+
+  /* Prevent re-initialisation if already inlined */
+  if (carousel.dataset.inlined) return;
+  carousel.dataset.inlined = "1";
+
+  var imgs = carousel.querySelectorAll(".hero-carousel-img");
+  if (imgs.length < 2) return;
+
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (prefersReduced) return;
+
+  var INTERVAL_MS = 6000;
+  var CROSSFADE_MS = 1000; /* must match CSS transition duration */
+  var current = 0;
+  var timer = null;
+  var svgs = [];
+
+  /* Fetch each SVG, parse it, and inject inline so we can toggle
+     the "animated" class that controls internal CSS animations. */
+  var promises = Array.from(imgs).map(function (img, i) {
+    return fetch(img.getAttribute("src"))
+      .then(function (r) { return r.text(); })
+      .then(function (text) {
+
+        var doc = new DOMParser().parseFromString(text, "image/svg+xml");
+        var svg = doc.documentElement;
+
+        /* Transfer carousel classes */
+        svg.classList.add("hero-carousel-img");
+        if (img.classList.contains("active")) {
+          var isFirstLoad = !sessionStorage.getItem("hero-carousel-loaded");
+          if (isFirstLoad) {
+            /* First load: keep hidden for 3s, then fade in */
+            svg.classList.add("active");
+            svg.style.transition = "none";
+            svg.style.opacity = "0";
+          } else {
+            svg.classList.add("active");
+            /* Suppress the CSS opacity transition so the swap from
+               <img> → inline <svg> doesn't flicker (browser would
+               otherwise animate opacity 0 → 1 on the new node). */
+            svg.style.transition = "none";
+            svg.style.opacity = "1";
+          }
+        } else {
+          svg.classList.remove("animated");
+        }
+
+        /* Accessibility — carry over alt text */
+        svg.setAttribute("role", "img");
+        svg.setAttribute("aria-label", img.alt || "");
+
+        img.replaceWith(svg);
+        svgs[i] = svg;
+      });
+  });
+
+  Promise.all(promises).then(function () {
+    /* Refresh references after DOM replacement */
+    svgs = Array.from(carousel.querySelectorAll(".hero-carousel-img"));
+
+    /* Delay the first SVG's internal entrance animation,
+       but only on the very first page load of the session. */
+    var isFirstLoad = !sessionStorage.getItem("hero-carousel-loaded");
+    if (isFirstLoad) {
+      sessionStorage.setItem("hero-carousel-loaded", "1");
+      setTimeout(function () {
+        carousel.classList.add("ready");
+        if (svgs[0]) {
+          svgs[0].style.transition = "opacity 1s ease-in-out";
+          svgs[0].style.opacity = "1";
+          svgs[0].classList.add("animated");
+        }
+      }, 3000);
+    } else {
+      /* Make carousel visible immediately */
+      carousel.classList.add("ready");
+      /* Re-enable CSS transitions on the active SVG now that it's
+         settled in the DOM (suppressed during replaceWith to prevent flicker). */
+      requestAnimationFrame(function () {
+        svgs.forEach(function (s) {
+          s.style.transition = "";
+          s.style.opacity = "";
+        });
+      });
+      if (svgs[0]) svgs[0].classList.add("animated");
+    }
+
+    /* Start carousel only when the hero is in the viewport */
+    var visObserver = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { start(); }
+      else { stop(); }
+    }, { threshold: 0.1 });
+
+    visObserver.observe(carousel);
+  });
+
+  function advance() {
+    var outgoing = svgs[current];
+    outgoing.classList.remove("active");
+    /* Remove "animated" so internal elements reset to opacity 0.
+       Next time this SVG becomes active, animations replay. */
+    outgoing.classList.remove("animated");
+
+    current = (current + 1) % svgs.length;
+    var incoming = svgs[current];
+    incoming.classList.add("active");
+
+    /* After the CSS opacity crossfade finishes, trigger the
+       SVG's internal entrance animations. */
+    setTimeout(function () {
+      incoming.classList.add("animated");
+    }, CROSSFADE_MS);
+  }
+
+  function start() {
+    if (!timer) timer = setInterval(advance, INTERVAL_MS);
+  }
+
+  function stop() {
+    clearInterval(timer);
+    timer = null;
   }
 });

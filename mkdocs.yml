@@ -1,18 +1,17 @@
-site_name: Jonathan Duncan | Custom Software & AI Integration
-site_description: I build custom software and AI integrations that replace manual workflows, cut costs, and unlock revenue for established businesses.
-site_url: https://jonathanduncan.pro/
+site_name: Jonathan Duncan
+site_description: Freelance Software & AI Engineer | Custom-Built AI Enabled Solutions
+site_url: https://jonathanduncan.pro
 
 nav:
   - Home: index.md
   - Services: services.md
-  - Case Studies:
+  - Projects:
     - Overview: portfolio/index.md
-    - Projects:
-      - portfolio/projects/automotive-operations-platform.md
-      - portfolio/projects/canadian-geocoding-api.md
-      - portfolio/projects/climate-data-pipeline.md
-      - portfolio/projects/diagnostic-visualization-platform.md
-      - portfolio/projects/real-time-file-monitoring.md
+    - Automotive Operations Automation Platform: portfolio/projects/automotive-operations-platform.md
+    - Climate Data Pipeline and Integration Platform: portfolio/projects/climate-data-pipeline.md
+    - Real-Time File Monitoring System: portfolio/projects/real-time-file-monitoring.md
+    - Diagnostic Visualization Platform: portfolio/projects/diagnostic-visualization-platform.md
+    - Canadian Geocoding API: portfolio/projects/canadian-geocoding-api.md
 
 theme:
   name: material
@@ -21,10 +20,13 @@ theme:
     - search.suggest
     - toc.integrate
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.sections
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.top
+    - navigation.path
     - content.tooltips
     - content.tabs.link
     - content.code.copy
@@ -34,17 +36,17 @@ theme:
     - scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Switch to light mode    
       primary: custom
       accent: custom
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: custom
-      accent: custom
+      accent: custom  
   font:
-    text: Roboto
+    text: Inter
     code: Roboto Mono
   logo: assets/logo.svg
   favicon: assets/favicon.png
@@ -52,13 +54,15 @@ theme:
 extra:
   generator: true
   social:
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/jonathan-duncan-ai-dev
     - icon: fontawesome/brands/github
       link: https://github.com/JonathanDDuncan
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jonathan-duncan-ai-dev
+    - icon: fontawesome/solid/briefcase
+      link: https://www.upwork.com/freelancers/jonathanduncan
   analytics:
-    provider: google
-    property: G-643671WQ33
+    # provider: google
+    # property: G-W9Y130NXVZ
 
 extra_css:
   - stylesheets/extra.css
@@ -67,11 +71,7 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#111111"
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
+        background_color: "#1F1F1F"
 
 markdown_extensions:
   - attr_list
@@ -93,6 +93,8 @@ markdown_extensions:
   - pymdownx.keys
 
 extra_javascript:
+  - javascripts/extra.js
+  - javascripts/consent.js
   - https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js
 
 copyright: |

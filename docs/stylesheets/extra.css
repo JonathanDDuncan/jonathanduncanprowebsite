@@ -25,6 +25,9 @@
   --color-cornflower: #2F6CF9;
   --color-periwinkle: #A5B4FC;
   --color-charcoal: #1F1F1F;
+
+  --color-accent-warm: #F59E0B;       /* Amber — for primary CTAs */
+  --color-accent-warm-hover: #D97706; /* Darker amber for hover */
 }
 
 /* ---------- Light theme ---------- */
@@ -138,20 +141,20 @@ html, body {
 }
 
 .md-typeset .md-button--primary {
-  background-color: #1136FF;
-  border-color: #1136FF;
-  color: #fff;
+  background-color: var(--color-accent-warm);
+  border-color: var(--color-accent-warm);
+  color: var(--color-charcoal);
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.01em;
   transition: background-color 0.2s, transform 0.15s, box-shadow 0.2s;
 }
 
 .md-typeset .md-button--primary:hover {
-  background-color: #0d2bd4;
-  border-color: #0d2bd4;
+  background-color: var(--color-accent-warm-hover);
+  border-color: var(--color-accent-warm-hover);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(17, 54, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* ---------- Button press & focus ---------- */
@@ -165,16 +168,16 @@ html, body {
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-button--primary {
-  background-color: #A5B4FC;
-  border-color: #A5B4FC;
-  color: #0d0d12;
+  background-color: var(--color-accent-warm);
+  border-color: var(--color-accent-warm);
+  color: var(--color-charcoal);
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-button--primary:hover {
-  background-color: #8a9cfa;
-  border-color: #8a9cfa;
-  color: #0d0d12;
-  box-shadow: 0 6px 20px rgba(165, 180, 252, 0.3);
+  background-color: var(--color-accent-warm-hover);
+  border-color: var(--color-accent-warm-hover);
+  color: var(--color-charcoal);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3);
 }
 
 .md-typeset .md-button:not(.md-button--primary) {
@@ -227,7 +230,7 @@ html, body {
   border: 1px solid rgba(47, 108, 249, 0.12);
   border-left: 3px solid transparent;
   border-radius: 14px;
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-xl) var(--space-lg);
   transition: border-color 0.25s cubic-bezier(0.33, 1, 0.68, 1),
               box-shadow 0.25s ease,
               transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
@@ -262,12 +265,50 @@ html, body {
 .md-typeset .grid.cards .emojione,
 .md-typeset .grid.cards .gemoji {
   color: #1136FF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(17, 54, 255, 0.08);
+  flex-shrink: 0;
+}
+
+.md-typeset .grid.cards .twemoji svg,
+.md-typeset .grid.cards .emojione svg,
+.md-typeset .grid.cards .gemoji svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .grid.cards .twemoji,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards .emojione,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards .gemoji {
-  color: #1136FF;
+  color: var(--color-periwinkle);
+  background: rgba(165, 180, 252, 0.1);
+}
+
+/* Reset icons inside links/buttons within cards (arrows, etc.) */
+.md-typeset .grid.cards a .twemoji,
+.md-typeset .grid.cards a .emojione,
+.md-typeset .grid.cards a .gemoji,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards a .twemoji,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards a .emojione,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards a .gemoji {
+  color: inherit;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  display: inline;
+}
+
+.md-typeset .grid.cards a .twemoji svg,
+.md-typeset .grid.cards a .emojione svg,
+.md-typeset .grid.cards a .gemoji svg {
+  width: 1.125em;
+  height: 1.125em;
 }
 
 /* ---------- Headings ---------- */
@@ -289,10 +330,22 @@ html, body {
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.02em;
-  border-bottom: 2px solid rgba(17, 54, 255, 0.25);
-  padding-bottom: 0.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0.3rem;
+  border-bottom: none;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-charcoal);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  color: #fff;
+}
+
+/* Card secondary text — dimmed second paragraph after hr */
+.md-typeset .grid.cards > ul > li > hr ~ p + p,
+.md-typeset .grid.cards > ol > li > hr ~ p + p {
+  margin-top: 0.5rem;
+  opacity: 0.65;
+  font-size: 0.9em;
 }
 
 /* ---------- Content readability ---------- */
@@ -310,14 +363,11 @@ html, body {
   word-wrap: break-word;
 }
 
-[data-md-color-scheme="slate"] .md-typeset h2 {
-  border-bottom-color: rgba(165, 180, 252, 0.2);
-}
-
 /* ---------- Admonitions ---------- */
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: 10px;
+  margin-bottom: var(--space-md);
 }
 
 /* ---------- Code blocks ---------- */
@@ -524,18 +574,18 @@ body,
 }
 
 .cta-panel .md-button--primary {
-  background-color: #fff;
-  border-color: #fff;
-  color: #1136FF;
+  background-color: var(--color-accent-warm);
+  border-color: var(--color-accent-warm);
+  color: var(--color-charcoal);
   font-weight: 700;
   padding: 0.7rem 1.6rem;
 }
 
 .cta-panel .md-button--primary:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-color: rgba(255, 255, 255, 0.9);
-  color: #0d2bd4;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-accent-warm-hover);
+  border-color: var(--color-accent-warm-hover);
+  color: var(--color-charcoal);
+  box-shadow: 0 6px 24px rgba(245, 158, 11, 0.3);
 }
 
 [data-md-color-scheme="slate"] .cta-panel {
@@ -552,16 +602,16 @@ body,
 }
 
 [data-md-color-scheme="slate"] .cta-panel .md-button--primary {
-  background-color: #A5B4FC;
-  border-color: #A5B4FC;
-  color: #0c1024;
+  background-color: var(--color-accent-warm);
+  border-color: var(--color-accent-warm);
+  color: var(--color-charcoal);
 }
 
 [data-md-color-scheme="slate"] .cta-panel .md-button--primary:hover {
-  background-color: #8a9cfa;
-  border-color: #8a9cfa;
-  color: #0c1024;
-  box-shadow: 0 6px 20px rgba(165, 180, 252, 0.3);
+  background-color: var(--color-accent-warm-hover);
+  border-color: var(--color-accent-warm-hover);
+  color: var(--color-charcoal);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* ---------- Homepage secondary buttons (ghost style on hero gradient) ---------- */
@@ -690,13 +740,30 @@ body,
   .proof-chip {
     font-size: 0.72rem;
     padding: 0.3rem 0.7rem;
+    white-space: normal;
+  }
+
+  /* Cards — breathing room between stacked items */
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li {
+    margin-bottom: var(--space-md);
   }
 }
 
 /* ---------- Card title hanging indent (keeps wrapped text aligned past icon) ---------- */
 .md-typeset .grid.cards ul li > p:first-child {
-  padding-left: 1.75em;
-  text-indent: -1.75em;
+  padding-left: 2.25em;
+  text-indent: -2.25em;
+}
+
+/* ---------- Three-col grid spacing (engagement types) ---------- */
+.md-typeset .grid.cards.three-col {
+  margin-bottom: var(--space-lg);
+}
+
+/* Gap before "View all services" link under engagement cards */
+.md-content__inner > div[style*="text-align: center"] {
+  margin-top: var(--space-md);
 }
 
 /* ---------- Featured card badge ---------- */
@@ -908,7 +975,7 @@ body,
   }
 
   .md-typeset h2 {
-    margin-top: 1.25rem;
+    margin-top: 2rem;
   }
 
   /* Metric highlight — tighten */
@@ -962,7 +1029,7 @@ body,
 
   .md-typeset h2 {
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 1.75rem;
   }
 
   /* Lead paragraph */
@@ -1002,7 +1069,7 @@ body,
     grid-template-columns: 1fr;
   }
 
-  /* Featured badge — shrink and reposition for narrow cards */
+  /* Featured badge — move above the title on narrow cards */
   .md-typeset .grid.cards.featured-cards > ul > li:first-child::before,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child::before {
     font-size: 0.55rem;
@@ -1014,6 +1081,12 @@ body,
   .md-typeset .grid.cards.featured-cards > ul > li:first-child,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child {
     padding-top: 2.2rem;
+  }
+
+  /* Remove excessive right-padding on title — badge is above now */
+  .md-typeset .grid.cards.featured-cards > ul > li:first-child > p:first-child,
+  .md-typeset .grid.cards.featured-cards > ol > li:first-child > p:first-child {
+    padding-right: 0;
   }
 
   /* Breakout components — respect viewport edges */
@@ -1028,6 +1101,40 @@ body,
   .md-content__inner > p,
   .md-content__inner > div {
     max-width: 100%;
+  }
+
+  /* Tables with 4+ columns — force horizontal scroll instead of squishing */
+  .why-me-strip table {
+    width: auto;
+    min-width: 600px;
+  }
+
+  .why-me-strip {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-typeset table:has(th:nth-child(4)) {
+    min-width: 500px;
+  }
+
+  .md-typeset__scrollwrap {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Card title hanging indent — slightly tighter */
+  .md-typeset .grid.cards ul li > p:first-child {
+    padding-left: 2em;
+    text-indent: -2em;
+    font-size: 0.92rem;
+  }
+
+  /* Stack social/external link buttons */
+  .md-typeset p > .md-button {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -1092,6 +1199,42 @@ body,
     font-size: 0.72rem;
     padding: 0.35rem 0.5rem;
   }
+
+  /* Card title — even tighter at 360px */
+  .md-typeset .grid.cards ul li > p:first-child {
+    padding-left: 1.75em;
+    text-indent: -1.75em;
+    font-size: 0.88rem;
+  }
+
+  /* Tables — tighter padding for narrow screens */
+  .why-me-strip td,
+  .why-me-strip th {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .why-me-strip {
+    padding: 0.5rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+
+  /* Testimonial cards — tighter padding */
+  .testimonial-card {
+    padding: 1rem 1rem;
+    padding-top: 2rem;
+  }
+
+  .testimonial-card__quote {
+    font-size: 0.88rem;
+  }
+
+  /* Hero micro-testimonial */
+  .hero-micro-testimonial {
+    font-size: 0.88rem;
+    padding: 0.35rem 0.6rem;
+  }
 }
 
 /* ---------- Landscape phones (short viewport) ---------- */
@@ -1140,6 +1283,10 @@ body[data-md-url="/"] .md-sidebar--primary {
   .hero-eyebrow {
     white-space: normal;
     line-height: 1.35;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1706,22 +1853,7 @@ body[data-md-url="/"] .md-sidebar--primary {
    SECTION DIVIDERS — subtle gradient separators between homepage sections
    ========================================================================== */
 
-.md-content__inner > h2 {
-  position: relative;
-}
 
-.md-content__inner > h2::before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 1px;
-  margin-bottom: 0.25rem;
-  background: linear-gradient(90deg, transparent 0%, rgba(17, 54, 255, 0.15) 50%, transparent 100%);
-}
-
-[data-md-color-scheme="slate"] .md-content__inner > h2::before {
-  background: linear-gradient(90deg, transparent 0%, rgba(165, 180, 252, 0.12) 50%, transparent 100%);
-}
 
 /* ==========================================================================
    SCROLL PROGRESS INDICATOR
@@ -1877,6 +2009,8 @@ body[data-md-url="/"] .md-sidebar--primary {
   .site-footer__inner {
     flex-wrap: wrap;
     gap: var(--space-lg);
+    justify-content: center;
+    text-align: center;
   }
   .site-footer__brand {
     flex: 1 1 100%;
@@ -1888,15 +2022,30 @@ body[data-md-url="/"] .md-sidebar--primary {
   .site-footer__links {
     justify-content: center;
   }
+  .site-footer__cta {
+    text-align: center;
+  }
+  .site-footer h4 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .site-footer__inner {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
   .site-footer__inner > * {
     flex: 1 1 100%;
+    width: 100%;
+  }
+  .site-footer__links {
+    justify-items: center;
+  }
+  .site-footer__cta .md-button {
+    display: block;
+    margin: 0 auto var(--space-sm);
   }
 }
 
@@ -2013,4 +2162,143 @@ body[data-md-url="/"] .md-sidebar--primary {
 /* 4 columns on lg+ */
 @media (min-width: 60rem) {
   .md-typeset .grid-4cols { grid-template-columns: repeat(4, 1fr) !important; }
+}
+
+/* ---------- About page author photo ---------- */
+.md-typeset .about-author-photo {
+  width: 220px;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(17, 54, 255, 0.08);
+  border: 1px solid rgba(47, 108, 249, 0.1);
+  margin: 0 0 var(--space-md) var(--space-lg);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .about-author-photo {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  border-color: rgba(165, 180, 252, 0.15);
+}
+
+@media screen and (max-width: 480px) {
+  .md-typeset .about-author-photo {
+    float: none;
+    display: block;
+    margin: 0 auto var(--space-md);
+    width: 180px;
+  }
+}
+
+/* ---------- Ultra-narrow phones (≤ 320px) ---------- */
+@media screen and (max-width: 320px) {
+  .md-content__inner {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.05rem;
+  }
+
+  .md-typeset h2 {
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+  }
+
+  .md-typeset h3 {
+    font-size: 0.88rem;
+  }
+
+  /* Proof strip — compact */
+  .proof-chip {
+    font-size: 0.58rem;
+    padding: 0.2rem 0.35rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.55rem;
+    padding: 0.15rem 0.4rem;
+  }
+
+  /* Cards — tighter spacing */
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li {
+    padding: 0.6rem 0.7rem !important;
+  }
+
+  .md-typeset .grid.cards ul li > p:first-child {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+    font-size: 0.84rem;
+  }
+
+  /* Buttons — full width */
+  .md-typeset .md-button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.78rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  /* CTA panel */
+  .cta-panel {
+    padding: 1rem 0.5rem;
+  }
+
+  .cta-panel h3 {
+    font-size: 0.92rem;
+  }
+
+  .cta-panel p {
+    font-size: 0.78rem;
+  }
+
+  /* Hero micro-testimonial */
+  .hero-micro-testimonial {
+    font-size: 0.82rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  /* Testimonial cards */
+  .testimonial-card {
+    padding: 0.75rem;
+    padding-top: 1.75rem;
+  }
+
+  .testimonial-card__quote {
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-card__author {
+    font-size: 0.78rem;
+  }
+
+  .testimonial-card__meta {
+    font-size: 0.7rem;
+  }
+
+  /* Why-me table — scrollable with tighter cells */
+  .why-me-strip {
+    padding: 0.35rem;
+    margin-left: -0.35rem;
+    margin-right: -0.35rem;
+  }
+
+  .why-me-strip h2 {
+    font-size: 0.9rem;
+    padding-left: 0.15rem;
+  }
+
+  .why-me-strip td,
+  .why-me-strip th {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  /* Footer — tighter on very narrow screens */
+  .site-footer {
+    padding: var(--space-md) var(--space-sm) var(--space-sm);
+  }
 }

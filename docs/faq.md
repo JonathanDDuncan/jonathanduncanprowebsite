@@ -188,7 +188,7 @@ description: Common questions about custom software costs, AI integration, worki
 
 ??? question "Why build custom software instead of using an off-the-shelf tool?"
 
-    Off-the-shelf tools are built for the average business. If your workflows span multiple systems, require domain-specific logic, or have grown past what spreadsheets and generic SaaS can handle, you'll spend more time forcing a product to fit than you'd spend building the right thing. Custom-built software is designed around how your business actually operates, not how a vendor thinks it should. The businesses I work with have typically already tried 2–3 off-the-shelf options before reaching out.
+    Off-the-shelf tools are built for the average business. If your workflows span multiple systems, require domain-specific logic, or have grown past what spreadsheets and generic SaaS can handle, you'll spend more time forcing a product to fit than you'd spend building the right thing. Custom-built software is designed around how your business actually operates, not how a vendor thinks it should. The businesses I work with have typically already tried 2–3 off-the-shelf options before reaching out. Discovery sprints start at $3,000–$6,000, so you can validate the approach before committing to a full build.
 
 ??? question "What does it cost?"
 
@@ -296,7 +296,7 @@ description: Common questions about custom software costs, AI integration, worki
 The fastest way to get answers is a free 30-minute discovery call. No pitch, no obligation.
 
 <div class="cta-actions" markdown>
-[:material-calendar-clock: Book a Free Discovery Call](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [:material-email-outline: Or send me a message](contact.md){ .md-button }
 </div>
 </div>

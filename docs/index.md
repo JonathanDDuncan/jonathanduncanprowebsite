@@ -94,15 +94,15 @@ hide:
 
 <div class="hero-full-width" markdown>
 
-<span class="hero-eyebrow">Freelance Software & AI Engineer | .NET · Azure · Python</span>
+<span class="hero-eyebrow">Top Rated Plus on Upwork · $500K+ Delivered · 25+ Years</span>
 
-# Your business outgrew off-the-shelf software. I build what comes next.
+# Your team is drowning in manual workarounds. I build the system that replaces them.
 
 </div>
 
 <div class="text-intro-grid" markdown>
 
-I replace manual workflows with production-grade automation, enhanced by AI where it genuinely helps.
+Custom-built platforms that eliminate manual data entry, connect your disconnected systems, and let your team focus on the work that actually grows revenue.
 
 <span class="hero-audience">For CTOs, founders, and operations leaders at SMBs (20–500 employees)</span>
 
@@ -113,7 +113,10 @@ I replace manual workflows with production-grade automation, enhanced by AI wher
 
 <div class="profile-image-grid" markdown>
 
-![Jonathan Duncan, Software & AI Engineer](assets/jonathan-duncan.jpg){ .profile-image alt="Portrait of Jonathan Duncan, Freelance Software & AI Engineer" }
+<div class="hero-image-carousel">
+  <img src="assets/filing-system-animate.svg" alt="Abstract illustration of an organized filing system representing custom business automation and workflow integration" class="hero-carousel-img active" />
+  <img src="assets/business-solution-animate.svg" alt="Abstract illustration of a business solution representing systems integration and operational efficiency" class="hero-carousel-img" />
+</div>
 
 </div>
 
@@ -141,41 +144,31 @@ I replace manual workflows with production-grade automation, enhanced by AI wher
 
 **If your team is still stitching together spreadsheets, disconnected SaaS products, and manual workarounds to run core operations, you're who I build for.**
 
-SMBs and mid-market companies (20–500 employees) in industries where the workflow is the product. Businesses whose operations are too interconnected, too specific, or too mission-critical for any single off-the-shelf tool.
-
 <div class="grid cards grid-2cols reveal-target " markdown>
 
 -   :material-car:{ .lg .middle } **Is your field team drowning in paperwork?**
 
     ---
 
-    Technicians losing hours to manual documentation, missed invoices, and billing gaps. I automate the entire document-to-billing flow.
-
-    *Automotive · Field Services*
+    I automate the entire document-to-billing flow so technicians stop losing hours to manual entry.
 
 -   :material-weather-cloudy:{ .lg .middle } **Is your research team still collecting data by hand?**
 
     ---
 
-    Manual data collection from dozens of sources eating your team's time. I automate ingestion into a single audit-ready dataset.
-
-    *Environmental · Government*
+    I automate ingestion from dozens of sources into a single audit-ready dataset.
 
 -   :material-briefcase:{ .lg .middle } **Is revenue leaking through process gaps?**
 
     ---
 
-    Billing gaps, manual reconciliation, and disconnected workflows costing real money. I build platforms that close the loop automatically.
-
-    *Professional Services*
+    I build platforms that close billing gaps and eliminate manual reconciliation.
 
 -   :material-truck:{ .lg .middle } **Are your operations too complex to coordinate?**
 
     ---
 
-    Multiple teams, tools, and systems that should talk to each other but don't. I build the integration layer that connects them all.
-
-    *Logistics · Field Operations*
+    I build the integration layer that connects your disconnected teams, tools, and systems.
 
 </div>
 
@@ -189,25 +182,25 @@ SMBs and mid-market companies (20–500 employees) in industries where the workf
 
     ---
 
-    Replace Google Sheets, disconnected tools, and manual data entry with a single platform that handles your entire workflow: capture, processing, reporting, and billing. Typical engagements: 3–12 months.
+    Replace disconnected tools and manual data entry with a single platform that handles your entire workflow.
 
-    *10–20+ hours/week of manual work eliminated · Scalable without adding headcount*
+    Capture, processing, reporting, and billing — all in one system.
 
 -   :material-robot:{ .lg .middle } **AI Integration**
 
     ---
 
-    Add intelligent document processing, knowledge assistants, or workflow automation to existing systems. LLM pipelines, RAG systems, and AI agents, integrated where AI genuinely solves the problem. I'll tell you honestly when a simpler solution delivers better results. Typical engagements: 1–6 months.
+    Add intelligent document processing, knowledge assistants, or workflow automation to existing systems.
 
-    *Intelligent document processing · Knowledge assistants · Workflow automation*
+    LLM pipelines, RAG systems, and AI agents — integrated where AI genuinely solves the problem.
 
 -   :material-handshake:{ .lg .middle } **Ongoing Technical Partnership**
 
     ---
 
-    Architecture, development, and evolution of your platform as your business grows. Cloud deployments, data pipelines, and infrastructure across Azure, GCP, and AWS. Many clients start with a build and stay for years, including a 13+ year ongoing relationship.
+    Architecture, development, and evolution of your platform as your business grows.
 
-    *Long-term collaboration · Architecture that scales · Cloud & data engineering*
+    Many clients start with a build and stay for years, including a 13+ year ongoing relationship.
 
 </div>
 
@@ -215,19 +208,12 @@ SMBs and mid-market companies (20–500 employees) in industries where the workf
 [View all services & pricing :material-arrow-right:](services.md){ .md-button }
 </div>
 
-<!-- ────────────── WHY ME ────────────── -->
+<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
+<!-- NOTE: Testimonial usage pending client permission per Upwork_Testimonial_Usage_Guidelines.md -->
 
-<div class="why-me-strip reveal-target" markdown>
+<div class="hero-micro-testimonial reveal-target" markdown>
 
-## Why me instead of an agency or offshore team
-
-| | Agency | Offshore team | Generalist | Working with me |
-|---|---|---|---|---|
-| **Architecture decisions** | Made by someone you may never meet | Often missing entirely | Surface-level | Made by the same person writing the code |
-| **Business context** | Filtered through account managers | Lost in translation | Rarely considered | Built into every technical decision |
-| **Continuity** | Team rotates | High turnover | Project-to-project | 13+ year client relationship (ongoing) |
-| **AI judgment** | Bolted on as a line item | Template-driven | Added to look current | Integrated only where it genuinely helps |
-| **Accountability** | Diffused across layers | Unclear ownership | Limited scope | Direct, single-owner responsibility |
+*"Jonathan's work is among the best I have seen: great technical skills, entrepreneurial mindset, and fantastic communication."* — **Alberto Jaramillo**, Upwork verified
 
 </div>
 
@@ -318,6 +304,23 @@ SMBs and mid-market companies (20–500 employees) in industries where the workf
 [View all client testimonials :material-arrow-right:](testimonials.md){ .md-button }
 [Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
+
+<!-- ────────────── WHY ME ────────────── -->
+
+<div class="why-me-strip reveal-target" markdown>
+
+## Why me instead of an agency or offshore team
+
+| | Agency | Offshore team | Generalist | Working with me |
+|---|---|---|---|---|
+| **Architecture** | By someone you'll never meet | Often missing entirely | Surface-level | By the person writing your code |
+| **Business context** | Filtered through middlemen | Lost in translation | Rarely considered | Built into every decision |
+| **Continuity** | Team rotates | High turnover | Project-to-project | 13+ year active partnership |
+| **AI judgment** | Bolted on as a line item | Template-driven | Added to look current | Only where it genuinely helps |
+| **Accountability** | Diffused across layers | Unclear ownership | Limited scope | Direct, single-owner |
+
+</div>
+
 <!-- ────────────── PROCESS ────────────── -->
 
 ## How I work
@@ -328,25 +331,25 @@ SMBs and mid-market companies (20–500 employees) in industries where the workf
 
     ---
 
-    A real conversation about your problem, not just your feature list. I ask the questions that surface actual requirements, constraints, and budget realities.
+    I ask the questions that surface real requirements, constraints, and budget.
 
 -   :material-sitemap:{ .lg .middle } **2. Architecture & Planning**
 
     ---
 
-    I design a solution that fits your business model, growth plans, and budget. You'll understand the "why" behind every technical decision before we build.
+    You'll understand the "why" behind every technical decision before we build.
 
 -   :material-wrench:{ .lg .middle } **3. Build & Iterate**
 
     ---
 
-    Clean, production-grade code with regular check-ins. You stay informed and involved. No disappearing for weeks with nothing to show.
+    Production-grade code with regular check-ins — no disappearing for weeks.
 
 -   :material-rocket-launch:{ .lg .middle } **4. Ongoing Partnership**
 
     ---
 
-    Documentation, knowledge transfer, and continued development. Most clients start with one project and never look back. My longest partnership is 13+ years.
+    Documentation, knowledge transfer, and continued development — my longest partnership is 13+ years.
 
 </div>
 
@@ -367,10 +370,6 @@ SMBs and mid-market companies (20–500 employees) in industries where the workf
 ??? question "How do I know you won't disappear mid-project?"
 
     49+ completed contracts, 100% Job Success on Upwork, 7+ repeat clients, and a 13-year active partnership. I scope work in phases so you always have working code, full documentation, and a clean handoff at every milestone. In 11,000+ billable hours, I've never left a client stranded.
-
-??? question "Is custom software worth the investment vs. off-the-shelf?"
-
-    The businesses I work with have typically tried 2–3 off-the-shelf options before reaching out. Custom-built software is designed around how your business actually operates, not how a vendor thinks it should. Discovery sprints start at $3,000–$6,000, so you can validate the approach before committing to a full build.
 
 <div style="text-align: center; margin-top: 0.75rem;" markdown>
 [See all FAQs :material-arrow-right:](faq.md){ .md-button }
