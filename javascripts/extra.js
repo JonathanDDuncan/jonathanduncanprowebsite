@@ -262,6 +262,64 @@ document$.subscribe(() => {
 });
 
 /**
+ * Floating CTA button — desktop/tablet only.
+ * Hidden when hero is visible (user hasn't scrolled) or when the
+ * bottom CTA panel / footer is visible (user is already at a CTA).
+ */
+document$.subscribe(() => {
+  "use strict";
+
+  var floatingCta = document.getElementById("floating-cta");
+  if (!floatingCta) return;
+
+  /* Only meaningful on larger screens */
+  if (window.innerWidth <= 768) return;
+
+  var heroSection = document.querySelector(".text-intro-grid, .hero-section, .hero-wrapper");
+  var bottomCta   = document.querySelector(".cta-panel");
+  var footer      = document.querySelector(".site-footer");
+
+  var heroVisible   = true;
+  var bottomVisible = false;
+  var footerVisible = false;
+
+  function updateFloating() {
+    if (!heroVisible && !bottomVisible && !footerVisible) {
+      floatingCta.classList.remove("hidden");
+    } else {
+      floatingCta.classList.add("hidden");
+    }
+  }
+
+  /* Start hidden */
+  floatingCta.classList.add("hidden");
+
+  if (heroSection) {
+    new IntersectionObserver(function (entries) {
+      heroVisible = entries[0].isIntersecting;
+      updateFloating();
+    }, { threshold: 0.1 }).observe(heroSection);
+  } else {
+    heroVisible = false;
+    updateFloating();
+  }
+
+  if (bottomCta) {
+    new IntersectionObserver(function (entries) {
+      bottomVisible = entries[0].isIntersecting;
+      updateFloating();
+    }, { threshold: 0.15 }).observe(bottomCta);
+  }
+
+  if (footer) {
+    new IntersectionObserver(function (entries) {
+      footerVisible = entries[0].isIntersecting;
+      updateFloating();
+    }, { threshold: 0.1 }).observe(footer);
+  }
+});
+
+/**
  * Hero image carousel — crossfade between SVG illustrations.
  * Inlines SVGs so we can control their internal CSS animations.
  * Each SVG's entrance animation plays after the crossfade completes.
@@ -284,7 +342,7 @@ document$.subscribe(() => {
   var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (prefersReduced) return;
 
-  var INTERVAL_MS = 6000;
+  var INTERVAL_MS = 4500;
   var CROSSFADE_MS = 1000; /* must match CSS transition duration */
   var current = 0;
   var timer = null;
