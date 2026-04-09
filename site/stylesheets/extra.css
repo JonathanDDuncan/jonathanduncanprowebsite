@@ -1069,7 +1069,7 @@ body,
     grid-template-columns: 1fr;
   }
 
-  /* Featured badge — shrink and reposition for narrow cards */
+  /* Featured badge — move above the title on narrow cards */
   .md-typeset .grid.cards.featured-cards > ul > li:first-child::before,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child::before {
     font-size: 0.55rem;
@@ -1081,6 +1081,12 @@ body,
   .md-typeset .grid.cards.featured-cards > ul > li:first-child,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child {
     padding-top: 2.2rem;
+  }
+
+  /* Remove excessive right-padding on title — badge is above now */
+  .md-typeset .grid.cards.featured-cards > ul > li:first-child > p:first-child,
+  .md-typeset .grid.cards.featured-cards > ol > li:first-child > p:first-child {
+    padding-right: 0;
   }
 
   /* Breakout components — respect viewport edges */
@@ -1277,6 +1283,10 @@ body[data-md-url="/"] .md-sidebar--primary {
   .hero-eyebrow {
     white-space: normal;
     line-height: 1.35;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

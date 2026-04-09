@@ -103,6 +103,11 @@
   position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
+  visibility: hidden;        /* hidden by default; JS sets visible when ready */
+}
+
+.hero-image-carousel.ready {
+  visibility: visible;
 }
 
 .hero-carousel-img {
