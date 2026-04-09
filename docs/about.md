@@ -5,13 +5,18 @@ description: 25+ years building custom software, workflow automation, and AI int
 
 # About
 
+<div class="about-hero-grid" markdown>
+<div class="about-hero-text" markdown>
 You're here because something in your operations is broken, slow, or fragile, and you suspect the fix isn't another SaaS subscription.
 
 I'm Jonathan Duncan, a freelance Software and AI Engineer with 25+ years building custom systems for businesses whose operations are too complex, too specific, or too interconnected for generic tools. My clients are CTOs, technical founders, and operations leaders who need architecture-level thinking paired with hands-on delivery, not just someone to write code to a spec.
 
-![Jonathan Duncan — Freelance Software & AI Engineer](assets/jonathan-duncan.jpg){ .about-author-photo align=right alt="Jonathan Duncan — Freelance Software & AI Engineer specializing in custom business automation for SMBs" }
-
 I've seen a $1,500 invoice go unbilled because a job slipped through a Google Sheet. I've seen research teams waste weeks collecting data by hand. Those are the problems I build against.
+</div>
+<div class="about-hero-photo">
+<img src="../assets/jonathan-duncan.jpg" alt="Jonathan Duncan — Freelance Software & AI Engineer specializing in custom business automation for SMBs" loading="eager" />
+</div>
+</div>
 
 ## What I build
 
@@ -119,24 +124,59 @@ Selected examples of the work include:
 
 ## Core technologies
 
+<div class="tech-grid" markdown>
+  <div class="tech-grid__item" markdown>
+:material-language-csharp:{ .tech-grid__icon }
+<span>C# / .NET</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-python:{ .tech-grid__icon }
+<span>Python</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:material-microsoft-azure:{ .tech-grid__icon }
+<span>Azure</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-postgresql:{ .tech-grid__icon }
+<span>PostgreSQL</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-docker:{ .tech-grid__icon }
+<span>Docker</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-terraform:{ .tech-grid__icon }
+<span>Terraform</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-fastapi:{ .tech-grid__icon }
+<span>FastAPI</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:material-brain:{ .tech-grid__icon }
+<span>OpenAI / LLMs</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:simple-googlecloud:{ .tech-grid__icon }
+<span>GCP</span>
+  </div>
+  <div class="tech-grid__item" markdown>
+:material-aws:{ .tech-grid__icon }
+<span>AWS</span>
+  </div>
+</div>
+
 <div class="tech-badges" markdown>
-<span class="tech-badge">C#</span>
 <span class="tech-badge">ASP.NET Core</span>
-<span class="tech-badge">.NET</span>
-<span class="tech-badge">Python</span>
-<span class="tech-badge">FastAPI</span>
-<span class="tech-badge">Azure</span>
-<span class="tech-badge">GCP</span>
-<span class="tech-badge">AWS</span>
-<span class="tech-badge">Terraform</span>
-<span class="tech-badge">Docker</span>
+<span class="tech-badge">Blazor</span>
+<span class="tech-badge">WPF</span>
 <span class="tech-badge">SQL Server</span>
-<span class="tech-badge">PostgreSQL</span>
 <span class="tech-badge">Azure Cosmos DB</span>
-<span class="tech-badge">OpenAI API</span>
-<span class="tech-badge">Azure OpenAI</span>
-<span class="tech-badge">LLM Pipelines</span>
-<span class="tech-badge">RAG</span>
+<span class="tech-badge">PostGIS</span>
+<span class="tech-badge">pgvector</span>
+<span class="tech-badge">RAG Pipelines</span>
+<span class="tech-badge">Apache Airflow</span>
 <span class="tech-badge">Clean Architecture</span>
 </div>
 

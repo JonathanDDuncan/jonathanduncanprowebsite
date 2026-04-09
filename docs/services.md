@@ -119,7 +119,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── CUSTOM PLATFORM BUILD ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-cog-transfer:{ .lg .middle } **Custom Business Automation Platform**
 
@@ -156,7 +156,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── AI INTEGRATION ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-robot:{ .lg .middle } **AI-Integrated Workflow Systems**
 
@@ -193,7 +193,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── CLOUD ARCHITECTURE ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-cloud-cog:{ .lg .middle } **Cloud Architecture and Migration**
 
@@ -230,7 +230,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── FULL-STACK PLATFORM ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-server-network:{ .lg .middle } **Full-Stack Platform Engineering**
 
@@ -267,7 +267,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── MVP / PILOT ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-rocket-launch:{ .lg .middle } **Rapid MVP and Pilot Build**
 
@@ -304,7 +304,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <!-- ────────────── ADVISORY ────────────── -->
 
-<div class="grid cards" markdown>
+<div class="grid cards services-card" markdown>
 
 -   :material-brain:{ .lg .middle } **Fractional Architecture and Advisory**
 

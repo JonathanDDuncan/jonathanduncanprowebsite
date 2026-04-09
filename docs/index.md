@@ -140,6 +140,8 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <!-- ────────────── WHO I HELP ────────────── -->
 
+<div class="section-band section-band--tinted" markdown>
+
 ## Who I help
 
 **If your team is still stitching together spreadsheets, disconnected SaaS products, and manual workarounds to run core operations, you're who I build for.**
@@ -169,6 +171,8 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
     ---
 
     I build the integration layer that connects your disconnected teams, tools, and systems.
+
+</div>
 
 </div>
 
@@ -219,9 +223,11 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <!-- ────────────── FEATURED CASE STUDIES ────────────── -->
 
+<div class="section-band section-band--tinted" markdown>
+
 ## Featured case studies
 
-<div class="grid cards grid-2cols reveal-target" markdown>
+<div class="grid cards grid-2cols case-study-cards reveal-target" markdown>
 
 -   :material-car:{ .lg .middle } **Automotive Documentation Platform**
 
@@ -274,6 +280,8 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 [Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
+</div>
+
 <!-- ────────────── TESTIMONIALS ────────────── -->
 
 ## What clients say
@@ -313,50 +321,49 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 | | Agency | Offshore team | Generalist | Working with me |
 |---|---|---|---|---|
-| **Architecture** | By someone you'll never meet | Often missing entirely | Surface-level | By the person writing your code |
-| **Business context** | Filtered through middlemen | Lost in translation | Rarely considered | Built into every decision |
-| **Continuity** | Team rotates | High turnover | Project-to-project | 13+ year active partnership |
-| **AI judgment** | Bolted on as a line item | Template-driven | Added to look current | Only where it genuinely helps |
-| **Accountability** | Diffused across layers | Unclear ownership | Limited scope | Direct, single-owner |
+| **Architecture** | :material-close:{ .icon-negative } By someone you'll never meet | :material-close:{ .icon-negative } Often missing entirely | :material-minus:{ .icon-neutral } Surface-level | :material-check:{ .icon-positive } By the person writing your code |
+| **Business context** | :material-minus:{ .icon-neutral } Filtered through middlemen | :material-close:{ .icon-negative } Lost in translation | :material-minus:{ .icon-neutral } Rarely considered | :material-check:{ .icon-positive } Built into every decision |
+| **Continuity** | :material-minus:{ .icon-neutral } Team rotates | :material-close:{ .icon-negative } High turnover | :material-minus:{ .icon-neutral } Project-to-project | :material-check:{ .icon-positive } 13+ year active partnership |
+| **AI judgment** | :material-minus:{ .icon-neutral } Bolted on as a line item | :material-close:{ .icon-negative } Template-driven | :material-minus:{ .icon-neutral } Added to look current | :material-check:{ .icon-positive } Only where it genuinely helps |
+| **Accountability** | :material-minus:{ .icon-neutral } Diffused across layers | :material-close:{ .icon-negative } Unclear ownership | :material-minus:{ .icon-neutral } Limited scope | :material-check:{ .icon-positive } Direct, single-owner |
 
 </div>
 
 <!-- ────────────── PROCESS ────────────── -->
 
-## How I work
+<div class="section-band section-band--tinted">
 
-<div class="grid cards grid-2cols reveal-target" markdown>
+<h2>How I work</h2>
 
--   :material-magnify:{ .lg .middle } **1. Discovery**
-
-    ---
-
-    I ask the questions that surface real requirements, constraints, and budget.
-
--   :material-sitemap:{ .lg .middle } **2. Architecture & Planning**
-
-    ---
-
-    You'll understand the "why" behind every technical decision before we build.
-
--   :material-wrench:{ .lg .middle } **3. Build & Iterate**
-
-    ---
-
-    Production-grade code with regular check-ins — no disappearing for weeks.
-
--   :material-rocket-launch:{ .lg .middle } **4. Ongoing Partnership**
-
-    ---
-
-    Documentation, knowledge transfer, and continued development — my longest partnership is 13+ years.
-
+<div class="process-timeline reveal-target">
+  <div class="process-step">
+    <div class="process-step__number">1</div>
+    <h3>Discovery</h3>
+    <p>I ask the questions that surface real requirements, constraints, and budget.</p>
+  </div>
+  <div class="process-step">
+    <div class="process-step__number">2</div>
+    <h3>Architecture &amp; Planning</h3>
+    <p>You'll understand the "why" behind every technical decision before we build.</p>
+  </div>
+  <div class="process-step">
+    <div class="process-step__number">3</div>
+    <h3>Build &amp; Iterate</h3>
+    <p>Production-grade code with regular check-ins — no disappearing for weeks.</p>
+  </div>
+  <div class="process-step">
+    <div class="process-step__number">4</div>
+    <h3>Ongoing Partnership</h3>
+    <p>Documentation, knowledge transfer, and continued development — my longest partnership is 13+ years.</p>
+  </div>
 </div>
 
 <p style="text-align: center; margin-top: 0.25rem; margin-bottom: 0.75rem;"><em>Most engagements start with a single 30-minute conversation.</em> <a href="https://cal.com/jonathanduncan/free-consultation">Book yours &rarr;</a></p>
 
-<div style="text-align: center; margin-bottom: 0.5rem;" markdown>
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+<p style="text-align: center; margin-bottom: 0.5rem;">
+<a href="https://cal.com/jonathanduncan/free-consultation" class="md-button md-button--primary" target="_blank" rel="noopener">Book a Free Strategy Call ↗</a>
+</p>
+
 </div>
 
 <!-- ────────────── FAQ PREVIEW ────────────── -->

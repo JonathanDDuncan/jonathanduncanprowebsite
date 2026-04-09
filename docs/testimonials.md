@@ -48,6 +48,8 @@ Selected client feedback from completed projects across custom software engineer
 [Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
+<div class="testimonial-section--tinted" markdown>
+
 ## On working together
 
 <div class="testimonial-static-grid">
@@ -82,6 +84,8 @@ Selected client feedback from completed projects across custom software engineer
 [Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
+</div>
+
 ## On business impact
 
 <div class="testimonial-static-grid">
@@ -89,7 +93,7 @@ Selected client feedback from completed projects across custom software engineer
   <div class="testimonial-card">
     <span class="testimonial-card__quote">"Jonathan built a custom solution that became a game changer for our workflow. It is significantly faster than our previous process and helped us reduce redundant steps in day-to-day operations."</span>
     <span class="testimonial-card__author">— Scot Nichols</span>
-    <span class="testimonial-card__meta">Adapted from project communications.<span class="industry-tag">Automotive</span></span>
+    <span class="testimonial-card__meta no-verify">Adapted from project communications.<span class="industry-tag">Automotive</span></span>
   </div>
 
   <div class="testimonial-card">
@@ -110,6 +114,8 @@ Selected client feedback from completed projects across custom software engineer
 [Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
+<div class="testimonial-section--tinted" markdown>
+
 ## On long-term partnership
 
 <div class="testimonial-static-grid">
@@ -125,6 +131,8 @@ Selected client feedback from completed projects across custom software engineer
     <span class="testimonial-card__author">— Alberto Jaramillo</span>
     <span class="testimonial-card__meta">Upwork verified feedback</span>
   </div>
+
+</div>
 
 </div>
 
