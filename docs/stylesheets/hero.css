@@ -50,6 +50,7 @@
 .hero-section.grid-container > * {
   position: relative;
   z-index: 1;
+  min-width: 0;
 }
 
 .hero-section.grid-container h1,
@@ -186,11 +187,14 @@
 
 .text-intro-grid {
   grid-column: 1 / 2;
+  min-width: 0;
 }
 
 .hero-full-width {
   grid-column: 1 / -1;
   margin-bottom: 0;
+  min-width: 0;
+  max-width: 100%;
 }
 
 /* Tighten paragraph margins inside hero */
@@ -241,6 +245,7 @@
   .hero-section.grid-container h1 {
     font-size: 1.65rem;
     line-height: 1.2;
+    overflow-wrap: anywhere;
   }
 
   .hero-section.grid-container h3 {
@@ -261,6 +266,24 @@
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     font-size: 0.95rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-full-width,
+  .hero-full-width p,
+  .text-intro-grid,
+  .text-intro-grid p,
+  .hero-section.grid-container .hero-eyebrow,
+  .hero-section.grid-container .hero-audience {
+    max-width: 100%;
+  }
+
+  .hero-section.grid-container .hero-eyebrow {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
   }
 
   /* Description paragraph — slightly tighter on mobile */

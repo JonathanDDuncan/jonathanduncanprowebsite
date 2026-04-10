@@ -404,7 +404,7 @@ document$.subscribe(() => {
   if (prefersReduced) return;
 
   var INTERVAL_MS = 4500;
-  var CROSSFADE_MS = 250; /* must match CSS transition duration */
+  var CROSSFADE_MS = 750; /* must match CSS transition duration */
   var current = 0;
   var timer = null;
   var svgs = [];
