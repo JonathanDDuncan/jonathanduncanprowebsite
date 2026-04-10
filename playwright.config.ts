@@ -4,10 +4,17 @@ const BASE_URL = 'http://localhost:8000';
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 15000,
+  timeout: 30000,
   workers: 1,
+  webServer: {
+    command: 'python -m mkdocs build && python -m http.server 8000 --directory site',
+    url: BASE_URL,
+    reuseExistingServer: true,
+    timeout: 120000,
+  },
   use: {
     baseURL: BASE_URL,
+    serviceWorkers: 'block',
   },
   projects: [
     { name: 'small-phone-320', use: { viewport: { width: 320, height: 568 }, isMobile: true } },
