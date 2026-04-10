@@ -1,0 +1,3386 @@
+[
+  {
+    "antipattern": "single-font",
+    "name": "Single font for everything",
+    "description": "Only one font family is used for the entire page. Pair a distinctive display font with a refined body font to create typographic hierarchy.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\404.html",
+    "line": 0,
+    "snippet": "only font used is manrope"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\404.html",
+    "line": 0,
+    "snippet": "<h1> \"404 - Not found\" followed by <h4> \"Quick Links\" (missing h2)"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\about\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\assets\\stylesheets\\main.484c7ddc.min.css",
+    "line": 1,
+    "snippet": "transition: max-width"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\assets\\stylesheets\\main.484c7ddc.min.css",
+    "line": 1,
+    "snippet": "transition: max-height"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\assets\\stylesheets\\main.484c7ddc.min.css",
+    "line": 1,
+    "snippet": "transition: width, height"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\assets\\stylesheets\\main.484c7ddc.min.css",
+    "line": 1,
+    "snippet": "transition: width"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\blog\\index.html",
+    "line": 0,
+    "snippet": "<h1> \"Blog\" followed by <h4> \"Quick Links\" (missing h2)"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\contact\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\faq\\index.html",
+    "line": 0,
+    "snippet": "<h2> \"Still have questions?\" followed by <h4> \"Quick Links\" (missing h3)"
+  },
+  {
+    "antipattern": "all-caps-body",
+    "name": "All-caps body text",
+    "description": "Long passages in uppercase are hard to read. We recognize words by shape (ascenders and descenders), which all-caps removes. Reserve uppercase for short labels and headings.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "text-transform: uppercase on 55 chars of body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 3:1) ΓÇö text #ffffff on #a5b4fc"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "10.368000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\index.html",
+    "line": 0,
+    "snippet": "<h1> \"Projects\" followed by <h3> \"Need something custom built for a complex workflow?\" (missing h2)"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "10.240000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\automotive-operations-platform\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\canadian-geocoding-api\\index.html",
+    "line": 0,
+    "snippet": "<h2> \"Outcomes\" followed by <h4> \"Quick Links\" (missing h3)"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "10.240000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\diagnostic-visualization-platform\\index.html",
+    "line": 0,
+    "snippet": "<h2> \"Outcomes\" followed by <h4> \"Quick Links\" (missing h3)"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "10.240000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\real-time-file-monitoring\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\privacy\\index.html",
+    "line": 0,
+    "snippet": "<h2> \"Contact\" followed by <h4> \"Quick Links\" (missing h3)"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.240000000000002px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "11.520000000000001px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "10.24px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\services\\index.html",
+    "line": 0,
+    "snippet": "<h1> \"Services\" followed by <h3> \"Not sure which engagement fits?\" (missing h2)"
+  },
+  {
+    "antipattern": "border-accent-on-rounded",
+    "name": "Border accent on rounded element",
+    "description": "Thick accent border on a rounded card ΓÇö the border clashes with the rounded corners. Remove the border or the border-radius.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\stylesheets\\extra.css",
+    "line": 1462,
+    "snippet": "border-top: 3px solid"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\stylesheets\\extra.css",
+    "line": 556,
+    "snippet": "transition: width"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "2.0:1 (need 4.5:1) ΓÇö text #a5b4fc on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "8px body text"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "Primary font: helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\testimonials\\index.html",
+    "line": 0,
+    "snippet": "Primary font: arial"
+  }
+]
