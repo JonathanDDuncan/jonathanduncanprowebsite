@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:responsive:smoke": "npx playwright test tests/responsive-smoke.spec.ts --project=small-phone-320 --project=desktop-1280 --reporter=line",
+    "test:responsive:full": "npx playwright test tests/responsive-layout.spec.ts --reporter=line",
+    "test:responsive:nightly": "npx playwright test tests/responsive-layout.spec.ts --reporter=line,html"
   },
   "repository": {
     "type": "git",
