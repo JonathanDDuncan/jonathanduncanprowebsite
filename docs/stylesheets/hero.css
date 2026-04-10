@@ -111,7 +111,7 @@
   to { visibility: visible; }
 }
 .hero-image-carousel:not(.ready) {
-  animation: carousel-fallback 0s 4s forwards;
+  animation: carousel-fallback 0s 3s forwards;
 }
 .hero-image-carousel:not(.ready) .hero-carousel-img.active {
   opacity: 1;
@@ -129,7 +129,7 @@
   object-fit: contain;       /* fallback for <img> before JS inlines */
   overflow: hidden;           /* clip any SVG overflow after inline */
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .hero-carousel-img.active {
@@ -234,6 +234,8 @@
   .hero-section.grid-container {
     padding: 1.5rem 1.5rem;
     gap: 0.75rem;
+    box-sizing: border-box;
+    max-width: 100%;
   }
 
   .hero-section.grid-container h1 {

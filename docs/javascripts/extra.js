@@ -404,7 +404,7 @@ document$.subscribe(() => {
   if (prefersReduced) return;
 
   var INTERVAL_MS = 4500;
-  var CROSSFADE_MS = 1000; /* must match CSS transition duration */
+  var CROSSFADE_MS = 250; /* must match CSS transition duration */
   var current = 0;
   var timer = null;
   var svgs = [];
@@ -493,9 +493,12 @@ document$.subscribe(() => {
   function advance() {
     var outgoing = svgs[current];
     outgoing.classList.remove("active");
-    /* Remove "animated" so internal elements reset to opacity 0.
-       Next time this SVG becomes active, animations replay. */
-    outgoing.classList.remove("animated");
+
+    /* Delay removing "animated" until after the fade-out completes
+       so internal SVG elements stay visible during the crossfade. */
+    setTimeout(function () {
+      outgoing.classList.remove("animated");
+    }, CROSSFADE_MS);
 
     current = (current + 1) % svgs.length;
     var incoming = svgs[current];
