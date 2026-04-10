@@ -4,7 +4,8 @@ const BASE_URL = 'http://localhost:8000';
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 30000,
+  timeout: 15000,
+  workers: 1,
   use: {
     baseURL: BASE_URL,
   },

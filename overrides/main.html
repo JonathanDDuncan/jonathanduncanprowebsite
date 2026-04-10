@@ -9,18 +9,7 @@
 <!-- Display font -->
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="{{ page.canonical_url }}">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="{{ page.meta.title | d(page.title, true) }} — {{ config.site_name }}">
-<meta property="og:description" content="{{ page.meta.description | d(config.site_description, true) }}">
-<meta property="og:url" content="{{ page.canonical_url }}">
-<meta property="og:site_name" content="{{ config.site_name }}">
-<meta property="og:image" content="{{ config.site_url }}assets/images/social/{{ page.url | d('index', true) | replace('/', '-') | trim('-') }}.png">
-
-<!-- Twitter Card -->
+<!-- Twitter Card (OG + canonical handled by MkDocs/social plugin) -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.meta.title | d(page.title, true) }} — {{ config.site_name }}">
 <meta name="twitter:description" content="{{ page.meta.description | d(config.site_description, true) }}">

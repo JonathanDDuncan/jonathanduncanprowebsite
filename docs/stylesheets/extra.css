@@ -45,12 +45,12 @@ summary:focus-visible {
   --space-xl: clamp(1.25rem, 2.5vw, 1.75rem);
   --space-2xl: clamp(1.5rem, 3vw, 2.25rem);
 
-  --text-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.8rem);
-  --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.9rem);
-  --text-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
-  --text-lg: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
-  --text-xl: clamp(1.25rem, 1rem + 0.5vw, 1.4rem);
-  --text-2xl: clamp(1.35rem, 1.1rem + 0.9vw, 1.75rem);
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.85rem);
+  --text-sm: clamp(0.82rem, 0.78rem + 0.25vw, 0.92rem);
+  --text-base: clamp(0.92rem, 0.88rem + 0.25vw, 1rem);
+  --text-lg: clamp(1.05rem, 0.95rem + 0.5vw, 1.25rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 0.8vw, 1.85rem);
+  --text-2xl: clamp(1.6rem, 1.3rem + 0.9vw, 2rem);
   --text-3xl: clamp(2rem, 1.5rem + 2vw, 3rem);
 
   --color-royal-blue: #1136FF;
@@ -78,6 +78,7 @@ summary:focus-visible {
   --md-code-fg-color: #1F1F1F;
   --md-shadow-z1: 0 2px 12px rgba(17, 54, 255, 0.08);
   --md-shadow-z2: 0 8px 28px rgba(17, 54, 255, 0.10);
+  --color-accent-text: #3D52D5;  /* WCAG AA on white — replaces #A5B4FC in light mode */
 }
 
 /* ---------- Dark theme ---------- */
@@ -94,6 +95,7 @@ summary:focus-visible {
   --md-code-fg-color: #c8ccdf;
   --md-shadow-z1: 0 2px 12px rgba(17, 54, 255, 0.12);
   --md-shadow-z2: 0 8px 28px rgba(17, 54, 255, 0.15);
+  --color-accent-text: #A5B4FC;  /* Fine on dark backgrounds */
 }
 
 /* ---------- Header ---------- */
@@ -103,13 +105,13 @@ summary:focus-visible {
 }
 
 .md-header__inner {
-  height: 1.8rem;
+  height: 2.75rem;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 .md-header__title {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 
 [data-md-color-scheme="default"] .md-header {
@@ -125,7 +127,7 @@ summary:focus-visible {
 }
 
 .md-header__button.md-logo img {
-  height: 1.2rem;
+  height: 1.5rem;
   width: auto;
   filter: drop-shadow(0 0 6px rgba(47, 108, 249, 0.3));
 }
@@ -134,16 +136,16 @@ summary:focus-visible {
   background: transparent;
   padding-top: 0;
   padding-bottom: 0;
-  line-height: 1.4rem !important;
-  min-height: 1.4rem !important;
+  line-height: 2rem !important;
+  min-height: 2rem !important;
 }
 
 .md-tabs__list {
-  font-size: 0.6rem;
+  font-size: 0.78rem;
 }
 
 .md-tabs__item {
-  height: 1.4rem !important;
+  height: 2rem !important;
 }
 
 .md-tabs__link {
@@ -207,8 +209,8 @@ summary:focus-visible {
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
-  color: #a5b4fc;
-  border-color: #a5b4fc;
+  color: var(--color-accent-text);
+  border-color: var(--color-accent-text);
 }
 
 [data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary):hover {
@@ -351,8 +353,8 @@ summary:focus-visible {
 
 .md-typeset h2 {
   font-size: var(--text-xl);
-  line-height: 1.2;
-  font-weight: 700;
+  line-height: 1.15;
+  font-weight: 800;
   letter-spacing: -0.02em;
   border-bottom: none;
   margin-top: 2.5rem;
@@ -566,7 +568,7 @@ body,
 
 /* ---------- CTA panel ---------- */
 .cta-panel {
-  background: linear-gradient(135deg, #1136FF 0%, #2F6CF9 40%, #A5B4FC 100%);
+  background: linear-gradient(160deg, #0c1024 0%, #141b3a 60%, #1a2547 100%);
   border-radius: 24px;
   padding: var(--space-xl) var(--space-lg);
   text-align: center;
@@ -575,7 +577,7 @@ body,
   color: #fff;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 3px solid var(--color-accent-warm);
 }
 
 /* Stack CTA buttons vertically */
@@ -590,8 +592,7 @@ body,
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
-  background-size: 20px 20px;
+  background: radial-gradient(ellipse at 50% 120%, rgba(245, 158, 11, 0.06) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -623,8 +624,9 @@ body,
 }
 
 [data-md-color-scheme="slate"] .cta-panel {
-  background: linear-gradient(135deg, rgba(17, 54, 255, 0.18) 0%, rgba(47, 108, 249, 0.1) 50%, rgba(165, 180, 252, 0.06) 100%);
-  border: 1px solid rgba(165, 180, 252, 0.15);
+  background: linear-gradient(160deg, #0c1024 0%, #141b3a 60%, #1a2547 100%);
+  border: none;
+  border-top: 3px solid var(--color-accent-warm);
 }
 
 [data-md-color-scheme="slate"] .cta-panel h2,
@@ -775,7 +777,7 @@ body,
   }
 
   .proof-chip {
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     padding: 0.3rem 0.65rem;
     white-space: nowrap;
   }
@@ -849,7 +851,7 @@ body,
   right: 0.75rem;
   background: linear-gradient(135deg, #1136FF, #2F6CF9);
   color: #fff;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1206,7 +1208,7 @@ body,
   /* Featured badge — move above the title on narrow cards */
   .md-typeset .grid.cards.featured-cards > ul > li:first-child::before,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child::before {
-    font-size: 0.55rem;
+    font-size: 0.62rem;
     padding: 0.15rem 0.45rem;
     top: 0.5rem;
     right: 0.5rem;
@@ -1314,7 +1316,7 @@ body,
   }
 
   .hero-eyebrow {
-    font-size: 0.62rem;
+    font-size: 0.68rem;
     padding: 0.2rem 0.5rem;
     letter-spacing: 0.02em;
   }
@@ -1329,7 +1331,7 @@ body,
   }
 
   .proof-chip {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
   }
 
@@ -1348,7 +1350,7 @@ body,
   }
 
   .md-banner {
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     padding: 0.35rem 0.5rem;
   }
 
@@ -1639,7 +1641,7 @@ blockquote.testimonial-card cite {
 /* ---------- Industry tag ---------- */
 .industry-tag {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -2269,12 +2271,12 @@ blockquote.testimonial-card cite {
 
   /* Proof strip — compact */
   .proof-chip {
-    font-size: 0.58rem;
+    font-size: 0.62rem;
     padding: 0.2rem 0.35rem;
   }
 
   .hero-eyebrow {
-    font-size: 0.55rem;
+    font-size: 0.62rem;
     padding: 0.15rem 0.4rem;
   }
 
@@ -2367,15 +2369,20 @@ blockquote.testimonial-card cite {
    ========================================================================== */
 
 /* ---------- 1. Alternating section backgrounds ---------- */
+[data-md-color-scheme="default"] .cta-panel {
+  background: linear-gradient(160deg, #0a1040 0%, #1136FF 100%);
+  border-top: 3px solid var(--color-accent-warm);
+}
+
 .section-band--tinted {
-  background: rgba(17, 54, 255, 0.03);
+  background: rgba(17, 54, 255, 0.05);
   border-radius: 24px;
   padding: var(--space-xl) var(--space-lg);
   margin: var(--space-lg) 0;
 }
 
 [data-md-color-scheme="slate"] .section-band--tinted {
-  background: rgba(165, 180, 252, 0.04);
+  background: rgba(165, 180, 252, 0.06);
 }
 
 [class*="section-band"] h2 {
@@ -2384,44 +2391,10 @@ blockquote.testimonial-card cite {
 
 
 
-/* ---------- 3. Floating CTA button (desktop / tablet) ---------- */
+/* ---------- 3. Floating CTA button — HIDDEN by default (reduces CTA fatigue) ---------- */
+/* Kept in DOM for mobile sticky; desktop floating removed per /distill */
 .floating-cta {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 100;
-  background: var(--color-accent-warm);
-  color: var(--color-charcoal);
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 0.75rem 1.25rem;
-  border-radius: 999px;
-  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
-  text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s, opacity 0.3s;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.floating-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(245, 158, 11, 0.45);
-  color: var(--color-charcoal);
-}
-
-.floating-cta:focus-visible {
-  outline: 2px solid var(--color-accent-warm);
-  outline-offset: 2px;
-}
-
-.floating-cta.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-@media screen and (max-width: 768px) {
-  .floating-cta { display: none; }
+  display: none;
 }
 
 /* ---------- 4. Process timeline ---------- */

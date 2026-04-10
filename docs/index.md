@@ -209,7 +209,7 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 </div>
 
 <div style="text-align: center; margin-top: 0.5rem;" markdown>
-[View all services & pricing :material-arrow-right:](services.md){ .md-button }
+[View all services & pricing :material-arrow-right:](services.md)
 </div>
 
 <!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
@@ -277,7 +277,6 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <div style="text-align: center; margin-top: 0.5rem; margin-bottom: 0.75rem;" markdown>
 [View all projects :material-arrow-right:](portfolio/index.md){ .md-button }
-[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 </div>
@@ -315,8 +314,7 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 </div>
 
 <div style="text-align: center; margin-top: 0.75rem; margin-bottom: 0.5rem;" markdown>
-[View all client testimonials :material-arrow-right:](testimonials.md){ .md-button }
-[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[View all client testimonials :material-arrow-right:](testimonials.md)
 </div>
 
 <!-- ────────────── WHY ME ────────────── -->
@@ -360,15 +358,11 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
   <div class="process-step">
     <div class="process-step__number">4</div>
     <h3>Ongoing Partnership</h3>
-    <p>Documentation, knowledge transfer, and continued development — my longest partnership is 13+ years.</p>
+    <p>Documentation, knowledge transfer, and continued development as your business evolves.</p>
   </div>
 </div>
 
 <p style="text-align: center; margin-top: 0.25rem; margin-bottom: 0.75rem;"><em>Most engagements start with a single 30-minute conversation.</em> <a href="https://cal.com/jonathanduncan/free-consultation">Book yours &rarr;</a></p>
-
-<p style="text-align: center; margin-bottom: 0.5rem;">
-<a href="https://cal.com/jonathanduncan/free-consultation" class="md-button md-button--primary" target="_blank" rel="noopener">Book a Free Strategy Call ↗</a>
-</p>
 
 </div>
 
