@@ -18,29 +18,37 @@ Selected client feedback from completed projects across custom software engineer
 
 <div class="testimonial-static-grid">
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</span>
-    <span class="testimonial-card__author">— Alberto Jaramillo</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Alberto Jaramillo</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"This is better than I could have possibly imagined."</span>
-    <span class="testimonial-card__author">— Scot Nichols</span>
-    <span class="testimonial-card__meta">From Upwork. <span class="industry-tag">Automotive</span></span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"This is better than I could have possibly imagined."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Scot Nichols</cite>
+      <span class="testimonial-card__meta">From Upwork. <span class="industry-tag">Automotive</span></span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</span>
-    <span class="testimonial-card__author">— Paul Davis</span>
-    <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Paul Davis</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Very professional and highly skilled in his areas of expertise. We were very happy with this collaboration and highly recommend Jonathan."</span>
-    <span class="testimonial-card__author">— Jonathan Cayer</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Very professional and highly skilled in his areas of expertise. We were very happy with this collaboration and highly recommend Jonathan."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Jonathan Cayer</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
 </div>
 
@@ -54,29 +62,37 @@ Selected client feedback from completed projects across custom software engineer
 
 <div class="testimonial-static-grid">
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan was great to work with. He understood requirements quickly, suggested improvements, and asked strong clarifying questions when things were unclear. I'd work with him again."</span>
-    <span class="testimonial-card__author">— Katherine Labelle</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan was great to work with. He understood requirements quickly, suggested improvements, and asked strong clarifying questions when things were unclear. I'd work with him again."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Katherine Labelle</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan provided a very detailed report, clearly explained the likely issue, and proposed solutions to our web app problems. He was very knowledgeable and understood our concerns. We would definitely work with him again."</span>
-    <span class="testimonial-card__author">— Jack Wongpaitoonpiya</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan provided a very detailed report, clearly explained the likely issue, and proposed solutions to our web app problems. He was very knowledgeable and understood our concerns. We would definitely work with him again."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Jack Wongpaitoonpiya</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan has excellent communication skills and delivered exactly what we wanted with a very fast turnaround."</span>
-    <span class="testimonial-card__author">— Robert Williams</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan has excellent communication skills and delivered exactly what we wanted with a very fast turnaround."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Robert Williams</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Excellent work from a creative and knowledgeable contractor."</span>
-    <span class="testimonial-card__author">— Oliphant Smeaton</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Excellent work from a creative and knowledgeable contractor."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Oliphant Smeaton</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
 </div>
 
@@ -90,23 +106,29 @@ Selected client feedback from completed projects across custom software engineer
 
 <div class="testimonial-static-grid">
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan built a custom solution that became a game changer for our workflow. It is significantly faster than our previous process and helped us reduce redundant steps in day-to-day operations."</span>
-    <span class="testimonial-card__author">— Scot Nichols</span>
-    <span class="testimonial-card__meta no-verify">Adapted from project communications.<span class="industry-tag">Automotive</span></span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan built a custom solution that became a game changer for our workflow. It is significantly faster than our previous process and helped us reduce redundant steps in day-to-day operations."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Scot Nichols</cite>
+      <span class="testimonial-card__meta no-verify">Adapted from project communications.<span class="industry-tag">Automotive</span></span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan did great work modernizing our legacy systems into a new environment. He is a strong coder, easy to work with, and knows exactly what he's doing."</span>
-    <span class="testimonial-card__author">— Adrian Noble</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan did great work modernizing our legacy systems into a new environment. He is a strong coder, easy to work with, and knows exactly what he's doing."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Adrian Noble</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"All the work Jonathan did was top-notch, and his work proved very valuable."</span>
-    <span class="testimonial-card__author">— Marcos Barrera</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"All the work Jonathan did was top-notch, and his work proved very valuable."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Marcos Barrera</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
 </div>
 
@@ -120,17 +142,21 @@ Selected client feedback from completed projects across custom software engineer
 
 <div class="testimonial-static-grid">
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</span>
-    <span class="testimonial-card__author">— Scot Nichols</span>
-    <span class="testimonial-card__meta">Upwork verified feedback. <span class="industry-tag">Automotive</span></span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Scot Nichols</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback. <span class="industry-tag">Automotive</span></span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan is a fantastic full-stack developer who is always looking to do what is best for the client and customers. He has great programming skills and is very proactive when additional research is needed."</span>
-    <span class="testimonial-card__author">— Alberto Jaramillo</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan is a fantastic full-stack developer who is always looking to do what is best for the client and customers. He has great programming skills and is very proactive when additional research is needed."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Alberto Jaramillo</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
 </div>
 

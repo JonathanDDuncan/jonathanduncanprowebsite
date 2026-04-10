@@ -288,23 +288,29 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <div class="testimonial-static-grid reveal-target">
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</span>
-    <span class="testimonial-card__author">— Scot Nichols</span>
-    <span class="testimonial-card__meta">Upwork verified feedback · Automotive</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Scot Nichols</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback · Automotive</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</span>
-    <span class="testimonial-card__author">— Alberto Jaramillo</span>
-    <span class="testimonial-card__meta">Upwork verified feedback</span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Alberto Jaramillo</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback</span>
+    </footer>
+  </blockquote>
 
-  <div class="testimonial-card">
-    <span class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</span>
-    <span class="testimonial-card__author">— Paul Davis</span>
-    <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
-  </div>
+  <blockquote class="testimonial-card">
+    <p class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</p>
+    <footer>
+      <cite class="testimonial-card__author">— Paul Davis</cite>
+      <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
+    </footer>
+  </blockquote>
 
 </div>
 

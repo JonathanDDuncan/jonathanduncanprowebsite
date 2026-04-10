@@ -46,8 +46,8 @@ theme:
       primary: custom
       accent: custom  
   font:
-    text: Inter
-    code: Roboto Mono
+    text: Manrope
+    code: JetBrains Mono
   logo: assets/logo.svg
   favicon: assets/favicon.png
 
