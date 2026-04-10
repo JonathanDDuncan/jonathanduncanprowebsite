@@ -129,7 +129,7 @@
   object-fit: contain;       /* fallback for <img> before JS inlines */
   overflow: hidden;           /* clip any SVG overflow after inline */
   opacity: 0;
-  transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
 }
 
 .hero-carousel-img.active {
