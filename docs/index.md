@@ -212,15 +212,6 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 [View all services & pricing :material-arrow-right:](services.md)
 </div>
 
-<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
-<!-- NOTE: Testimonial usage pending client permission per Upwork_Testimonial_Usage_Guidelines.md -->
-
-<div class="hero-micro-testimonial reveal-target" markdown>
-
-*"Jonathan's work is among the best I have seen: great technical skills, entrepreneurial mindset, and fantastic communication."* — **Alberto Jaramillo**, Upwork verified
-
-</div>
-
 <!-- ────────────── FEATURED CASE STUDIES ────────────── -->
 
 <div class="section-band section-band--tinted" markdown>
@@ -252,26 +243,6 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
     *Python · GCP · Apache Airflow · PostGIS*
 
     [:octicons-arrow-right-24: Read full case study](portfolio/projects/climate-data-pipeline.md)
-
--   :material-engine:{ .lg .middle } **Diagnostic Visualization Platform**
-
-    ---
-
-    **Problem:** Off-the-shelf diagnostic tools couldn't visualize multi-cylinder engine performance in real time.
-
-    **Result:** Enabled fault identification previously impossible with off-the-shelf tools. Real-time multi-cylinder analysis used directly by field technicians.
-
-    *.NET WPF · Azure Virtual Desktop*
-
--   :material-file-search:{ .lg .middle } **Real-Time File Monitoring System**
-
-    ---
-
-    **Problem:** No existing solution could handle event-driven monitoring of 100,000+ files with self-healing recovery across Azure File Shares.
-
-    **Result:** Reliable processing at sub-second latency with self-healing error recovery handling thousands of file events per minute.
-
-    *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
 
 </div>
 

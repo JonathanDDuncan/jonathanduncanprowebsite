@@ -141,7 +141,7 @@ summary:focus-visible {
 }
 
 .md-tabs__list {
-  font-size: 0.78rem;
+  font-size: 0.82rem;
 }
 
 .md-tabs__item {
@@ -851,6 +851,17 @@ body,
   margin-top: var(--space-md);
 }
 
+/* ---------- Case study cards — editorial top-border accent ---------- */
+.md-typeset .grid.cards.case-study-cards > ul > li,
+.md-typeset .grid.cards.case-study-cards > ol > li {
+  border-top: 2px solid rgba(17, 54, 255, 0.2);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards.case-study-cards > ul > li,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards.case-study-cards > ol > li {
+  border-top-color: rgba(165, 180, 252, 0.25);
+}
+
 /* ---------- Featured card badge ---------- */
 .md-typeset .grid.cards:not(.case-study-cards) > ul > li:first-child::before,
 .md-typeset .grid.cards:not(.case-study-cards) > ol > li:first-child::before {
@@ -1216,7 +1227,7 @@ body,
 
   /* Tech badges */
   .tech-badge {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     padding: 0.2rem 0.5rem;
   }
 
@@ -1229,7 +1240,7 @@ body,
   /* Featured badge — move above the title on narrow cards */
   .md-typeset .grid.cards.featured-cards > ul > li:first-child::before,
   .md-typeset .grid.cards.featured-cards > ol > li:first-child::before {
-    font-size: 0.62rem;
+    font-size: 0.72rem;
     padding: 0.15rem 0.45rem;
     top: 0.5rem;
     right: 0.5rem;
@@ -1337,7 +1348,7 @@ body,
   }
 
   .hero-eyebrow {
-    font-size: 0.68rem;
+    font-size: 0.73rem;
     padding: 0.2rem 0.5rem;
     letter-spacing: 0.02em;
   }
@@ -1352,7 +1363,7 @@ body,
   }
 
   .proof-chip {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
   }
 
@@ -1893,15 +1904,15 @@ blockquote.testimonial-card cite {
 
 .hero-micro-testimonial {
   text-align: center;
-  padding: 0.5rem 1.25rem;
-  margin: 0 auto 0.5rem;
-  max-width: 640px;
-  font-size: 1.05rem;
-  line-height: 1.55;
+  padding: 1.5rem 1.5rem;
+  margin: 0.5rem auto 1.5rem;
+  max-width: 720px;
+  font-size: 1.15rem;
+  line-height: 1.65;
   color: var(--md-default-fg-color);
-  border: 1px solid rgba(17, 54, 255, 0.1);
-  background: rgba(17, 54, 255, 0.03);
-  border-radius: 10px;
+  border: none;
+  background: none;
+  border-radius: 0;
 }
 
 .hero-micro-testimonial em {
@@ -1909,8 +1920,8 @@ blockquote.testimonial-card cite {
 }
 
 [data-md-color-scheme="slate"] .hero-micro-testimonial {
-  border-color: rgba(165, 180, 252, 0.1);
-  background: rgba(165, 180, 252, 0.04);
+  border: none;
+  background: none;
 }
 
 /* ==========================================================================
@@ -2010,6 +2021,7 @@ blockquote.testimonial-card cite {
   color: #fff;
 }
 
+.site-footer h3,
 .site-footer h4 {
   font-size: var(--text-sm);
   font-weight: 700;
@@ -2109,6 +2121,7 @@ blockquote.testimonial-card cite {
   .site-footer__cta {
     text-align: center;
   }
+  .site-footer h3,
   .site-footer h4 {
     text-align: center;
   }
@@ -2292,12 +2305,12 @@ blockquote.testimonial-card cite {
 
   /* Proof strip — compact */
   .proof-chip {
-    font-size: 0.62rem;
+    font-size: 0.73rem;
     padding: 0.2rem 0.35rem;
   }
 
   .hero-eyebrow {
-    font-size: 0.62rem;
+    font-size: 0.73rem;
     padding: 0.15rem 0.4rem;
   }
 
@@ -2358,7 +2371,7 @@ blockquote.testimonial-card cite {
   }
 
   .testimonial-card__meta {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
 
   /* Why-me table — scrollable with tighter cells */
