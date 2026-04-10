@@ -99,7 +99,8 @@ document$.subscribe(() => {
 
 /**
  * Testimonials Carousel
- * Handles carousel initialization, navigation, and auto-play on page load.
+ * Handles carousel initialization, navigation, auto-play, ARIA roles,
+ * and keyboard navigation.
  */
 document$.subscribe(() => {
   "use strict";
@@ -116,15 +117,37 @@ document$.subscribe(() => {
 
     var currentSlide = 0;
     var autoPlayInterval = null;
-    var AUTO_PLAY_DELAY = 7000; // 7 seconds
+    var autoPlayPaused = false;
+    var AUTO_PLAY_DELAY = 7000;
 
-    // Clear existing indicators
+    /* ARIA: set up carousel region */
+    carousel.setAttribute("role", "region");
+    carousel.setAttribute("aria-roledescription", "carousel");
+    carousel.setAttribute("aria-label", "Client testimonials");
+
+    /* ARIA: label navigation buttons */
+    prevBtn.setAttribute("aria-label", "Previous testimonial");
+    nextBtn.setAttribute("aria-label", "Next testimonial");
+
+    /* ARIA: set up slides */
+    slides.forEach(function (slide, i) {
+      slide.setAttribute("role", "group");
+      slide.setAttribute("aria-roledescription", "slide");
+      slide.setAttribute("aria-label", "Testimonial " + (i + 1) + " of " + slides.length);
+    });
+
+    /* ARIA: set up indicator tabs */
     indicatorsContainer.innerHTML = "";
+    indicatorsContainer.setAttribute("role", "tablist");
+    indicatorsContainer.setAttribute("aria-label", "Testimonial slides");
 
-    // Create indicators
     slides.forEach(function (_, index) {
-      var indicator = document.createElement("div");
+      var indicator = document.createElement("button");
       indicator.className = "carousel-indicator";
+      indicator.setAttribute("role", "tab");
+      indicator.setAttribute("aria-label", "Show testimonial " + (index + 1));
+      indicator.setAttribute("aria-selected", index === 0 ? "true" : "false");
+      indicator.setAttribute("tabindex", index === 0 ? "0" : "-1");
       if (index === 0) indicator.classList.add("active");
       indicator.addEventListener("click", function () {
         goToSlide(index);
@@ -136,17 +159,17 @@ document$.subscribe(() => {
     function goToSlide(n) {
       var indicators = indicatorsContainer.querySelectorAll(".carousel-indicator");
 
-      // Remove active class from all slides and indicators
-      slides.forEach(function (slide) {
-        slide.classList.remove("active");
-      });
-      indicators.forEach(function (indicator) {
-        indicator.classList.remove("active");
+      slides.forEach(function (slide) { slide.classList.remove("active"); });
+      indicators.forEach(function (ind) {
+        ind.classList.remove("active");
+        ind.setAttribute("aria-selected", "false");
+        ind.setAttribute("tabindex", "-1");
       });
 
-      // Add active class to current slide and indicator
       slides[n].classList.add("active");
       indicators[n].classList.add("active");
+      indicators[n].setAttribute("aria-selected", "true");
+      indicators[n].setAttribute("tabindex", "0");
 
       currentSlide = n;
     }
@@ -160,6 +183,7 @@ document$.subscribe(() => {
     }
 
     function startAutoPlay() {
+      if (autoPlayPaused) return;
       autoPlayInterval = setInterval(nextSlide, AUTO_PLAY_DELAY);
     }
 
@@ -168,7 +192,6 @@ document$.subscribe(() => {
       startAutoPlay();
     }
 
-    // Event listeners
     prevBtn.addEventListener("click", function () {
       prevSlide();
       resetAutoPlay();
@@ -179,7 +202,6 @@ document$.subscribe(() => {
       resetAutoPlay();
     });
 
-    // Pause auto-play on mouse enter, resume on mouse leave
     carousel.addEventListener("mouseenter", function () {
       clearInterval(autoPlayInterval);
     });
@@ -188,7 +210,35 @@ document$.subscribe(() => {
       startAutoPlay();
     });
 
-    // Touch support for swipe navigation
+    /* Keyboard navigation: arrow keys on indicators */
+    indicatorsContainer.addEventListener("keydown", function (e) {
+      var indicators = indicatorsContainer.querySelectorAll(".carousel-indicator");
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        var next = (currentSlide + 1) % slides.length;
+        goToSlide(next);
+        indicators[next].focus();
+        resetAutoPlay();
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        var prev = (currentSlide - 1 + slides.length) % slides.length;
+        goToSlide(prev);
+        indicators[prev].focus();
+        resetAutoPlay();
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        goToSlide(0);
+        indicators[0].focus();
+        resetAutoPlay();
+      } else if (e.key === "End") {
+        e.preventDefault();
+        goToSlide(slides.length - 1);
+        indicators[slides.length - 1].focus();
+        resetAutoPlay();
+      }
+    });
+
+    /* Touch support for swipe navigation */
     var touchStartX = 0;
     var touchEndX = 0;
 
@@ -208,7 +258,6 @@ document$.subscribe(() => {
       startAutoPlay();
     });
 
-    // Initialize
     goToSlide(0);
     startAutoPlay();
   });
@@ -391,15 +440,10 @@ document$.subscribe(() => {
           svg.classList.remove("animated");
         }
 
-        /* Accessibility — carry over alt text */
-        var altText = img.alt || "";
-        if (altText) {
-          svg.setAttribute("role", "img");
-          svg.setAttribute("aria-label", altText);
-        } else {
-          svg.setAttribute("role", "presentation");
-          svg.setAttribute("aria-hidden", "true");
-        }
+        /* Accessibility — decorative carousel is aria-hidden at container level,
+           so mark individual SVGs as presentation */
+        svg.setAttribute("role", "presentation");
+        svg.setAttribute("aria-hidden", "true");
 
         img.replaceWith(svg);
         svgs[i] = svg;
