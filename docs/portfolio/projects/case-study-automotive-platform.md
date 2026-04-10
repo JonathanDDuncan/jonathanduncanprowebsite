@@ -161,12 +161,8 @@ Field devices (Android, Windows laptops, Windows embedded, mobile phones) sync d
 
 > "Your work has completely changed my life, and I thank you for that."
 >
-> — Scot Nichols
-
 > "This is better than I could have possibly imagined."
 >
-> — Scot Nichols
-
 > "Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."
 >
 > — Scot Nichols
