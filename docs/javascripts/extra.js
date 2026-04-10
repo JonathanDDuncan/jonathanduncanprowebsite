@@ -275,7 +275,7 @@ document$.subscribe(() => {
   if (!ctaBar) return;
 
   /* Only meaningful on small screens — skip expensive observer on desktop */
-  if (window.innerWidth > 768) return;
+  if (!window.matchMedia('(max-width: 768px)').matches) return;
 
   var heroSection = document.querySelector(".text-intro-grid, .hero-section, .hero-wrapper");
   var bottomCta   = document.querySelector(".cta-panel");
@@ -334,7 +334,7 @@ document$.subscribe(() => {
   if (!floatingCta) return;
 
   /* Only meaningful on larger screens */
-  if (window.innerWidth <= 768) return;
+  if (!window.matchMedia('(min-width: 769px)').matches) return;
 
   var heroSection = document.querySelector(".text-intro-grid, .hero-section, .hero-wrapper");
   var bottomCta   = document.querySelector(".cta-panel");

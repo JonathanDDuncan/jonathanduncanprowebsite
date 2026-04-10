@@ -574,7 +574,7 @@ body,
 
 /* ---------- CTA panel ---------- */
 .cta-panel {
-  background: linear-gradient(160deg, #0c1024 0%, #141b3a 60%, #1a2547 100%);
+  background: linear-gradient(180deg, #0c1024 0%, #141b3a 70%, #1a2547 100%);
   border-radius: 24px;
   padding: var(--space-xl) var(--space-lg);
   text-align: center;
@@ -630,7 +630,7 @@ body,
 }
 
 [data-md-color-scheme="slate"] .cta-panel {
-  background: linear-gradient(160deg, #0c1024 0%, #141b3a 60%, #1a2547 100%);
+  background: linear-gradient(180deg, #0c1024 0%, #141b3a 70%, #1a2547 100%);
   border: none;
   border-top: 3px solid var(--color-accent-warm);
 }
@@ -872,7 +872,6 @@ body,
 .featured-cards > ul > li:first-child,
 .featured-cards > ol > li:first-child {
   position: relative;
-  border-top: 3px solid #1136FF;
 }
 
 .md-typeset .grid.cards.featured-cards > ul > li:first-child::before,
@@ -881,7 +880,7 @@ body,
   position: absolute;
   top: 0.75rem;
   right: 0.75rem;
-  background: linear-gradient(135deg, #1136FF, #2F6CF9);
+  background: var(--color-royal-blue);
   color: #fff;
   font-size: 0.72rem;
   font-weight: 700;
@@ -1867,8 +1866,11 @@ blockquote.testimonial-card cite {
 }
 
 .mobile-sticky-cta__btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.55rem 1.25rem;
+  min-height: 44px;
   background: var(--color-accent-warm);
   color: var(--color-charcoal);
   font-size: 0.85rem;
@@ -2015,6 +2017,11 @@ blockquote.testimonial-card cite {
 .site-footer__social a {
   color: rgba(255, 255, 255, 0.7);
   transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .site-footer__social a:hover {
@@ -2085,14 +2092,14 @@ blockquote.testimonial-card cite {
   padding-top: var(--space-md);
   text-align: center;
   font-size: var(--text-xs);
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.85);
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .site-footer__bottom a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   margin: 0 var(--space-sm);
 }
@@ -2204,6 +2211,9 @@ blockquote.testimonial-card cite {
 
 .cookie-consent__btn {
   padding: 0.5rem 1.25rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   border-radius: 999px;
   font-size: var(--text-sm);
   font-weight: 600;
