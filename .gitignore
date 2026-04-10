@@ -109,3 +109,5 @@ playwright-report/
 blob-report/
 tests/*-snapshots/
 node_modules/
+mkdocs-info/
+documentation/
