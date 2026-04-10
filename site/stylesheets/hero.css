@@ -142,7 +142,7 @@
 [data-md-color-scheme="slate"] .hero-section.grid-container h3,
 [data-md-color-scheme="slate"] .hero-section.grid-container p,
 [data-md-color-scheme="slate"] .hero-section.grid-container li {
-  color: #e2e4eb;
+  color: var(--color-text-light);
 }
 
 [data-md-color-scheme="slate"] .hero-section.grid-container h1 {
@@ -320,10 +320,10 @@
   .hero-section.grid-container {
     padding: 1rem 0.75rem;
     border-radius: 14px;
-    margin-left: -0.25rem;
-    margin-right: -0.25rem;
+    margin-left: 0;
+    margin-right: 0;
     overflow: hidden;
-    max-width: calc(100vw - 0.5rem);
+    max-width: 100%;
     box-sizing: border-box;
     gap: 0.5rem;
   }

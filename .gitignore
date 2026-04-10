@@ -104,3 +104,4 @@ target/
 .github/file-indexes/
 site/index.html
 node_modules/
+test-results/
