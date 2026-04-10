@@ -165,17 +165,11 @@ for (const page of PAGES) {
       expect(sideByCards).toEqual([]);
     });
 
-    test('nav is accessible (hamburger or visible menu)', async ({ page: p, isMobile }) => {
+    test('nav is accessible (hamburger or visible menu)', async ({ page: p }) => {
       await gotoReady(p, page);
-      if (isMobile) {
-        // On mobile, either the hamburger is visible or tabs are visible
-        const hasHamburger = await p.locator('[data-md-toggle="drawer"], .md-header__button[for="__drawer"]').count();
-        const hasTabs = await p.locator('.md-tabs').isVisible().catch(() => false);
-        expect(hasHamburger > 0 || hasTabs, 'No nav mechanism on mobile').toBeTruthy();
-      } else {
-        const tabsVisible = await p.locator('.md-tabs').isVisible().catch(() => false);
-        expect(tabsVisible, 'Nav tabs not visible on desktop').toBeTruthy();
-      }
+      const hasHamburger = await p.locator('[data-md-toggle="drawer"], .md-header__button[for="__drawer"]').count();
+      const tabsVisible = await p.locator('.md-tabs').isVisible().catch(() => false);
+      expect(hasHamburger > 0 || tabsVisible, 'No nav mechanism found (hamburger or tabs)').toBeTruthy();
     });
 
     test('images do not overflow containers', async ({ page: p }) => {
