@@ -62,6 +62,53 @@ for (const page of PAGES) {
       expect(overflowingElements, `Elements overflow viewport on ${page}`).toEqual([]);
     });
 
+    test('fixed and sticky UI stays within mobile viewport width', async ({ page: p, isMobile }) => {
+      if (!isMobile) return;
+      await gotoReady(p, page);
+      const overflowingFixedUi = await p.evaluate(() => {
+        const vw = document.documentElement.clientWidth;
+        const vh = document.documentElement.clientHeight;
+        const results: string[] = [];
+
+        document.querySelectorAll('*').forEach(el => {
+          const rect = el.getBoundingClientRect();
+          const style = window.getComputedStyle(el);
+          const position = style.position;
+          const hiddenOffCanvas = rect.right <= 0 || rect.left >= vw || rect.bottom <= 0 || rect.top >= vh;
+          const ignoredUi =
+            el.classList.contains('md-sidebar') ||
+            el.classList.contains('md-search') ||
+            el.classList.contains('md-search__inner') ||
+            el.classList.contains('md-search__scrollwrap') ||
+            el.classList.contains('md-dialog');
+
+          if (
+            hiddenOffCanvas ||
+            style.display === 'none' ||
+            style.visibility === 'hidden' ||
+            ignoredUi ||
+            !!el.closest('.md-sidebar, .md-search, .md-dialog') ||
+            rect.width === 0 ||
+            rect.height === 0 ||
+            (position !== 'fixed' && position !== 'sticky')
+          ) {
+            return;
+          }
+
+          if (rect.right > vw + 2 || rect.left < -2) {
+            const tag = el.tagName.toLowerCase();
+            const cls = el.className ? `.${Array.from(el.classList).join('.')}` : '';
+            const id = el.id ? `#${el.id}` : '';
+            results.push(`${tag}${id}${cls} (${position}) left:${Math.round(rect.left)} right:${Math.round(rect.right)} vw:${vw}`);
+          }
+        });
+
+        return results;
+      });
+
+      expect(overflowingFixedUi, `Fixed or sticky UI overflows mobile viewport on ${page}`).toEqual([]);
+    });
+
     test('headings do not overflow their container', async ({ page: p }) => {
       await gotoReady(p, page);
       const overflowingHeadings = await p.evaluate(() => {
