@@ -4,6 +4,38 @@
    Dark Charcoal #1F1F1F | Black #000000 | White #FFFFFF
    ========================================================================== */
 
+/* ---------- Skip link (a11y) ---------- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.6rem 1.2rem;
+  background: var(--color-accent-warm, #F59E0B);
+  color: #1F1F1F;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 0 0 8px 8px;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ---------- Global focus-visible ---------- */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #A5B4FC;
+  outline-offset: 2px;
+}
+
 /* ---------- Design tokens: fluid spacing & typography ---------- */
 :root {
   --space-xs: clamp(0.25rem, 0.5vw, 0.5rem);
@@ -54,7 +86,7 @@
   --md-accent-fg-color: #A5B4FC;
   --md-typeset-a-color: #A5B4FC;
   --md-default-fg-color: #e2e4eb;
-  --md-default-fg-color--light: #9499b0;
+  --md-default-fg-color--light: #b0b5cc;
   --md-code-bg-color: #111530;
   --md-code-fg-color: #c8ccdf;
   --md-shadow-z1: 0 2px 12px rgba(17, 54, 255, 0.12);
@@ -66,11 +98,9 @@ html, body {
   overflow-x: hidden;
 }
 
-/* ---------- Header — glass morphism ---------- */
+/* ---------- Header ---------- */
 .md-header {
-  background: rgba(12, 16, 50, 0.92);
-  backdrop-filter: blur(16px) saturate(1.4);
-  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  background: #0c1024;
   border-bottom: 1px solid rgba(165, 180, 252, 0.12);
 }
 
@@ -206,16 +236,14 @@ html, body {
   background-color: rgba(165, 180, 252, 0.1);
 }
 
-/* ---------- Footer — glass morphism (matches header) ---------- */
+/* ---------- Footer ---------- */
 .md-footer {
-  background: rgba(12, 16, 50, 0.92);
-  backdrop-filter: blur(16px) saturate(1.4);
-  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  background: #0c1024;
   border-top: 1px solid rgba(165, 180, 252, 0.12);
 }
 
 .md-footer-meta {
-  background: rgba(12, 16, 50, 0.92);
+  background: #0c1024;
 }
 
 [data-md-color-scheme="default"] .md-footer {
@@ -237,19 +265,19 @@ html, body {
 .md-typeset .grid.cards > ol > li,
 .md-typeset .grid.cards > ul > li {
   border: 1px solid rgba(47, 108, 249, 0.12);
-  border-left: 3px solid transparent;
   border-radius: 14px;
   padding: var(--space-xl) var(--space-lg);
   transition: border-color 0.25s cubic-bezier(0.33, 1, 0.68, 1),
               box-shadow 0.25s ease,
-              transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
+              transform 0.25s cubic-bezier(0.33, 1, 0.68, 1),
+              background-color 0.25s ease;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
 .md-typeset .grid.cards > ol > li:hover,
 .md-typeset .grid.cards > ul > li:hover {
-  border-color: rgba(17, 54, 255, 0.18);
-  border-left: 3px solid #1136FF;
+  border-color: rgba(17, 54, 255, 0.22);
+  background-color: rgba(17, 54, 255, 0.03);
   box-shadow: 0 12px 24px rgba(17, 54, 255, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
   transform: translateY(-4px);
 }
@@ -257,7 +285,6 @@ html, body {
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
   border-color: rgba(165, 180, 252, 0.1);
-  border-left: 3px solid transparent;
   background: rgba(17, 20, 50, 0.5);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
@@ -265,7 +292,7 @@ html, body {
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li:hover,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover {
   border-color: rgba(165, 180, 252, 0.25);
-  border-left: 3px solid #A5B4FC;
+  background: rgba(165, 180, 252, 0.06);
   box-shadow: 0 12px 24px rgba(165, 180, 252, 0.06);
 }
 
@@ -321,6 +348,13 @@ html, body {
 }
 
 /* ---------- Headings ---------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: 'Bricolage Grotesque', var(--md-text-font-family), sans-serif;
+}
+
 .md-typeset h1 {
   font-size: var(--text-2xl);
   line-height: 1.08;
@@ -372,6 +406,14 @@ html, body {
   word-wrap: break-word;
 }
 
+/* Body text line length cap */
+.md-typeset > p,
+.md-typeset > ul,
+.md-typeset > ol,
+.md-typeset > blockquote {
+  max-width: 75ch;
+}
+
 /* ---------- Admonitions ---------- */
 .md-typeset .admonition,
 .md-typeset details {
@@ -396,9 +438,9 @@ html, body {
 /* ---------- Blockquote / testimonial quotes ---------- */
 .md-typeset blockquote {
   position: relative;
-  border-left: 3px solid var(--color-cornflower);
+  border: 1px solid rgba(47, 108, 249, 0.15);
   background: rgba(17, 54, 255, 0.04);
-  border-radius: 0 12px 12px 0;
+  border-radius: 12px;
   padding: 1.25rem 1.5rem 1.25rem 1.75rem;
   margin: 1.5rem 0;
   font-size: 0.95rem;
@@ -424,7 +466,7 @@ html, body {
 
 [data-md-color-scheme="slate"] .md-typeset blockquote {
   background: rgba(165, 180, 252, 0.06);
-  border-left-color: var(--color-periwinkle);
+  border-color: rgba(165, 180, 252, 0.12);
   color: rgba(255, 255, 255, 0.82);
 }
 
@@ -1469,6 +1511,50 @@ body[data-md-url="/"] .md-sidebar--primary {
    STATIC TESTIMONIAL GRID — replaces carousels
    ========================================================================== */
 
+/* Reset blockquote defaults when used as testimonial card */
+blockquote.testimonial-card {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  padding-top: 2.5rem;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  max-width: none;
+}
+
+.md-typeset blockquote.testimonial-card::before {
+  content: '\201C';
+  position: absolute;
+  top: 0.4rem;
+  left: 1rem;
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  line-height: 1;
+  color: rgba(17, 54, 255, 0.12);
+  opacity: 1;
+  pointer-events: none;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote.testimonial-card::before {
+  color: rgba(165, 180, 252, 0.15);
+}
+
+blockquote.testimonial-card p {
+  margin: 0;
+}
+
+blockquote.testimonial-card footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+blockquote.testimonial-card cite {
+  font-style: normal;
+}
+
 .testimonial-static-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1496,33 +1582,15 @@ body[data-md-url="/"] .md-sidebar--primary {
   padding-top: 2.5rem;
   border-radius: 14px;
   border: 1px solid rgba(47, 108, 249, 0.14);
-  border-left: 3px solid #1136FF;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(17, 54, 255, 0.02);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
   transition: transform 0.25s cubic-bezier(0.33, 1, 0.68, 1), box-shadow 0.25s ease;
   position: relative;
 }
 
-.testimonial-card::before {
-  content: '\201C';
-  position: absolute;
-  top: 0.4rem;
-  left: 1rem;
-  font-size: 3rem;
-  font-family: Georgia, serif;
-  line-height: 1;
-  color: rgba(17, 54, 255, 0.12);
-  pointer-events: none;
-}
-
-[data-md-color-scheme="slate"] .testimonial-card::before {
-  color: rgba(165, 180, 252, 0.15);
-}
-
 [data-md-color-scheme="slate"] .testimonial-card {
   background: rgba(17, 20, 50, 0.55);
   border-color: rgba(165, 180, 252, 0.12);
-  border-left-color: #A5B4FC;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
@@ -1820,8 +1888,7 @@ body[data-md-url="/"] .md-sidebar--primary {
   font-size: 1.15em;
   font-weight: 500;
   line-height: 1.6;
-  border-left: 3px solid #1136FF;
-  padding-left: 1.5rem;
+  padding-left: 0;
   text-align: left;
   margin: 0;
 }
@@ -1832,7 +1899,6 @@ body[data-md-url="/"] .md-sidebar--primary {
 
 [data-md-color-scheme="slate"] .carousel-quote {
   color: #e2e4eb;
-  border-left-color: #A5B4FC;
 }
 
 .carousel-author {
@@ -1993,9 +2059,9 @@ body[data-md-url="/"] .md-sidebar--primary {
   font-size: 1.05rem;
   line-height: 1.55;
   color: var(--md-default-fg-color);
-  border-left: 3px solid #1136FF;
+  border: 1px solid rgba(17, 54, 255, 0.1);
   background: rgba(17, 54, 255, 0.03);
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px;
 }
 
 .hero-micro-testimonial em {
@@ -2003,7 +2069,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 [data-md-color-scheme="slate"] .hero-micro-testimonial {
-  border-left-color: #A5B4FC;
+  border-color: rgba(165, 180, 252, 0.1);
   background: rgba(165, 180, 252, 0.04);
 }
 
@@ -2058,9 +2124,7 @@ body[data-md-url="/"] .md-sidebar--primary {
    ========================================================================== */
 
 .site-footer {
-  background: rgba(12, 16, 50, 0.92);
-  backdrop-filter: blur(16px) saturate(1.4);
-  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  background: #0c1024;
   border-top: 1px solid rgba(165, 180, 252, 0.12);
   color: rgba(226, 228, 235, 0.85);
   padding: var(--space-xl) var(--space-lg) var(--space-lg);
@@ -2240,9 +2304,7 @@ body[data-md-url="/"] .md-sidebar--primary {
   right: 0;
   z-index: 200;
   padding: var(--space-md) var(--space-lg);
-  background: rgba(12, 16, 50, 0.95);
-  backdrop-filter: blur(16px) saturate(1.4);
-  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  background: #0c1024;
   border-top: 1px solid rgba(165, 180, 252, 0.15);
   color: rgba(226, 228, 235, 0.9);
   display: flex;

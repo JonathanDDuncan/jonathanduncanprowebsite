@@ -233,13 +233,25 @@ document$.subscribe(() => {
 
   var heroVisible   = true;
   var bottomVisible = false;
+  var cookieVisible = false;
 
   function updateBar() {
-    if (!heroVisible && !bottomVisible) {
+    if (!heroVisible && !bottomVisible && !cookieVisible) {
       ctaBar.classList.add("visible");
     } else {
       ctaBar.classList.remove("visible");
     }
+  }
+
+  /* Track cookie consent banner visibility */
+  var cookieBanner = document.querySelector(".cookie-consent");
+  if (cookieBanner) {
+    var cookieObs = new MutationObserver(function () {
+      cookieVisible = cookieBanner.classList.contains("visible");
+      updateBar();
+    });
+    cookieObs.observe(cookieBanner, { attributes: true, attributeFilter: ["class"] });
+    cookieVisible = cookieBanner.classList.contains("visible");
   }
 
   if (heroSection) {
@@ -380,8 +392,14 @@ document$.subscribe(() => {
         }
 
         /* Accessibility — carry over alt text */
-        svg.setAttribute("role", "img");
-        svg.setAttribute("aria-label", img.alt || "");
+        var altText = img.alt || "";
+        if (altText) {
+          svg.setAttribute("role", "img");
+          svg.setAttribute("aria-label", altText);
+        } else {
+          svg.setAttribute("role", "presentation");
+          svg.setAttribute("aria-hidden", "true");
+        }
 
         img.replaceWith(svg);
         svgs[i] = svg;
