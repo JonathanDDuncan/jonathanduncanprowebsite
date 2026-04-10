@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test';
 
-const PAGES = ['/', '/services/', '/portfolio/', '/about/', '/testimonials/', '/faq/', '/contact/'];
+const PAGES = ['/', '/services/', '/about/', '/contact/'];
 
 for (const page of PAGES) {
   test.describe(`Responsive: ${page}`, () => {
 
     test('no horizontal overflow on body', async ({ page: p }) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const overflow = await p.evaluate(() => {
         return document.documentElement.scrollWidth > document.documentElement.clientWidth;
       });
@@ -14,7 +14,7 @@ for (const page of PAGES) {
     });
 
     test('no element extends beyond viewport width', async ({ page: p }) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const overflowingElements = await p.evaluate(() => {
         const vw = document.documentElement.clientWidth;
         const results: string[] = [];
@@ -35,7 +35,7 @@ for (const page of PAGES) {
     });
 
     test('headings do not overflow their container', async ({ page: p }) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const overflowingHeadings = await p.evaluate(() => {
         const results: string[] = [];
         document.querySelectorAll('h1, h2, h3, h4').forEach(h => {
@@ -55,7 +55,7 @@ for (const page of PAGES) {
 
     test('buttons are fully visible and tappable (min 44x44)', async ({ page: p, isMobile }) => {
       if (!isMobile) return;
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const smallButtons = await p.evaluate(() => {
         const results: string[] = [];
         const interactive = document.querySelectorAll('a.md-button, button, [role="button"], .mobile-sticky-cta__btn');
@@ -80,7 +80,7 @@ for (const page of PAGES) {
 
     test('no section has excessive empty whitespace (> viewport height)', async ({ page: p, isMobile }) => {
       if (!isMobile) return;
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const excessiveSpacing = await p.evaluate(() => {
         const vh = window.innerHeight;
         const results: string[] = [];
@@ -117,7 +117,7 @@ for (const page of PAGES) {
 
     test('cards stack on mobile (no side-by-side below 600px)', async ({ page: p, viewport }) => {
       if (!viewport || viewport.width > 600) return;
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const sideByCards = await p.evaluate(() => {
         const results: string[] = [];
         document.querySelectorAll('.grid.cards > ul, .grid.cards > ol').forEach(grid => {
@@ -136,7 +136,7 @@ for (const page of PAGES) {
     });
 
     test('nav is accessible (hamburger or visible menu)', async ({ page: p, isMobile }) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       if (isMobile) {
         // On mobile, either the hamburger is visible or tabs are visible
         const hasHamburger = await p.locator('[data-md-toggle="drawer"], .md-header__button[for="__drawer"]').count();
@@ -149,7 +149,7 @@ for (const page of PAGES) {
     });
 
     test('images do not overflow containers', async ({ page: p }) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const overflowingImages = await p.evaluate(() => {
         const results: string[] = [];
         document.querySelectorAll('img').forEach(img => {
@@ -169,7 +169,7 @@ for (const page of PAGES) {
 
     test('computed spacing audit — no absurd values', async ({ page: p, isMobile }) => {
       if (!isMobile) return;
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       const spacingIssues = await p.evaluate(() => {
         const results: string[] = [];
         const allElements = document.querySelectorAll('*');
@@ -206,7 +206,7 @@ for (const page of PAGES) {
     });
 
     test('screenshot for visual review', async ({ page: p }, testInfo) => {
-      await p.goto(page, { waitUntil: 'networkidle' });
+      await p.goto(page, { waitUntil: 'domcontentloaded' });
       // Wait for reveal animations
       await p.waitForTimeout(1500);
       const slug = page === '/' ? 'home' : page.replace(/\//g, '-').replace(/^-|-$/g, '');

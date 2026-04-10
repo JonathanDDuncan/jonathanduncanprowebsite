@@ -106,6 +106,17 @@
   visibility: hidden;        /* hidden by default; JS sets visible when ready */
 }
 
+/* CSS-only fallback: show first image after 4s if JS hasn't loaded */
+@keyframes carousel-fallback {
+  to { visibility: visible; }
+}
+.hero-image-carousel:not(.ready) {
+  animation: carousel-fallback 0s 4s forwards;
+}
+.hero-image-carousel:not(.ready) .hero-carousel-img.active {
+  opacity: 1;
+}
+
 .hero-image-carousel.ready {
   visibility: visible;
 }
