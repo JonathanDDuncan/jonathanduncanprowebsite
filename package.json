@@ -4,27 +4,29 @@
   "description": "Professional portfolio and blog for Jonathan Duncan — Freelance Software & AI Engineer.",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test:responsive:smoke": "npx playwright test tests/responsive-smoke.spec.ts --project=small-phone-320 --project=desktop-1280 --reporter=line",
-    "test:responsive:full": "npx playwright test tests/responsive-layout.spec.ts --reporter=line",
-    "test:responsive:nightly": "npx playwright test tests/responsive-layout.spec.ts --reporter=line,html"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "test:update-snapshots": "npx playwright test --update-snapshots"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanDDuncan/jonathanduncanprowebsite.git"
+    "url": "git+https://github.com/JonathanDDuncan/JonathanDuncanProMkDocs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/JonathanDDuncan/jonathanduncanprowebsite/issues"
+    "url": "https://github.com/JonathanDDuncan/JonathanDuncanProMkDocs/issues"
   },
-  "homepage": "https://github.com/JonathanDDuncan/jonathanduncanprowebsite#readme",
-  "devDependencies": {
-    "@playwright/test": "^1.59.1"
-  }
+  "homepage": "https://github.com/JonathanDDuncan/JonathanDuncanProMkDocs#readme"
 }

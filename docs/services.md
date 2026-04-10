@@ -347,7 +347,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="cta-panel" markdown>
 
-## Not sure which engagement fits?
+### Not sure which engagement fits?
 
 Most projects don't fit neatly into one box. Book a free 30-minute strategy call and I'll help you figure out the right scope, timeline, and approach, even if the answer is "not yet."
 

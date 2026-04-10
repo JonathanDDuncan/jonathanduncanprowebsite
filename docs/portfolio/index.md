@@ -11,25 +11,25 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
 <div class="grid cards featured-cards" markdown>
 
--   :material-car:{ .lg .middle } **Automotive Documentation Platform**
+-   :material-car:{ .lg .middle } **Automotive Diagnostics Platform**
 
     ---
 
     **Industry:** Automotive
 
-    **Problem:** Manual Google Sheets workflows created billing gaps, admin overhead, and process friction as operations scaled. One documented example: a $1,500 job went unbilled in a single month.
+    **Problem:** A mobile diagnostics business was drowning in paperwork. The owner — running a team of technicians who travel to shops and dealerships — couldn't go into the field himself because he spent all his time manually gathering files, building reports, and chasing invoices. Files from field devices lost their timestamps on transfer, scanners produced 4+ incompatible PDF formats, and $1,500 in work went unbilled in a single month.
 
-    **Approach:** Built a custom multi-tenant platform over a 4–5 month cloud implementation that automated document flow from field devices, report generation, and QuickBooks reconciliation, replacing every manual step in the job-close process.
+    **Approach:** Built a custom multi-tenant SaaS platform that automates the full workflow: file sync with timestamp recovery, multi-format PDF parsing, OCR-based VIN extraction, branded report generation, three-way QuickBooks reconciliation, and diagnostic overlay tools — all deployed via Azure Virtual Desktop.
 
-    **Outcome:** $1,500+ in missed billing caught through automated reconciliation. Technicians stopped typing. Auto-fill and auto-populate replaced manual data entry. Deployed as a scalable multi-tenant SaaS product.
+    **Outcome:** Owner went from buried in paperwork to back in the field. 181K+ files indexed, ~92 jobs/month processed, missed billing eliminated through automated reconciliation. Replaced $400+/mo in tools that didn't fit. Platform productized into SaaS with 6 active subscriptions.
 
-    > *"This is better than I could have possibly imagined."* — Scot Nichols
+    > *"Your work has completely changed my life, and I thank you for that."* — Scot Nichols
 
-    **Why it mattered:** If your business relies on field teams completing work that flows into billing, every manual handoff is a place where revenue disappears. This platform closed that gap, connecting field operations to financial reconciliation so the business can scale without adding admin headcount.
+    **Why it mattered:** When off-the-shelf tools can't match how your business actually operates, every workaround becomes a bottleneck. This platform didn't just automate paperwork — it gave the owner his time back and turned a custom internal tool into a revenue-generating SaaS product.
 
-    *ASP.NET Core · Azure · QuickBooks API · PDF Processing*
+    *WPF · ASP.NET Core · Cosmos DB · Azure · QuickBooks API*
 
-    [:octicons-arrow-right-24: Read full case study](projects/automotive-operations-platform.md)
+    [:octicons-arrow-right-24: Read full case study](projects/case-study-automotive-platform.md)
     [Facing a similar workflow problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   :material-weather-cloudy:{ .lg .middle } **Climate Data Integration Pipeline**

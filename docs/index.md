@@ -113,9 +113,9 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <div class="profile-image-grid" markdown>
 
-<div class="hero-image-carousel" aria-hidden="true">
-  <img src="assets/filing-system-animate.svg" alt="" class="hero-carousel-img active" width="400" height="400" />
-  <img src="assets/business-solution-animate.svg" alt="" class="hero-carousel-img" width="400" height="400" />
+<div class="hero-image-carousel">
+  <img src="assets/filing-system-animate.svg" alt="Abstract illustration of an organized filing system representing custom business automation and workflow integration" class="hero-carousel-img active" />
+  <img src="assets/business-solution-animate.svg" alt="Abstract illustration of a business solution representing systems integration and operational efficiency" class="hero-carousel-img" />
 </div>
 
 </div>
@@ -209,7 +209,16 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 </div>
 
 <div style="text-align: center; margin-top: 0.5rem;" markdown>
-[View all services & pricing :material-arrow-right:](services.md)
+[View all services & pricing :material-arrow-right:](services.md){ .md-button }
+</div>
+
+<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
+<!-- NOTE: Testimonial usage pending client permission per Upwork_Testimonial_Usage_Guidelines.md -->
+
+<div class="hero-micro-testimonial reveal-target" markdown>
+
+*"Jonathan's work is among the best I have seen: great technical skills, entrepreneurial mindset, and fantastic communication."* — **Alberto Jaramillo**, Upwork verified
+
 </div>
 
 <!-- ────────────── FEATURED CASE STUDIES ────────────── -->
@@ -230,7 +239,7 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
     *ASP.NET Core · Azure · QuickBooks API*
 
-    [:octicons-arrow-right-24: Read full case study](portfolio/projects/automotive-operations-platform.md)
+    [:octicons-arrow-right-24: Read full case study](portfolio/projects/case-study-automotive-platform.md)
 
 -   :material-weather-cloudy:{ .lg .middle } **Climate Data Integration Pipeline**
 
@@ -244,10 +253,31 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
     [:octicons-arrow-right-24: Read full case study](portfolio/projects/climate-data-pipeline.md)
 
+-   :material-engine:{ .lg .middle } **Diagnostic Visualization Platform**
+
+    ---
+
+    **Problem:** Off-the-shelf diagnostic tools couldn't visualize multi-cylinder engine performance in real time.
+
+    **Result:** Enabled fault identification previously impossible with off-the-shelf tools. Real-time multi-cylinder analysis used directly by field technicians.
+
+    *.NET WPF · Azure Virtual Desktop*
+
+-   :material-file-search:{ .lg .middle } **Real-Time File Monitoring System**
+
+    ---
+
+    **Problem:** No existing solution could handle event-driven monitoring of 100,000+ files with self-healing recovery across Azure File Shares.
+
+    **Result:** Reliable processing at sub-second latency with self-healing error recovery handling thousands of file events per minute.
+
+    *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
+
 </div>
 
 <div style="text-align: center; margin-top: 0.5rem; margin-bottom: 0.75rem;" markdown>
 [View all projects :material-arrow-right:](portfolio/index.md){ .md-button }
+[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 </div>
@@ -258,34 +288,29 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <div class="testimonial-static-grid reveal-target">
 
-  <blockquote class="testimonial-card">
-    <p class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</p>
-    <footer>
-      <cite class="testimonial-card__author">— Scot Nichols</cite>
-      <span class="testimonial-card__meta">Upwork verified feedback · Automotive</span>
-    </footer>
-  </blockquote>
+  <div class="testimonial-card">
+    <span class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</span>
+    <span class="testimonial-card__author">— Scot Nichols</span>
+    <span class="testimonial-card__meta">Upwork verified feedback · Automotive</span>
+  </div>
 
-  <blockquote class="testimonial-card">
-    <p class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</p>
-    <footer>
-      <cite class="testimonial-card__author">— Alberto Jaramillo</cite>
-      <span class="testimonial-card__meta">Upwork verified feedback</span>
-    </footer>
-  </blockquote>
+  <div class="testimonial-card">
+    <span class="testimonial-card__quote">"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."</span>
+    <span class="testimonial-card__author">— Alberto Jaramillo</span>
+    <span class="testimonial-card__meta">Upwork verified feedback</span>
+  </div>
 
-  <blockquote class="testimonial-card">
-    <p class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</p>
-    <footer>
-      <cite class="testimonial-card__author">— Paul Davis</cite>
-      <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
-    </footer>
-  </blockquote>
+  <div class="testimonial-card">
+    <span class="testimonial-card__quote">"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."</span>
+    <span class="testimonial-card__author">— Paul Davis</span>
+    <span class="testimonial-card__meta">Upwork verified feedback <span class="industry-tag">13+ year relationship</span></span>
+  </div>
 
 </div>
 
 <div style="text-align: center; margin-top: 0.75rem; margin-bottom: 0.5rem;" markdown>
-[View all client testimonials :material-arrow-right:](testimonials.md)
+[View all client testimonials :material-arrow-right:](testimonials.md){ .md-button }
+[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 <!-- ────────────── WHY ME ────────────── -->
@@ -329,11 +354,15 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
   <div class="process-step">
     <div class="process-step__number">4</div>
     <h3>Ongoing Partnership</h3>
-    <p>Documentation, knowledge transfer, and continued development as your business evolves.</p>
+    <p>Documentation, knowledge transfer, and continued development — my longest partnership is 13+ years.</p>
   </div>
 </div>
 
 <p style="text-align: center; margin-top: 0.25rem; margin-bottom: 0.75rem;"><em>Most engagements start with a single 30-minute conversation.</em> <a href="https://cal.com/jonathanduncan/free-consultation">Book yours &rarr;</a></p>
+
+<p style="text-align: center; margin-bottom: 0.5rem;">
+<a href="https://cal.com/jonathanduncan/free-consultation" class="md-button md-button--primary" target="_blank" rel="noopener">Book a Free Strategy Call ↗</a>
+</p>
 
 </div>
 

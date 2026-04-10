@@ -91,17 +91,21 @@ target/
 
 # Exclude trained models
 /models/
-
+Sourcedata/
 # exclude data from source control by default
 # /data/
 .agents/skills/
 .augment/skills/
 .commandcode/skills/
 .continue/skills/
-.vibe/skills/
 .pi/skills/
+.vibe/skills/
 
-.github/file-indexes/
-site/index.html
+# Node / Playwright
 node_modules/
+package-lock.json
 test-results/
+playwright-report/
+blob-report/
+tests/*-snapshots/
+node_modules/

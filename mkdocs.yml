@@ -7,7 +7,7 @@ nav:
   - Services: services.md
   - Projects:
     - Overview: portfolio/index.md
-    - Automotive Operations Automation Platform: portfolio/projects/automotive-operations-platform.md
+    - "From Buried in Paperwork to Back in the Field: Automating an Automotive Diagnostics Operation": portfolio/projects/case-study-automotive-platform.md
     - Climate Data Pipeline and Integration Platform: portfolio/projects/climate-data-pipeline.md
     - Real-Time File Monitoring System: portfolio/projects/real-time-file-monitoring.md
     - Diagnostic Visualization Platform: portfolio/projects/diagnostic-visualization-platform.md

@@ -116,7 +116,7 @@ I adapt to your tools: Git, Jira, Slack, Teams, Linear, Azure DevOps. If your te
 
 Selected examples of the work include:
 
-- A [multi-tenant automotive documentation platform](portfolio/projects/automotive-operations-platform.md) tied to QuickBooks reconciliation
+- A [multi-tenant automotive diagnostics platform](portfolio/projects/case-study-automotive-platform.md) tied to QuickBooks reconciliation
 - A [climate data pipeline](portfolio/projects/climate-data-pipeline.md) integrating 120+ government sources
 - A [real-time file monitoring platform](portfolio/projects/real-time-file-monitoring.md) handling 100,000+ files across Azure File Shares
 - A Canadian geocoding API processing millions of addresses with census enrichment
