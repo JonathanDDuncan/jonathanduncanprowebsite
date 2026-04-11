@@ -106,6 +106,7 @@ node_modules/
 package-lock.json
 test-results/
 playwright-report/
+site/
 blob-report/
 tests/*-snapshots/
 node_modules/

@@ -1,0 +1,50 @@
+wing: jonathanduncanprowebsite
+rooms:
+- name: documentation
+  description: Files from docs/
+  keywords:
+  - documentation
+  - docs
+- name: mkdocs_info
+  description: Files from mkdocs-info/
+  keywords:
+  - mkdocs_info
+  - mkdocs-info
+- name: overrides
+  description: Files from overrides/
+  keywords:
+  - overrides
+  - overrides
+- name: playwright_report
+  description: Files from playwright-report/
+  keywords:
+  - playwright_report
+  - playwright-report
+- name: sourcedata
+  description: Files from Sourcedata/
+  keywords:
+  - sourcedata
+  - sourcedata
+- name: test_results
+  description: Files from test-results/
+  keywords:
+  - test_results
+  - test-results
+- name: testing
+  description: Files from tests/
+  keywords:
+  - testing
+  - tests
+- name: design
+  description: Files from assets/
+  keywords:
+  - design
+  - assets
+- name: backend
+  description: Files from services/
+  keywords:
+  - backend
+  - services
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []
