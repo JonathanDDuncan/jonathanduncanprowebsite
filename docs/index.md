@@ -113,11 +113,6 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 <div class="profile-image-grid" markdown>
 
-<div class="hero-image-carousel">
-  <img src="assets/filing-system-animate.svg" alt="Abstract illustration of an organized filing system representing custom business automation and workflow integration" class="hero-carousel-img active" />
-  <img src="assets/business-solution-animate.svg" alt="Abstract illustration of a business solution representing systems integration and operational efficiency" class="hero-carousel-img" />
-</div>
-
 </div>
 
 <div class="proof-strip hero-proof-strip" markdown>

@@ -98,39 +98,6 @@
   background: transparent;
 }
 
-/* ---------- Hero image carousel (crossfade) ---------- */
-.hero-image-carousel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  visibility: hidden;        /* hidden by default; JS sets visible when ready */
-}
-
-.hero-image-carousel.ready {
-  visibility: visible;
-}
-
-.hero-carousel-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;       /* fallback for <img> before JS inlines */
-  overflow: hidden;           /* clip any SVG overflow after inline */
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.hero-carousel-img.active {
-  opacity: 1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-carousel-img {
-    transition: none;
-  }
-}
-
 /* Dark mode hero — subtler gradient */
 [data-md-color-scheme="slate"] .hero-section.grid-container {
   background: linear-gradient(135deg, rgba(17, 54, 255, 0.18) 0%, rgba(47, 108, 249, 0.1) 50%, rgba(165, 180, 252, 0.06) 100%);
@@ -276,11 +243,6 @@
     justify-content: center;
   }
 
-  /* Hide carousel on mobile — hero text is more important */
-  .hero-image-carousel {
-    max-width: 180px;
-    margin: 0 auto;
-  }
 }
 
 /* Small mobile */
@@ -310,9 +272,6 @@
     height: auto;
   }
 
-  .hero-image-carousel {
-    max-width: 150px;
-  }
 }
 
 /* Extra-small mobile (≤ 360px) */
@@ -364,11 +323,6 @@
     gap: 0.3rem;
   }
 
-  /* Hero image — smaller on very narrow */
-  .hero-image-carousel {
-    max-width: 130px;
-    margin: 0 auto;
-  }
 }
 
 /* Tablets and small laptops */
