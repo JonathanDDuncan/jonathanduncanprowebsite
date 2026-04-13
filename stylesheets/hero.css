@@ -22,6 +22,44 @@
   padding: 12px 0;
 }
 
+/* Hero full-width section */
+.hero-full-width {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+/* Center buttons inside hero-full-width */
+.hero-full-width .md-button {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+/* Center button container */
+.hero-full-width .md-button-wrapper {
+  text-align: center;
+}
+
+/* Ensure buttons are centered in hero-full-width */
+.hero-full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Text intro grid - full width */
+.text-intro-grid {
+  grid-column: 1 / -1;
+}
+
+/* Hero comment - full width with padding */
+.hero-comment {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 /* Hero card gradient background */
 .hero-section.grid-container {
   position: relative;
@@ -31,8 +69,7 @@
   padding: 1.25rem 2rem;
   color: #fff;
   box-shadow: 0 20px 60px rgba(17, 54, 255, 0.2);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 20vh;
   gap: 0.5rem 2rem;
 }
 
@@ -96,39 +133,6 @@
   box-shadow: none;
   border-radius: 0;
   background: transparent;
-}
-
-/* ---------- Hero image carousel (crossfade) ---------- */
-.hero-image-carousel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  visibility: hidden;        /* hidden by default; JS sets visible when ready */
-}
-
-.hero-image-carousel.ready {
-  visibility: visible;
-}
-
-.hero-carousel-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;       /* fallback for <img> before JS inlines */
-  overflow: hidden;           /* clip any SVG overflow after inline */
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.hero-carousel-img.active {
-  opacity: 1;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-carousel-img {
-    transition: none;
-  }
 }
 
 /* Dark mode hero — subtler gradient */
@@ -276,11 +280,6 @@
     justify-content: center;
   }
 
-  /* Hide carousel on mobile — hero text is more important */
-  .hero-image-carousel {
-    max-width: 180px;
-    margin: 0 auto;
-  }
 }
 
 /* Small mobile */
@@ -310,9 +309,6 @@
     height: auto;
   }
 
-  .hero-image-carousel {
-    max-width: 150px;
-  }
 }
 
 /* Extra-small mobile (≤ 360px) */
@@ -364,11 +360,6 @@
     gap: 0.3rem;
   }
 
-  /* Hero image — smaller on very narrow */
-  .hero-image-carousel {
-    max-width: 130px;
-    margin: 0 auto;
-  }
 }
 
 /* Tablets and small laptops */
