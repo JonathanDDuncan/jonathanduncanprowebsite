@@ -132,25 +132,25 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 <div class="grid cards grid-2cols reveal-target " markdown>
 
--   :material-car:{ .lg .middle } **Is your field team drowning in paperwork?**
+-   <span class="service-icon icon-color-green">🚗</span> **Is your field team drowning in paperwork?**
 
     ---
 
     I automate the entire document-to-billing flow so technicians stop losing hours to manual entry.
 
--   :material-weather-cloudy:{ .lg .middle } **Is your research team still collecting data by hand?**
+-   <span class="service-icon icon-color-cyan">☁️</span> **Is your research team still collecting data by hand?**
 
     ---
 
     I automate ingestion from dozens of sources into a single audit-ready dataset.
 
--   :material-briefcase:{ .lg .middle } **Is revenue leaking through process gaps?**
+-   <span class="service-icon icon-color-amber">💼</span> **Is revenue leaking through process gaps?**
 
     ---
 
     I build platforms that close billing gaps and eliminate manual reconciliation.
 
--   :material-truck:{ .lg .middle } **Are your operations too complex to coordinate?**
+-   <span class="service-icon icon-color-purple">🚚</span> **Are your operations too complex to coordinate?**
 
     ---
 
@@ -166,7 +166,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 <div class="grid cards three-col reveal-target" markdown>
 
--   :material-cog-transfer:{ .lg .middle } **Custom Platform Build**
+-   <span class="service-icon icon-color-purple">🧩</span> **Custom Platform Build**
 
     ---
 
@@ -174,7 +174,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
     Capture, processing, reporting, and billing — all in one system.
 
--   :material-robot:{ .lg .middle } **AI Integration**
+-   <span class="service-icon icon-color-cyan">🤖</span> **AI Integration**
 
     ---
 
@@ -182,7 +182,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
     LLM pipelines, RAG systems, and AI agents — integrated where AI genuinely solves the problem.
 
--   :material-handshake:{ .lg .middle } **Ongoing Technical Partnership**
+-   <span class="service-icon icon-color-blue">🤝</span> **Ongoing Technical Partnership**
 
     ---
 

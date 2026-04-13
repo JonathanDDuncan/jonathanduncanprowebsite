@@ -11,7 +11,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
 <div class="grid cards featured-cards" markdown>
 
--   :material-car:{ .lg .middle } **Automotive Diagnostics Platform**
+-   <span class="service-icon icon-color-purple">🚗</span> **Automotive Diagnostics Platform**
 
     ---
 
@@ -32,7 +32,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     [:octicons-arrow-right-24: Read full case study](projects/case-study-automotive-platform.md)
     [Facing a similar workflow problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
--   :material-weather-cloudy:{ .lg .middle } **Climate Data Integration Pipeline**
+-   <span class="service-icon icon-color-cyan">☁️</span> **Climate Data Integration Pipeline**
 
     ---
 
@@ -51,9 +51,11 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     [:octicons-arrow-right-24: Read full case study](projects/climate-data-pipeline.md)
     [Facing a similar data problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
--   :material-engine:{ .lg .middle } **Diagnostic Visualization Platform**
+-   <span class="service-icon icon-color-blue">🔧</span> **Diagnostic Visualization Platform**
 
     ---
+
+    **Industry:** Automotive
 
     **Industry:** Automotive
 
@@ -70,9 +72,11 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     [:octicons-arrow-right-24: Read full case study](projects/diagnostic-visualization-platform.md)
     [Need custom visualization for your team? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
--   :material-file-search:{ .lg .middle } **Real-Time File Monitoring System**
+-   <span class="service-icon icon-color-green">📄</span> **Real-Time File Monitoring System**
 
     ---
+
+    **Industry:** Enterprise
 
     **Industry:** Enterprise
 
@@ -89,9 +93,11 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     [:octicons-arrow-right-24: Read full case study](projects/real-time-file-monitoring.md)
     [Need reliable file processing at scale? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
--   :material-map-marker:{ .lg .middle } **Canadian Geocoding API**
+-   <span class="service-icon icon-color-amber">📍</span> **Canadian Geocoding API**
 
     ---
+
+    **Industry:** Geospatial
 
     **Industry:** Geospatial
 

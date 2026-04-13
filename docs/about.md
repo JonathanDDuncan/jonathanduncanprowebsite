@@ -35,25 +35,25 @@ That can include:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-building-user:{ .lg .middle } **Consultative Development**
+-   <span class="service-icon icon-color-purple">🏢</span> **Consultative Development**
 
     ---
 
     I do not just build what is requested. I dig into the real problem first. Before writing code, I look at business constraints, scaling needs, cost implications, and what success actually needs to look like.
 
--   :material-chart-line:{ .lg .middle } **Business-Minded Technical Decisions**
+-   <span class="service-icon icon-color-amber">📊</span> **Business-Minded Technical Decisions**
 
     ---
 
     Good software is not just technically correct. It has to fit the business model, the operational reality, and the long-term cost structure. I design systems that work today and still make sense as the business grows.
 
--   :material-school:{ .lg .middle } **Full-Stack Architecture Ownership**
+-   <span class="service-icon icon-color-cyan">🏗️</span> **Full-Stack Architecture Ownership**
 
     ---
 
     One person owns the entire stack and makes coherent decisions across it: enterprise .NET, Python data engineering, cloud infrastructure, geospatial systems, real-time applications, and AI integration.
 
--   :material-handshake:{ .lg .middle } **Long-Term Partnership**
+-   <span class="service-icon icon-color-blue">🤝</span> **Long-Term Partnership**
 
     ---
 
