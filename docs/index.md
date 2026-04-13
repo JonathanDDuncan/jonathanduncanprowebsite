@@ -94,26 +94,22 @@ hide:
 
 <div class="hero-full-width" markdown>
 
-<span class="hero-eyebrow">Top Rated Plus on Upwork · $500K+ Delivered · 25+ Years</span>
+<span class="hero-eyebrow">Helping Businesses Automate Workflows with Custom-Built AI Enabled Solutions</span>
 
-# Are you drowning in manual workarounds? I build the system that replaces them.
+# Are you drowning in manual workarounds? 
+# I build the system that replaces them.
 
 </div>
 
-<div class="text-intro-grid" markdown>
+<div class="hero-comment" markdown>
 
-Custom-built platforms that eliminate manual data entry, connect your disconnected systems, and let your team focus on the work that actually grows revenue.
-
-<span class="hero-audience">For CTOs, founders, and operations leaders at SMBs (20–500 employees)</span>
-
+Custom-built platforms that eliminate manual data entry, connect your systems, and let your team focus on the work that actually grows revenue.
+</div>
+<div class="hero-full-width" markdown>
 [Book a Free 30-Min Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [See How I've Solved This Before :material-arrow-right:](portfolio/index.md){ .md-button }
-
 </div>
 
-<div class="profile-image-grid" markdown>
-
-</div>
 
 <div class="proof-strip hero-proof-strip" markdown>
 <span class="proof-chip">[:material-check-decagram: Top Rated Plus | Top 3%](https://www.upwork.com/freelancers/jonathanduncan)</span>
@@ -125,19 +121,12 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 </div>
 
-<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
-
-<div class="hero-micro-testimonial reveal-target" markdown>
-
-*"Your work has completely changed my life."* — **Scot Nichols**, long-term client
-
-</div>
 
 <!-- ────────────── WHO I HELP ────────────── -->
-
+## Who I help
 <div class="section-band section-band--tinted" markdown>
 
-## Who I help
+
 
 **If your team is still stitching together spreadsheets, disconnected SaaS products, and manual workarounds to run core operations, you're who I build for.**
 
@@ -207,75 +196,7 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 [View all services & pricing :material-arrow-right:](services.md){ .md-button }
 </div>
 
-<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
-<!-- NOTE: Testimonial usage pending client permission per Upwork_Testimonial_Usage_Guidelines.md -->
 
-<div class="hero-micro-testimonial reveal-target" markdown>
-
-*"Jonathan's work is among the best I have seen: great technical skills, entrepreneurial mindset, and fantastic communication."* — **Alberto Jaramillo**, Upwork verified
-
-</div>
-
-<!-- ────────────── FEATURED CASE STUDIES ────────────── -->
-
-<div class="section-band section-band--tinted" markdown>
-
-## Featured case studies
-
-<div class="grid cards grid-2cols case-study-cards reveal-target" markdown>
-
--   :material-car:{ .lg .middle } **Automotive Documentation Platform**
-
-    ---
-
-    **Problem:** Manual Google Sheets process causing missed invoices and hours of admin overhead as the business scaled.
-
-    **Result:** Eliminated missed billing. Technicians stopped typing. Auto-fill and auto-populate replaced manual entry. Deployed as a scalable multi-tenant SaaS product.
-
-    *ASP.NET Core · Azure · QuickBooks API*
-
-    [:octicons-arrow-right-24: Read full case study](portfolio/projects/case-study-automotive-platform.md)
-
--   :material-weather-cloudy:{ .lg .middle } **Climate Data Integration Pipeline**
-
-    ---
-
-    **Problem:** Manual collection from 120+ government data sources with unique APIs, formats, and authentication. No ETL tool could handle the variation.
-
-    **Result:** Fully automated pipeline with scheduling, error handling, and unified geospatial dataset.
-
-    *Python · GCP · Apache Airflow · PostGIS*
-
-    [:octicons-arrow-right-24: Read full case study](portfolio/projects/climate-data-pipeline.md)
-
--   :material-engine:{ .lg .middle } **Diagnostic Visualization Platform**
-
-    ---
-
-    **Problem:** Off-the-shelf diagnostic tools couldn't visualize multi-cylinder engine performance in real time.
-
-    **Result:** Enabled fault identification previously impossible with off-the-shelf tools. Real-time multi-cylinder analysis used directly by field technicians.
-
-    *.NET WPF · Azure Virtual Desktop*
-
--   :material-file-search:{ .lg .middle } **Real-Time File Monitoring System**
-
-    ---
-
-    **Problem:** No existing solution could handle event-driven monitoring of 100,000+ files with self-healing recovery across Azure File Shares.
-
-    **Result:** Reliable processing at sub-second latency with self-healing error recovery handling thousands of file events per minute.
-
-    *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
-
-</div>
-
-<div style="text-align: center; margin-top: 0.5rem; margin-bottom: 0.75rem;" markdown>
-[View all projects :material-arrow-right:](portfolio/index.md){ .md-button }
-[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
-</div>
-
-</div>
 
 <!-- ────────────── TESTIMONIALS ────────────── -->
 
@@ -309,10 +230,10 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 </div>
 
 <!-- ────────────── WHY ME ────────────── -->
-
+## Why choose me
 <div class="why-me-strip reveal-target" markdown>
 
-## Why me instead of an agency or offshore team
+
 
 | | Agency | Offshore team | Generalist | Working with me |
 |---|---|---|---|---|
@@ -325,10 +246,10 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 </div>
 
 <!-- ────────────── PROCESS ────────────── -->
-
+<h2>How I work</h2>
 <div class="section-band section-band--tinted">
 
-<h2>How I work</h2>
+
 
 <div class="process-timeline reveal-target">
   <div class="process-step">
@@ -361,6 +282,14 @@ Custom-built platforms that eliminate manual data entry, connect your disconnect
 
 </div>
 
+<!-- ────────────── MICRO-TESTIMONIAL ────────────── -->
+<!-- NOTE: Testimonial usage pending client permission per Upwork_Testimonial_Usage_Guidelines.md -->
+
+<div class="hero-micro-testimonial reveal-target" markdown>
+
+*"Jonathan's work is among the best I have seen: great technical skills, entrepreneurial mindset, and fantastic communication."* — **Alberto Jaramillo**, Upwork verified
+
+</div>
 <!-- ────────────── FAQ PREVIEW ────────────── -->
 
 ## Common questions

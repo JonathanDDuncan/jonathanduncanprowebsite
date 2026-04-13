@@ -360,9 +360,10 @@ html, body {
   font-weight: 700;
   letter-spacing: -0.02em;
   border-bottom: none;
-  margin-top: 2.5rem;
+  margin-top: 8rem;
   margin-bottom: 1rem;
   color: var(--color-charcoal);
+  text-align: center;
 }
 
 [data-md-color-scheme="slate"] .md-typeset h2 {
@@ -1386,7 +1387,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 /* ---------- Hero eyebrow ---------- */
 .hero-eyebrow {
   display: inline-block;
-  font-size: 0.82rem;
+  font-size: 0.60rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1397,6 +1398,7 @@ body[data-md-url="/"] .md-sidebar--primary {
   background: rgba(255, 255, 255, 0.12);
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
 }
 
 [data-md-color-scheme="slate"] .hero-eyebrow {
@@ -2260,21 +2262,23 @@ body[data-md-url="/"] .md-sidebar--primary {
     padding: var(--space-md) var(--space-sm) var(--space-sm);
   }
 }
-
+.md-main {
+  margin-top: 7rem;
+}
 /* ==========================================================================
    P0 Visual Improvements — Section bands, card accents, floating CTA, timeline
    ========================================================================== */
 
 /* ---------- 1. Alternating section backgrounds ---------- */
 .section-band--tinted {
-  background: rgba(17, 54, 255, 0.03);
+  background: rgba(47, 108, 249, 0.1);
   border-radius: 24px;
   padding: var(--space-xl) var(--space-lg);
   margin: var(--space-lg) calc(-1 * var(--space-lg));
 }
 
 [data-md-color-scheme="slate"] .section-band--tinted {
-  background: rgba(165, 180, 252, 0.04);
+  background: rgba(47, 108, 249, 1);
 }
 
 [class*="section-band"] h2 {
@@ -2551,7 +2555,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 
 /* ---------- Task 11: Testimonial section tinting & verified badge ---------- */
 .testimonial-section--tinted {
-  background: rgba(17, 54, 255, 0.02);
+  background: rgba(17, 54, 255, 1);
   border-radius: 20px;
   padding: var(--space-lg) var(--space-xl);
   margin: var(--space-md) calc(-1 * var(--space-md));

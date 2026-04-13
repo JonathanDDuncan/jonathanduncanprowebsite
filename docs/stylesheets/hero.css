@@ -22,6 +22,44 @@
   padding: 12px 0;
 }
 
+/* Hero full-width section */
+.hero-full-width {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+/* Center buttons inside hero-full-width */
+.hero-full-width .md-button {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+/* Center button container */
+.hero-full-width .md-button-wrapper {
+  text-align: center;
+}
+
+/* Ensure buttons are centered in hero-full-width */
+.hero-full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Text intro grid - full width */
+.text-intro-grid {
+  grid-column: 1 / -1;
+}
+
+/* Hero comment - full width with padding */
+.hero-comment {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 /* Hero card gradient background */
 .hero-section.grid-container {
   position: relative;
@@ -31,8 +69,8 @@
   padding: 1.25rem 2rem;
   color: #fff;
   box-shadow: 0 20px 60px rgba(17, 54, 255, 0.2);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: 10vh;
+  margin-bottom: 17vh;
   gap: 0.5rem 2rem;
 }
 
@@ -61,7 +99,7 @@
 
 .hero-section.grid-container h1 {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
