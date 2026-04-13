@@ -121,7 +121,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-cog-transfer:{ .lg .middle } **Custom Business Automation Platform**
+-   <span class="service-icon icon-color-purple">🧩</span> **Custom Business Automation Platform**
 
     ---
 
@@ -158,7 +158,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-robot:{ .lg .middle } **AI-Integrated Workflow Systems**
+-   <span class="service-icon icon-color-cyan">🤖</span> **AI-Integrated Workflow Systems**
 
     ---
 
@@ -195,7 +195,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-cloud-cog:{ .lg .middle } **Cloud Architecture and Migration**
+-   <span class="service-icon icon-color-sky">☁️</span> **Cloud Architecture and Migration**
 
     ---
 
@@ -232,7 +232,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-server-network:{ .lg .middle } **Full-Stack Platform Engineering**
+-   <span class="service-icon icon-color-amber">🔧</span> **Full-Stack Platform Engineering**
 
     ---
 
@@ -269,7 +269,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-rocket-launch:{ .lg .middle } **Rapid MVP and Pilot Build**
+-   <span class="service-icon icon-color-green">🚀</span> **Rapid MVP and Pilot Build**
 
     ---
 
@@ -306,7 +306,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 <div class="grid cards services-card" markdown>
 
--   :material-brain:{ .lg .middle } **Fractional Architecture and Advisory**
+-   <span class="service-icon icon-color-blue">📊</span> **Fractional Architecture and Advisory**
 
     ---
 

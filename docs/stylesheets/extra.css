@@ -318,24 +318,122 @@ html, body {
   background: rgba(165, 180, 252, 0.1);
 }
 
+/* ---------- Service card emoji icons with colors ---------- */
+.md-typeset .grid.cards .service-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(17, 54, 255, 0.08);
+  flex-shrink: 0;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* Purple - Custom Platform */
+.md-typeset .grid.cards .icon-color-purple {
+  color: #6366F1;
+  background: rgba(99, 102, 241, 0.12);
+}
+
+/* Cyan - AI Integration */
+.md-typeset .grid.cards .icon-color-cyan {
+  color: #06B6D4;
+  background: rgba(6, 182, 212, 0.12);
+}
+
+/* Sky - Cloud Architecture */
+.md-typeset .grid.cards .icon-color-sky {
+  color: #3B82F6;
+  background: rgba(59, 130, 246, 0.12);
+}
+
+/* Amber - Full-Stack */
+.md-typeset .grid.cards .icon-color-amber {
+  color: #F59E0B;
+  background: rgba(245, 158, 11, 0.12);
+}
+
+/* Green - MVP */
+.md-typeset .grid.cards .icon-color-green {
+  color: #10B981;
+  background: rgba(16, 185, 129, 0.12);
+}
+
+/* Blue - Advisory */
+.md-typeset .grid.cards .icon-color-blue {
+  color: #1136FF;
+  background: rgba(17, 54, 255, 0.12);
+}
+
+/* Dark mode variants */
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-purple {
+  color: #818CF8;
+  background: rgba(129, 140, 248, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-cyan {
+  color: #22D3EE;
+  background: rgba(34, 211, 238, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-sky {
+  color: #60A5FA;
+  background: rgba(96, 165, 250, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-amber {
+  color: #FBBF24;
+  background: rgba(251, 191, 36, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-green {
+  color: #34D399;
+  background: rgba(52, 211, 153, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .icon-color-blue {
+  color: #6366F1;
+  background: rgba(99, 102, 241, 0.15);
+}
+
+/* Hover effects for service icons */
+.md-typeset .grid.cards > ul > li:hover .service-icon,
+.md-typeset .grid.cards > ol > li:hover .service-icon {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover .service-icon,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li:hover .service-icon {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 /* Reset icons inside links/buttons within cards (arrows, etc.) */
 .md-typeset .grid.cards a .twemoji,
 .md-typeset .grid.cards a .emojione,
 .md-typeset .grid.cards a .gemoji,
+.md-typeset .grid.cards a .service-icon,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards a .twemoji,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards a .emojione,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards a .gemoji {
+[data-md-color-scheme="slate"] .md-typeset .grid.cards a .gemoji,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards a .service-icon {
   color: inherit;
   width: auto;
   height: auto;
   border-radius: 0;
   background: transparent;
   display: inline;
+  transform: none;
+  box-shadow: none;
 }
 
 .md-typeset .grid.cards a .twemoji svg,
 .md-typeset .grid.cards a .emojione svg,
-.md-typeset .grid.cards a .gemoji svg {
+.md-typeset .grid.cards a .gemoji svg,
+.md-typeset .grid.cards a .service-icon {
   width: 1.125em;
   height: 1.125em;
 }
