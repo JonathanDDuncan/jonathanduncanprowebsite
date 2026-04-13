@@ -260,7 +260,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
   <div class="process-step">
     <div class="process-step__number">2</div>
     <h3>Architecture &amp; Planning</h3>
-    <p>You'll understand the "why" behind every technical decision before we build.</p>
+    <p>You'll understand the "why" behind every technical decision before building.</p>
   </div>
   <div class="process-step">
     <div class="process-step__number">3</div>
