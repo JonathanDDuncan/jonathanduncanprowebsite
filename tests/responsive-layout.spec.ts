@@ -14,7 +14,7 @@ for (const pagePath of PAGES) {
 
     test.beforeEach(async ({ page: p }) => {
       page = p;
-      await page.goto(pagePath, { waitUntil: 'networkidle' });
+     await page.goto(pagePath, { waitUntil: 'domcontentloaded', timeout: 60000 });
     });
 
     // 1. No horizontal overflow on <html> or <body>

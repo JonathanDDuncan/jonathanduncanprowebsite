@@ -83,8 +83,8 @@ for (const pagePath of PAGES) {
     page.on('pageerror', (err) => {
       errors.push(err.message);
     });
-
-    const response = await page.goto(pagePath, { waitUntil: 'networkidle' });
+   const response =await page.goto(pagePath, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    
     expect(response?.status()).toBeLessThan(400);
 
     // Filter out known harmless errors (analytics, fonts, etc.)

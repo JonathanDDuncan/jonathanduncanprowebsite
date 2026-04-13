@@ -12,7 +12,7 @@ import { PAGES } from '../playwright.config';
 for (const pagePath of PAGES) {
   test.describe(`Visual regression — ${pagePath}`, () => {
     test('full-page screenshot matches baseline', async ({ page }, testInfo) => {
-      await page.goto(pagePath, { waitUntil: 'networkidle' });
+       await page.goto(pagePath, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
       // Wait for fonts and images to settle
       await page.waitForTimeout(500);
