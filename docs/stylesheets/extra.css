@@ -967,10 +967,7 @@ body,
 }
 
 /* Reserve space so the title text wraps before the badge */
-.md-typeset .grid.cards.featured-cards > ul > li:first-child > p:first-child,
-.md-typeset .grid.cards.featured-cards > ol > li:first-child > p:first-child {
-  padding-right: 5.5rem;
-}
+
 
 [data-md-color-scheme="slate"] .featured-cards > ul > li:first-child {
   background: rgba(165, 180, 252, 0.04);
@@ -1333,14 +1330,13 @@ body,
     max-width: 100%;
   }
 
-  /* Tables with 4+ columns — force horizontal scroll instead of squishing */
-  .why-me-strip table {
-    width: auto;
-    min-width: 600px;
+  .why-me-strip {
+    padding: var(--space-sm);
   }
 
-  .why-me-strip {
-    -webkit-overflow-scrolling: touch;
+  .why-me-strip table {
+    display: inline-block;
+    font-size: 0.85rem;
   }
 
   .md-typeset table:has(th:nth-child(4)) {
@@ -1700,11 +1696,11 @@ body[data-md-url="/"] .md-sidebar--primary {
 
 .why-me-strip {
   margin: var(--space-sm) auto;
-  overflow-x: auto;
   padding: var(--space-md);
   background: rgba(17, 54, 255, 0.02);
   border-radius: 14px;
   max-width: 1200px;
+  text-align: center;
 }
 
 [data-md-color-scheme="slate"] .why-me-strip {
@@ -1712,7 +1708,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 .why-me-strip table {
-  width: 100%;
+  display: inline-block;
   border-collapse: collapse;
   font-size: 0.9rem;
   border-radius: 14px;
@@ -1725,9 +1721,9 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 .why-me-strip th {
-  padding: 0.6rem 1rem;
+  padding: 0.7rem 1.2rem;
   text-align: left;
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1746,7 +1742,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 .why-me-strip td {
-  padding: 0.55rem 1rem;
+  padding: 0.7rem 1.2rem;
   border-bottom: 1px solid rgba(47, 108, 249, 0.08);
   vertical-align: top;
 }
@@ -1757,7 +1753,8 @@ body[data-md-url="/"] .md-sidebar--primary {
 
 .why-me-strip td:last-child {
   background: rgba(17, 54, 255, 0.05);
-  font-weight: 600;
+  font-weight: 700;
+  
 }
 
 [data-md-color-scheme="slate"] .why-me-strip td:last-child {

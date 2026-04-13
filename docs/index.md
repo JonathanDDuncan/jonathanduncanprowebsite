@@ -97,7 +97,7 @@ hide:
 <span class="hero-eyebrow">Helping Businesses Automate Workflows with Custom-Built AI Enabled Solutions</span>
 
 # Are you drowning in manual workarounds? 
-# I build the system that replaces them.
+# I build the system that saves you time and money.
 
 </div>
 
@@ -234,14 +234,15 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 <div class="why-me-strip reveal-target" markdown>
 
 
+### The key differentiators
 
-| | Agency | Offshore team | Generalist | Working with me |
-|---|---|---|---|---|
-| **Architecture** | :material-close:{ .icon-negative } By someone you'll never meet | :material-close:{ .icon-negative } Often missing entirely | :material-minus:{ .icon-neutral } Surface-level | :material-check:{ .icon-positive } By the person writing your code |
-| **Business context** | :material-minus:{ .icon-neutral } Filtered through middlemen | :material-close:{ .icon-negative } Lost in translation | :material-minus:{ .icon-neutral } Rarely considered | :material-check:{ .icon-positive } Built into every decision |
-| **Continuity** | :material-minus:{ .icon-neutral } Team rotates | :material-close:{ .icon-negative } High turnover | :material-minus:{ .icon-neutral } Project-to-project | :material-check:{ .icon-positive } 13+ year active partnership |
-| **AI judgment** | :material-minus:{ .icon-neutral } Bolted on as a line item | :material-close:{ .icon-negative } Template-driven | :material-minus:{ .icon-neutral } Added to look current | :material-check:{ .icon-positive } Only where it genuinely helps |
-| **Accountability** | :material-minus:{ .icon-neutral } Diffused across layers | :material-close:{ .icon-negative } Unclear ownership | :material-minus:{ .icon-neutral } Limited scope | :material-check:{ .icon-positive } Direct, single-owner |
+| **What matters** | **Typical agency** | **Working with me** |
+|---|---|---|
+| **Architecture** | By someone you'll never meet | By the person writing your code |
+| **Business context** | Filtered through middlemen | Built into every decision |
+| **Continuity** | Team rotates, high turnover | 13+ year active partnership |
+| **AI judgment** | Bolted on as a line item | Only where it genuinely helps |
+| **Accountability** | Diffused across layers | Direct, single-owner responsibility |
 
 </div>
 
