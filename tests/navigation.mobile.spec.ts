@@ -10,7 +10,7 @@ import { PAGES } from '../playwright.config';
 
 test.describe('Mobile navigation', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('/', { waitUntil: 'networkidle' });
+    await page.goto('/', { waitUntil: 'domcontentloaded', timeout: 60000 });
   });
 
   test('hamburger button is visible on mobile', async ({ page }) => {

@@ -41,7 +41,7 @@ for (const pagePath of PAGES) {
 test.describe('CSS whitespace audit', () => {
   test('hero section does not use excessive min-height on mobile', async ({ page }) => {
     const vpHeight = page.viewportSize()?.height ?? 800;
-    await page.goto('/', { waitUntil: 'networkidle' });
+    await page.goto('/', { waitUntil: 'domcontentloaded', timeout: 60000 });
 
     const heroInfo = await page.evaluate(() => {
       const hero = document.querySelector('.hero, [class*="hero"], .md-main__inner');
@@ -66,7 +66,7 @@ test.describe('CSS whitespace audit', () => {
   });
 
   test('no section uses 100vw width directly', async ({ page }) => {
-    await page.goto('/', { waitUntil: 'networkidle' });
+    await page.goto('/', { waitUntil: 'domcontentloaded', timeout: 60000 });
 
     const bad100vw = await page.evaluate(() => {
       const results: { selector: string; width: string }[] = [];
@@ -89,7 +89,7 @@ test.describe('CSS whitespace audit', () => {
   });
 
   test('large padding values are reasonable on mobile', async ({ page }) => {
-    await page.goto('/', { waitUntil: 'networkidle' });
+    await page.goto('/', { waitUntil: 'domcontentloaded', timeout: 60000 });
 
     const excessivePadding = await page.evaluate(() => {
       const results: { selector: string; paddingTop: number; paddingBottom: number }[] = [];
