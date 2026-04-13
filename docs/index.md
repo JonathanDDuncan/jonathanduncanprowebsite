@@ -96,7 +96,7 @@ hide:
 
 <span class="hero-eyebrow">Top Rated Plus on Upwork · $500K+ Delivered · 25+ Years</span>
 
-# Your team is drowning in manual workarounds. I build the system that replaces them.
+# Are you drowning in manual workarounds? I build the system that replaces them.
 
 </div>
 
