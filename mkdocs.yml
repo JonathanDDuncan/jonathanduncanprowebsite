@@ -26,7 +26,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.top
-    - navigation.path
     - content.tooltips
     - content.tabs.link
     - content.code.copy
