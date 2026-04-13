@@ -80,12 +80,12 @@ I adapt to your tools: Git, Jira, Slack, Teams, Linear, Azure DevOps. If your te
 ## Credibility
 
 <div class="proof-strip" style="justify-content: center; margin-bottom: 2rem;" markdown>
-<span class="proof-chip">:material-clock-fast: 25+ Years Building Software</span>
-<span class="proof-chip">:material-cash-multiple: $500K+ Delivered on Upwork</span>
-<span class="proof-chip">:material-star: 100% Job Success Score</span>
-<span class="proof-chip">:material-check-decagram: Top Rated Plus | Top 3%</span>
-<span class="proof-chip">:material-file-document-check: 49+ Completed Contracts</span>
-<span class="proof-chip">:material-account-group: 7+ Repeat Clients</span>
+<span class="proof-chip">⏱️ 25+ Years Building Software</span>
+<span class="proof-chip">💰 $500K+ Delivered on Upwork</span>
+<span class="proof-chip">⭐ 100% Job Success Score</span>
+<span class="proof-chip">🏆 Top Rated Plus | Top 3%</span>
+<span class="proof-chip">📄 49+ Completed Contracts</span>
+<span class="proof-chip">🤝 7+ Repeat Clients</span>
 </div>
 
 Selected examples of the work include:
