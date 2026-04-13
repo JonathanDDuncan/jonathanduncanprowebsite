@@ -61,7 +61,7 @@ That can include:
 
 </div>
 
-## How I work in practice
+## I might not be a good fit if
 
 - You need a team of 5+ developers working in parallel. I'm a senior solo engineer, not an agency
 - The project has a fixed deadline under 4 weeks with undefined scope
@@ -79,39 +79,14 @@ I adapt to your tools: Git, Jira, Slack, Teams, Linear, Azure DevOps. If your te
 
 ## Credibility
 
-<div class="metric-highlight" markdown>
-<div class="metric-highlight-item">
-<strong>25+</strong>
-<em>Years Building Software</em>
-</div>
-<div class="metric-highlight-item">
-<strong>$500K+</strong>
-<em>Delivered on Upwork</em>
-</div>
-<div class="metric-highlight-item">
-<strong>100%</strong>
-<em>Job Success Score</em>
-</div>
-<div class="metric-highlight-item">
-<strong>Top 3%</strong>
-<em>Top Rated Plus</em>
-</div>
-<div class="metric-highlight-item">
-<strong>49+</strong>
-<em>Completed Contracts</em>
-</div>
-<div class="metric-highlight-item">
-<strong>11,000+</strong>
-<em>Billable Hours</em>
-</div>
-<div class="metric-highlight-item">
-<strong>7+</strong>
-<em>Repeat Clients</em>
-</div>
-<div class="metric-highlight-item">
-<strong>3</strong>
-<em>Languages (EN · FR · ES)</em>
-</div>
+<div class="proof-strip" style="justify-content: center; margin-bottom: 2rem;" markdown>
+<span class="proof-chip">:material-clock-fast: 25+ Years Building Software</span>
+<span class="proof-chip">:material-cash-multiple: $500K+ Delivered on Upwork</span>
+<span class="proof-chip">:material-star: 100% Job Success Score</span>
+<span class="proof-chip">:material-check-decagram: Top Rated Plus | Top 3%</span>
+<span class="proof-chip">:material-file-document-check: 49+ Completed Contracts</span>
+<span class="proof-chip">:material-account-group: 7+ Repeat Clients</span>
+<span class="proof-chip">:material-language: 3 Languages (EN · FR · ES)</span>
 </div>
 
 Selected examples of the work include:
