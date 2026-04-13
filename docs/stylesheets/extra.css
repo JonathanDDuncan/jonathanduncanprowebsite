@@ -340,6 +340,11 @@ html, body {
   height: 1.125em;
 }
 
+/* ---------- Services card specific spacing ---------- */
+.grid.cards.services-card {
+  margin-top: 5rem;
+}
+
 /* ---------- Headings ---------- */
 .md-typeset h1 {
   font-size: var(--text-2xl);
@@ -2263,8 +2268,8 @@ body[data-md-url="/"] .md-sidebar--primary {
     padding: var(--space-md) var(--space-sm) var(--space-sm);
   }
 }
-.md-main {
-  margin-top: 7rem;
+.md-content {
+  margin-top: 3rem;
 }
 /* ==========================================================================
    P0 Visual Improvements — Section bands, card accents, floating CTA, timeline
@@ -2500,16 +2505,27 @@ body[data-md-url="/"] .md-sidebar--primary {
     padding: var(--space-md);
   }
 }
-
+md-main
 /* ==========================================================================
    P2 VISUAL IMPROVEMENTS — Tasks 9–13
    ========================================================================== */
 
 /* ---------- Task 9: Services card gradient accent strips ---------- */
+ 
 .services-card > ul > li,
 .services-card > ol > li {
   position: relative;
   overflow: hidden;
+}
+
+.services-card > ul > li:nth-child(odd),
+.services-card > ol > li:nth-child(odd) {
+  background-color: rgba(17, 54, 255, 1);
+}
+
+.services-card > ul > li:nth-child(even),
+.services-card > ol > li:nth-child(even) {
+  background-color: rgba(17, 54, 255, 0.12);
 }
 
 .services-card > ul > li::before,
