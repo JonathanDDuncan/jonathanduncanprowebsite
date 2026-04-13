@@ -1463,33 +1463,34 @@ body[data-md-url="/"] .md-sidebar--primary {
   font-size: 3rem;
   font-family: Georgia, serif;
   line-height: 1;
-  color: rgba(17, 54, 255, 0.12);
+  color: rgba(17, 54, 255, 0.25);
   pointer-events: none;
 }
 
 [data-md-color-scheme="slate"] .testimonial-card::before {
-  color: rgba(165, 180, 252, 0.15);
+  color: rgba(165, 180, 252, 0.35);
 }
 
 [data-md-color-scheme="slate"] .testimonial-card {
-  background: rgba(17, 20, 50, 0.55);
-  border-color: var(--color-border);
+  background: rgba(17, 20, 50, 0.85);
+  border: 1px solid rgba(165, 180, 252, 0.2);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .testimonial-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(17, 54, 255, 0.08), 0 4px 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 12px 24px rgba(17, 54, 255, 0.12), 0 4px 8px rgba(0, 0, 0, 0.04);
 }
 
 [data-md-color-scheme="slate"] .testimonial-card:hover {
-  box-shadow: 0 12px 24px rgba(165, 180, 252, 0.06);
+  box-shadow: 0 12px 24px rgba(165, 180, 252, 0.1);
+  border-color: rgba(165, 180, 252, 0.3);
 }
 
 .testimonial-card__quote {
   font-size: 0.97rem;
   line-height: 1.65;
-  color: var(--md-default-fg-color);
+  color: #e2e4eb;
   font-style: italic;
 }
 
@@ -1510,7 +1511,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 
 .testimonial-card__meta {
   font-size: 0.8rem;
-  color: var(--md-default-fg-color--light);
+  color: #9499b0;
   margin: 0;
   display: inline-flex;
   align-items: center;
@@ -1522,7 +1523,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 .testimonial-card::after {
   content: "★★★★★";
   display: block;
-  color: var(--color-accent-warm);
+  color: var(--color-primary);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   margin-top: 0.25rem;
@@ -2562,7 +2563,7 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 [data-md-color-scheme="slate"] .testimonial-section--tinted {
-  background: rgba(165, 180, 252, 0.03);
+  background: rgba(17, 54, 255, 0.15);
 }
 
 .testimonial-card__meta::before {
