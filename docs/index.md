@@ -202,7 +202,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 ## What clients say
 
-<div class="testimonial-static-grid reveal-target">
+<div class="testimonial-static-grid reveal-target section-band--tinted" markdown>
 
   <div class="testimonial-card">
     <span class="testimonial-card__quote">"Jonathan is absolutely incredible. I have yet to give him a hurdle he can't clear. He is competent, capable, conscientious, and creative."</span>

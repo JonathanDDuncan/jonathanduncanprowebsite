@@ -2284,7 +2284,8 @@ body[data-md-url="/"] .md-sidebar--primary {
 }
 
 [data-md-color-scheme="slate"] .section-band--tinted {
-  background: rgba(47, 108, 249, 1);
+  background: rgba(47, 108, 249, 0.15);  /* 15% opacity - similar visual weight to light mode */
+  border: 1px solid rgba(47, 108, 249, 0.2);  /* Add subtle border for definition */
 }
 
 [class*="section-band"] h2 {
