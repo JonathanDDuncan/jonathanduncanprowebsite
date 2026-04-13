@@ -86,7 +86,6 @@ I adapt to your tools: Git, Jira, Slack, Teams, Linear, Azure DevOps. If your te
 <span class="proof-chip">:material-check-decagram: Top Rated Plus | Top 3%</span>
 <span class="proof-chip">:material-file-document-check: 49+ Completed Contracts</span>
 <span class="proof-chip">:material-account-group: 7+ Repeat Clients</span>
-<span class="proof-chip">:material-language: 3 Languages (EN · FR · ES)</span>
 </div>
 
 Selected examples of the work include:

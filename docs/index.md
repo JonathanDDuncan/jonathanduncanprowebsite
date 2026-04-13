@@ -112,11 +112,11 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 
 <div class="proof-strip hero-proof-strip" markdown>
-<span class="proof-chip">[:material-check-decagram: Top Rated Plus | Top 3%](https://www.upwork.com/freelancers/jonathanduncan)</span>
-<span class="proof-chip">:material-cash-multiple: $500K+ Delivered</span>
-<span class="proof-chip">:material-star: 100% Job Success</span>
-<span class="proof-chip">:material-clock-fast: 25+ Years Experience</span>
-<span class="proof-chip">:material-handshake: 13+ Year Client</span>
+<span class="proof-chip">🏆 Top Rated Plus | Top 3%</span>
+<span class="proof-chip">💰 $500K+ Delivered</span>
+<span class="proof-chip">⭐ 100% Job Success</span>
+<span class="proof-chip">⏱ 25+ Years Experience</span>
+<span class="proof-chip">🤝 13+ Year Client</span>
 </div>
 
 </div>
