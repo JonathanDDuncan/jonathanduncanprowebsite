@@ -118,3 +118,29 @@ test.describe('CSS whitespace audit', () => {
     }
   });
 });
+
+// ---------------------------------------------------------------------------
+// Hero section overflow/cutoff test for key mobile widths
+// ---------------------------------------------------------------------------
+
+test.describe('Hero section mobile overflow', () => {
+  const viewports = [
+    { width: 320, height: 800 }, // iPhone SE
+    { width: 375, height: 800 }, // iPhone X/12/13 Mini
+    { width: 425, height: 800 }, // Pixel 2 XL, Galaxy S8+
+  ];
+  for (const viewport of viewports) {
+    test(`.hero-section fits in viewport at ${viewport.width}px`, async ({ page }) => {
+      await page.setViewportSize(viewport);
+      await page.goto('/', { waitUntil: 'domcontentloaded', timeout: 60000 });
+      const hero = page.locator('.hero-section');
+      await expect(hero).toBeVisible();
+      const box = await hero.boundingBox();
+      expect(box).not.toBeNull();
+      expect(box.x).toBeGreaterThanOrEqual(0);
+      expect(box.x + box.width).toBeLessThanOrEqual(viewport.width + 1); // allow 1px rounding
+      // Screenshot for visual regression
+      await expect(hero).toHaveScreenshot(`hero-mobile-${viewport.width}px.png`, { fullPage: false });
+    });
+  }
+});
