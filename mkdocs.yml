@@ -6,6 +6,7 @@ nav:
   - Home: index.md
   - Services: services.md
   - Projects: 
+    - Overview: portfolio/index.md
     - "From Buried in Paperwork to Back in the Field: Automating an Automotive Diagnostics Operation": portfolio/projects/case-study-automotive-platform.md
     - Climate Data Pipeline and Integration Platform: portfolio/projects/case-study-climate-data-pipeline.md
     - Real-Time File Monitoring System: portfolio/projects/case-study-file-monitoring-system.md

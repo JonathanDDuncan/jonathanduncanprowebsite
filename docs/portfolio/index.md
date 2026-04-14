@@ -70,8 +70,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     **Why it mattered:** If your technicians are diagnosing complex equipment without the visualization they need, misdiagnosis costs you in rework, warranty claims, and customer trust. This tool turned a blind spot into a competitive advantage.
 
     *.NET WPF · Azure Virtual Desktop*
-
-    [:octicons-arrow-right-24: Read full case study](projects/diagnostic-visualization-platform.md)
+       
     [Need custom visualization for your team? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   <span class="service-icon icon-color-green">📄</span> **Real-Time File Monitoring System**
@@ -92,7 +91,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
     *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
 
-    [:octicons-arrow-right-24: Read full case study](projects/real-time-file-monitoring.md)
+    [:octicons-arrow-right-24: Read full case study](projects/case-study-file-monitoring-system.md)
     [Need reliable file processing at scale? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   <span class="service-icon icon-color-amber">📍</span> **Canadian Geocoding API**
@@ -113,7 +112,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
     *FastAPI · PostgreSQL · PostGIS · Statistics Canada Data*
 
-    [:octicons-arrow-right-24: Read full case study](projects/canadian-geocoding-api.md)
+   
     [Have a similar API or data challenge? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 </div>
