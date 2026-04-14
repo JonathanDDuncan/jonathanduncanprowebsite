@@ -453,7 +453,7 @@ html, body {
 }
 
 .md-content__inner {
-  max-width: 1440px;
+  max-width: 900px;
   margin-inline: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -897,7 +897,19 @@ body,
 .md-typeset .grid.cards.three-col {
   margin-bottom: var(--space-lg);
 }
+.grid.cards.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg, 2rem);
+  max-width: 1200px;
+  margin-inline: auto;
+}
 
+@media (max-width: 900px) {
+  .grid.cards.three-col {
+    grid-template-columns: 1fr;
+  }
+}
 /* Gap before "View all services" link under engagement cards */
 .md-content__inner > div[style*="text-align: center"] {
   margin-top: var(--space-md);
@@ -1213,7 +1225,7 @@ margin-inline: auto;
 
   .metric-highlight-item strong {
     font-size: 1.4rem;
-  }
+}
 
   /* Stack inline button pairs on mobile */
   .md-typeset div[style*="text-align: center"] .md-button {
