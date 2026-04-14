@@ -312,7 +312,7 @@
 }
 
 /* Extra-small mobile (≤ 360px) */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .hero-section.grid-container {
     padding: 1rem 0.75rem;
     border-radius: 14px;
