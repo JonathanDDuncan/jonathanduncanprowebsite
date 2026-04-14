@@ -66,9 +66,11 @@ Whether it's a workflow that's too complex for off-the-shelf tools, an architect
 
 ## Connect elsewhere
 
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/jonathan-duncan-ai-dev){ .md-button } &nbsp;
-[:fontawesome-brands-github: GitHub](https://github.com/JonathanDDuncan){ .md-button } &nbsp;
-[:fontawesome-solid-briefcase: Upwork](https://www.upwork.com/freelancers/jonathanduncan){ .md-button }
+<p align="center" markdown>
+  [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/jonathan-duncan-ai-dev){ .md-button }
+  [:fontawesome-brands-github: GitHub](https://github.com/JonathanDDuncan){ .md-button }
+  [:fontawesome-solid-briefcase: Upwork](https://www.upwork.com/freelancers/jonathanduncan){ .md-button }
+</p>
 
 <div class="cta-panel" markdown>
 
