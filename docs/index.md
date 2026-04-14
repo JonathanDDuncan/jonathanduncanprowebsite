@@ -105,9 +105,11 @@ hide:
 
 Custom-built platforms that eliminate manual data entry, connect your systems, and let your team focus on the work that actually grows revenue.
 </div>
-<div class="hero-full-width" markdown>
-[Book a Free 30-Min Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
-[See How I've Solved This Before :material-arrow-right:](portfolio/index.md){ .md-button }
+<div class="hero-full-width">
+  <div class="hero-buttons">
+    <a class="md-button md-button--primary" href="https://cal.com/jonathanduncan/free-consultation" target="_blank" rel="noopener">Book a Free 30-Min Strategy Call <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"></path></svg></span></a>
+    <a class="md-button" href="portfolio">See How I've Solved This Before <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg></span></a>
+  </div>
 </div>
 
 

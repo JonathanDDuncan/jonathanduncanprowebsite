@@ -1,3 +1,12 @@
+/* Ensure hero buttons are centered and spaced as a group */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
 .profile-image {
   width: 100%;
   height: auto;
@@ -23,9 +32,25 @@
 }
 
 /* Hero full-width section */
+
 .hero-full-width {
   grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
   text-align: center;
+}
+
+.hero-full-width > * {
+  margin: 0;
+}
+
+/* Remove inline-block and margin from hero buttons for proper centering */
+.hero-full-width .md-button {
+  display: block;
+  margin: 0;
 }
 
 /* Center buttons inside hero-full-width */
@@ -71,6 +96,7 @@
   box-shadow: 0 20px 60px rgba(17, 54, 255, 0.2);
   margin-bottom: 20vh;
   gap: 0.5rem 2rem;
+  max-width:100%;
 }
 
 /* Mesh texture overlay */
