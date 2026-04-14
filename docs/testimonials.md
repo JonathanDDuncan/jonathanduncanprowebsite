@@ -1,6 +1,9 @@
 ---
 title: Client Testimonials | Custom Software & AI Projects
 description: Verified client feedback from custom software, workflow automation, and AI integration projects. 100% Job Success on Upwork across 49+ completed contracts.
+hide:
+  - navigation
+  - toc
 ---
 
 # What clients say
