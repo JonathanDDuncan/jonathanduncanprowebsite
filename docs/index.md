@@ -231,10 +231,9 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 <!-- ────────────── WHY ME ────────────── -->
 ## Why choose me
-<div class="why-me-strip reveal-target" markdown>
+<div class="why-me-strip " markdown>
 
 
-### The key differentiators
 
 | **What matters** | **Typical agency** | **Working with me** |
 |---|---|---|
