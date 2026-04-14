@@ -1,6 +1,9 @@
 ---
 title: About Jonathan Duncan | Software & AI Engineer
 description: 25+ years building custom software, workflow automation, and AI integration for businesses with complex operations. Top Rated Plus on Upwork, $500K+ delivered.
+hide:
+  - navigation
+  - toc
 ---
 
 # About
@@ -140,18 +143,24 @@ Selected examples of the work include:
 <span>AWS</span>
   </div>
 </div>
-
-<div class="tech-badges" markdown>
-<span class="tech-badge">ASP.NET Core</span>
-<span class="tech-badge">Blazor</span>
-<span class="tech-badge">WPF</span>
-<span class="tech-badge">SQL Server</span>
-<span class="tech-badge">Azure Cosmos DB</span>
-<span class="tech-badge">PostGIS</span>
-<span class="tech-badge">pgvector</span>
-<span class="tech-badge">RAG Pipelines</span>
-<span class="tech-badge">Apache Airflow</span>
-<span class="tech-badge">Clean Architecture</span>
+<div class="about-tech-badges">
+  <div class="tech-badges">
+    <div>
+      <span class="tech-badge">ASP.NET Core</span>
+      <span class="tech-badge">Blazor</span>
+      <span class="tech-badge">WPF</span>
+      <span class="tech-badge">SQL Server</span>
+      <span class="tech-badge">Azure Cosmos DB</span>
+    </div>
+    <div>
+      <span class="tech-badge">PostGIS</span>
+      <span class="tech-badge">pgvector</span>
+      <span class="tech-badge">RAG Pipelines</span>
+      <span class="tech-badge">Apache Airflow</span>
+      <span class="tech-badge">Clean Architecture</span>
+    </div>
+  </div>
+ 
 </div>
 
 Full stack details, including Blazor, WPF, PostGIS, pgvector, Apache Airflow, pandas, and CI/CD tooling, are available on request or in [project case studies](portfolio/index.md).
