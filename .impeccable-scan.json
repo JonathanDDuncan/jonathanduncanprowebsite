@@ -1915,7 +1915,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.24px body text"
   },
@@ -1923,7 +1923,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -1931,7 +1931,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -1939,7 +1939,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -1947,7 +1947,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -1955,7 +1955,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -1963,7 +1963,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.24px body text"
   },
@@ -1971,7 +1971,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.24px body text"
   },
@@ -1979,7 +1979,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.24px body text"
   },
@@ -1987,7 +1987,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.24px body text"
   },
@@ -1995,7 +1995,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "10.240000000000002px body text"
   },
@@ -2003,7 +2003,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "8px body text"
   },
@@ -2011,7 +2011,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "8px body text"
   },
@@ -2019,7 +2019,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
   },
@@ -2027,7 +2027,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -2035,7 +2035,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 3:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -2043,7 +2043,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.0:1 (need 4.5:1) ΓÇö text #ffffff on #ffffff"
   },
@@ -2051,7 +2051,7 @@
     "antipattern": "low-contrast",
     "name": "Low contrast text",
     "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "1.3:1 (need 4.5:1) ΓÇö text #e2e4eb on #ffffff"
   },
@@ -2059,7 +2059,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "8px body text"
   },
@@ -2067,7 +2067,7 @@
     "antipattern": "tiny-text",
     "name": "Tiny body text",
     "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "8px body text"
   },
@@ -2075,7 +2075,7 @@
     "antipattern": "overused-font",
     "name": "Overused font",
     "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "Primary font: helvetica"
   },
@@ -2083,7 +2083,7 @@
     "antipattern": "overused-font",
     "name": "Overused font",
     "description": "Inter, Roboto, Open Sans, Lato, Montserrat, and Arial are used on millions of sites. Choose a distinctive font that gives your interface personality.",
-    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\climate-data-pipeline\\index.html",
+    "file": "C:\\Code\\Datalumina\\jonathanduncanprowebsite\\site\\portfolio\\projects\\case-study-climate-data-pipeline\\index.html",
     "line": 0,
     "snippet": "Primary font: arial"
   },

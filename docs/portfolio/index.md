@@ -48,7 +48,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
     *Python · GCP · Apache Airflow · PostGIS*
 
-    [:octicons-arrow-right-24: Read full case study](projects/climate-data-pipeline.md)
+    [:octicons-arrow-right-24: Read full case study](projects/case-study-climate-data-pipeline.md)
     [Facing a similar data problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 
 -   <span class="service-icon icon-color-blue">🔧</span> **Diagnostic Visualization Platform**
