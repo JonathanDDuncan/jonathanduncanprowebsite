@@ -1,6 +1,8 @@
 ---
 title: Case Studies | Custom Software & AI Projects
 description: Selected case studies from custom software, cloud architecture, and AI integration projects. Real business problems, real technical solutions, measurable outcomes.
+hide:
+  - toc
 ---
 
 # Projects
@@ -118,7 +120,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
 <div class="cta-panel" markdown>
 
-### Need something custom built for a complex workflow?
+Need something custom built for a complex workflow?
 
 Schedule a free 30-minute strategy call and I will help you map the right technical approach for your business constraints and growth goals.
 

@@ -95,7 +95,7 @@ Selected examples of the work include:
 
 - A [multi-tenant automotive diagnostics platform](portfolio/projects/case-study-automotive-platform.md) tied to QuickBooks reconciliation
 - A [climate data pipeline](portfolio/projects/case-study-climate-data-pipeline.md) integrating 120+ government sources
-- A [real-time file monitoring platform](portfolio/projects/real-time-file-monitoring.md) handling 100,000+ files across Azure File Shares
+- A [real-time file monitoring platform](portfolio/projects/case-study-file-monitoring-system.md) handling 100,000+ files across Azure File Shares
 - A Canadian geocoding API processing millions of addresses with census enrichment
 - A diagnostic visualization platform for multi-cylinder engine analysis
 
