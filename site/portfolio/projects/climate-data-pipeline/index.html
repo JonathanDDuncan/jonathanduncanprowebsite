@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Custom data pipeline integrating 120+ government sources with resilient ingestion, orchestration, and geospatial querying.">
+        <meta name="description" content="Automated, production-grade climate data pipeline integrating 120+ government sources with robust orchestration, monitoring, and geospatial querying.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Climate Data Pipeline and Integration Platform - Jonathan Duncan</title>
+        <title>Automated Climate Data Platform From Manual Chaos to Enterprise-Grade Reliability - Jonathan Duncan</title>
       
     
     
@@ -71,16 +71,16 @@
 
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Climate Data Pipeline and Integration Platform - Jonathan Duncan" />
-<meta property="og:description" content="Custom data pipeline integrating 120+ government sources with resilient ingestion, orchestration, and geospatial querying." />
+<meta property="og:title" content="Automated Climate Data Platform From Manual Chaos to Enterprise-Grade Reliability - Jonathan Duncan" />
+<meta property="og:description" content="Automated, production-grade climate data pipeline integrating 120+ government sources with robust orchestration, monitoring, and geospatial querying." />
 <meta property="og:image" content="https://jonathanduncan.pro/assets/images/social/portfolio/projects/climate-data-pipeline.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://jonathanduncan.pro/portfolio/projects/climate-data-pipeline/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="Climate Data Pipeline and Integration Platform - Jonathan Duncan" />
-<meta property="twitter:description" content="Custom data pipeline integrating 120+ government sources with resilient ingestion, orchestration, and geospatial querying." />
+<meta property="twitter:title" content="Automated Climate Data Platform From Manual Chaos to Enterprise-Grade Reliability - Jonathan Duncan" />
+<meta property="twitter:description" content="Automated, production-grade climate data pipeline integrating 120+ government sources with robust orchestration, monitoring, and geospatial querying." />
 <meta property="twitter:image" content="https://jonathanduncan.pro/assets/images/social/portfolio/projects/climate-data-pipeline.png" />
 </head>
   
@@ -145,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Climate Data Pipeline and Integration Platform
+              Automated Climate Data Platform From Manual Chaos to Enterprise-Grade Reliability
             
           </span>
         </div>
@@ -590,6 +590,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#approach" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -622,6 +633,17 @@
   
     <nav class="md-nav" aria-label="Outcomes">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-after" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Before &amp; After
+      
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#need-to-unify-data-from-many-unreliable-sources" class="md-nav__link">
@@ -760,37 +782,86 @@
 <div class="admonition abstract">
 <p class="admonition-title">Project Snapshot</p>
 <p><strong>Client type:</strong> Climate research organization<br />
-<strong>Project type:</strong> Data pipeline and integration platform<br />
-<strong>Stack:</strong> Python, Apache Airflow, PostgreSQL/PostGIS, GCP, Google Earth Engine<br />
-<strong>Role:</strong> Sole developer - architecture, build, and deployment<br />
-<strong>Timeline:</strong> Full build and deployment</p>
+<strong>Project type:</strong> Automated data pipeline and integration platform<br />
+<strong>Stack:</strong> Python, Apache Airflow (Cloud Composer), PostgreSQL/PostGIS, GCP<br />
+<strong>Role:</strong> Sole developer — architecture, build, and deployment<br />
+<strong>Timeline:</strong> 3.5+ years of continuous delivery and expansion</p>
 </div>
 <h2 id="challenge">Challenge</h2>
-<p>The client needed reliable aggregation from 120+ government data sources for analysis and reporting. Each source had different APIs, formats, authentication, and update schedules. Manual collection created delays, inconsistent data quality, and significant operational overhead.</p>
+<p>A leading Canadian climate research organization was drowning in manual data collection. With over 120 government sources (GeoMet &amp; PAVICS), each using different APIs, authentication, and data formats, analysts spent weeks wrangling data instead of delivering insights. The lack of automation meant slow updates, high error rates, and no scalable way to add new sources—putting critical research and operational decisions at risk.</p>
 <h2 id="goal">Goal</h2>
-<p>Build a dependable production pipeline that could ingest, normalize, and unify source data automatically, while handling source instability and schema variation over time.</p>
+<p>Deliver a fully automated, production-ready data pipeline that could ingest, normalize, and unify 120+ government data sources, handle source instability, and support advanced geospatial queries—freeing analysts to focus on research, not wrangling.</p>
+<h2 id="system-architecture">System Architecture</h2>
+<pre class="mermaid"><code>flowchart TD
+    subgraph GCP["Google Cloud Platform"]
+        Airflow["Apache Airflow (Cloud Composer)&lt;br&gt;Orchestration"]
+        Storage["GCS Buckets&lt;br&gt;Automated Storage"]
+        DB["PostgreSQL + PostGIS&lt;br&gt;Geospatial DB"]
+        Monitoring["Monitoring &amp; Alerting"]
+    end
+    subgraph Sources["120+ Government Data Sources"]
+        GeoMet["GeoMet APIs"]
+        PAVICS["PAVICS APIs"]
+        Others["Other APIs"]
+    end
+    subgraph Connectors["Modular Connectors"]
+        Connector1["Auth, Parsing,&lt;br&gt;Error Handling"]
+    end
+    Sources --&gt; Connectors
+    Connectors --&gt; Airflow
+    Airflow --&gt; Storage
+    Airflow --&gt; DB
+    Airflow --&gt; Monitoring
+    Storage --&gt; DB
+    DB --&gt;|Geospatial Queries| Analyst["Analyst / Researcher"]
+    Monitoring --&gt;|Alerts, Logs| Analyst
+
+    %% Accessible color tokens (see docs/stylesheets/extra.css)
+    %% --color-royal-blue: #1136FF; --color-cornflower: #2F6CF9; --color-periwinkle: #A5B4FC; --color-amber: #F59E0B;
+    classDef royalblue fill:#1136FF,stroke:#1136FF,stroke-width:2.5px,color:#fff,font-weight:bold;
+    classDef cornflower fill:#2F6CF9,stroke:#1136FF,stroke-width:2.5px,color:#111827,font-weight:bold;
+    classDef periwinkle fill:#A5B4FC,stroke:#2F6CF9,stroke-width:2.5px,color:#111827,font-weight:bold;
+    classDef amber fill:#F59E0B,stroke:#B45309,stroke-width:2.5px,color:#111827,font-weight:bold;
+    classDef quiet fill:#e2e4eb,stroke:#A5B4FC,stroke-width:2px,color:#111827;
+
+    class GCP royalblue;
+    class Airflow,DB cornflower;
+    class Storage,GeoMet,PAVICS,Others,Analyst periwinkle;
+    class Monitoring amber;
+    class Connectors,Connector1 quiet;
+    %% To further reduce intensity, use 'quiet' for more nodes if needed.
+</code></pre>
+<div style="font-size:0.95em;color:#9499b0;margin-top:0.5em">
+<strong>Accessibility & Theming:</strong> Diagram colors use extracted CSS tokens for brand consistency and contrast. For dark/light mode, colors adapt via <code>extra.css</code>.<br>
+<strong>Mobile:</strong> If the diagram overflows, swipe horizontally to view all nodes. For best experience, rotate your device to landscape.
+<strong>Responsive:</strong> On mobile, scroll horizontally to view the full diagram.
+</div>
+
 <h2 id="approach">Approach</h2>
-<p>I designed and implemented a custom pipeline architecture built for source-level variability and operational resilience:</p>
+<p>I designed and implemented a robust, modular pipeline architecture built for scale and operational resilience:</p>
 <ul>
-<li><strong>Source-specific connectors:</strong> Custom logic per data source for API differences, auth methods, and format variations</li>
-<li><strong>Workflow orchestration:</strong> Airflow DAGs to schedule ingestion cadences, dependencies, retries, and failure handling</li>
-<li><strong>Resilience patterns:</strong> Alerting, retry strategies, and graceful degradation for unstable endpoints</li>
-<li><strong>Data normalization layer:</strong> Standardized ingestion outputs into a consistent structure for downstream use</li>
-<li><strong>Geospatial-ready storage:</strong> PostGIS-backed data model for mapping and environmental analysis</li>
+<li><strong>Enterprise-Grade Cloud Architecture:</strong> Deployed on Google Cloud Platform using Apache Airflow (Cloud Composer) for orchestration.</li>
+<li><strong>Modular Connector Framework:</strong> Pluggable connectors for each data source, handling unique auth, parsing, and error recovery.</li>
+<li><strong>Automated Infrastructure:</strong> Timestamped bucket creation, collision avoidance, and lifecycle policies for robust data management.</li>
+<li><strong>Zero-Downtime Deployments:</strong> PowerShell and Python scripts for consistent, reliable releases.</li>
+<li><strong>Comprehensive Monitoring:</strong> Integrated alerting, retry policies, and dead-letter queues for operational resilience.</li>
+<li><strong>Spatial Data Support:</strong> PostgreSQL + PostGIS for advanced geographic queries.</li>
 </ul>
 <h2 id="key-architecture-decisions">Key Architecture Decisions</h2>
 <ul>
-<li><strong>Airflow orchestration over cron scripts</strong> to manage interdependent pipelines and operational visibility</li>
-<li><strong>PostGIS data model</strong> to support geospatial use cases natively instead of bolting it on later</li>
-<li><strong>Per-source integration strategy</strong> over generic connectors to handle high variation across 120+ inputs</li>
-<li><strong>Observability-first design</strong> so failures are surfaced early instead of becoming silent data gaps</li>
+<li><strong>Airflow orchestration</strong> for managing complex, interdependent pipelines and operational visibility.</li>
+<li><strong>Per-source modular connectors</strong> to handle high variation across 120+ inputs.</li>
+<li><strong>Observability-first design</strong> so failures are surfaced early, not hidden.</li>
+<li><strong>PostGIS data model</strong> to support geospatial use cases natively.</li>
 </ul>
 <h2 id="outcomes">Outcomes</h2>
 <ul>
-<li>Automated ingestion across 120+ disparate government sources</li>
-<li>Replaced manual collection with scheduled, monitored pipeline operations</li>
-<li>Improved reliability and freshness of data used for climate analysis workflows</li>
-<li>Created a unified geospatial data foundation for reporting and downstream applications</li>
+<li><strong>120+ government sources integrated</strong> into a single, normalized platform (GeoMet: 99, PAVICS: 20+)</li>
+<li><strong>Data collection time reduced</strong> from weeks to hourly automation</li>
+<li><strong>Analyst productivity unlocked:</strong> Time spent on manual collection now redirected to high-value research</li>
+<li><strong>Zero-downtime deployments and robust error recovery</strong></li>
+<li><strong>Operational reliability:</strong> 24/7 system uptime, comprehensive monitoring, and rapid onboarding for new team members</li>
+<li><strong>Long-term partnership:</strong> 3.5+ years of continuous delivery and feature expansion</li>
 </ul>
 <div class="admonition tip">
 <p class="admonition-title">What this demonstrates</p>
@@ -800,6 +871,38 @@
 <li>Designing for long-term maintainability as source systems evolve</li>
 </ul>
 </div>
+<h3 id="before-after">Before &amp; After</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Before (Manual)</th>
+<th>After (Automated)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data source integration</td>
+<td>Weeks per source</td>
+<td>120+ sources, modular connectors</td>
+</tr>
+<tr>
+<td>Data freshness</td>
+<td>Manual, ad-hoc</td>
+<td>Automated, hourly to monthly</td>
+</tr>
+<tr>
+<td>Geographic querying</td>
+<td>Not available</td>
+<td>Full PostGIS support</td>
+</tr>
+<tr>
+<td>Data access</td>
+<td>None</td>
+<td>Fully searchable for internal use</td>
+</tr>
+</tbody>
+</table>
 <div class="cta-panel">
 <h3 id="need-to-unify-data-from-many-unreliable-sources">Need to unify data from many unreliable sources?</h3>
 <p>If your team is still spending time stitching together fragmented data manually, I can help you design a pipeline that is stable, maintainable, and built for scale.</p>
