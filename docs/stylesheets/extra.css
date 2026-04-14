@@ -320,7 +320,7 @@ html, body {
 
 /* ---------- Service card emoji icons with colors ---------- */
 .md-typeset .grid.cards .service-icon {
-  display: inline-flex;
+  display: anchor-center;
   align-items: center;
   justify-content: center;
   width: 48px;
@@ -329,7 +329,7 @@ html, body {
   background: rgba(17, 54, 255, 0.08);
   flex-shrink: 0;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1;   
 }
 
 /* Purple - Custom Platform */
@@ -399,44 +399,10 @@ html, body {
   background: rgba(99, 102, 241, 0.15);
 }
 
-/* Hover effects for service icons */
-.md-typeset .grid.cards > ul > li:hover .service-icon,
-.md-typeset .grid.cards > ol > li:hover .service-icon {
-  transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 
-[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover .service-icon,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards > ol > li:hover .service-icon {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
 
-/* Reset icons inside links/buttons within cards (arrows, etc.) */
-.md-typeset .grid.cards a .twemoji,
-.md-typeset .grid.cards a .emojione,
-.md-typeset .grid.cards a .gemoji,
-.md-typeset .grid.cards a .service-icon,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards a .twemoji,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards a .emojione,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards a .gemoji,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards a .service-icon {
-  color: inherit;
-  width: auto;
-  height: auto;
-  border-radius: 0;
-  background: transparent;
-  display: inline;
-  transform: none;
-  box-shadow: none;
-}
 
-.md-typeset .grid.cards a .twemoji svg,
-.md-typeset .grid.cards a .emojione svg,
-.md-typeset .grid.cards a .gemoji svg,
-.md-typeset .grid.cards a .service-icon {
-  width: 1.125em;
-  height: 1.125em;
-}
+
 
 /* ---------- Services card specific spacing ---------- */
 .grid.cards.services-card {
