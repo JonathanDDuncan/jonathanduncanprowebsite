@@ -1,6 +1,9 @@
 ---
 title: Services | Custom Software, AI Integration & Cloud Architecture
 description: Custom platform builds, AI workflow integration, cloud architecture, full-stack engineering, and MVP development. Pricing from $5K for established businesses.
+hide:
+  - navigation
+  - toc
 ---
 
 <script type="application/ld+json">
