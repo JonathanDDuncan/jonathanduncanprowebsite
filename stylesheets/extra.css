@@ -1,3 +1,32 @@
+/* === Framework/Discovery Responsive Grid === */
+.framework-discovery-grid {
+  display: flex;
+  gap: 2.5rem;
+  margin: 2.5rem 0 2rem 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.framework-discovery-grid > div {
+  flex: 1 1 0;
+  min-width: 220px;
+}
+.framework-discovery-grid ul,
+.framework-discovery-grid ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+.framework-discovery-grid strong {
+  font-size: 1.08em;
+  color: var(--color-primary);
+  letter-spacing: 0.01em;
+}
+@media (max-width: 800px) {
+  .framework-discovery-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
 /* ==========================================================================
    Brand Palette (from Sourcedata/Branding.txt)
    Royal Blue #1136FF | Cornflower #2F6CF9 | Periwinkle #A5B4FC
