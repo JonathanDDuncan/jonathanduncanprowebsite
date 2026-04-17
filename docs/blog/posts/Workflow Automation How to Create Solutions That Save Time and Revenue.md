@@ -1,6 +1,8 @@
 ---
 title: "Workflow Automation: How to Create Solutions That Save Time & Revenue"
 date: 2026-01-01
+authors:
+  - jonathanduncan
 categories:
   - General
 summary: "Learn how to create workflow automation solutions that save time and recover lost revenue for small businesses, with a proven, step-by-step process, real case study, and actionable guide."
@@ -311,7 +313,7 @@ Schedule a free 30-minute strategy call and I will help you map the right techni
 **Sources:**  
 - [LedgerUp SaaS Invoicing](https://www.ledgerup.ai/resources/the-top-5-best-saas-invoicing-and-contract-to-cash-platforms-that-prevent-revenue-leakage-2025)  
 - [Lineup Revenue Leakage Guide](https://lineup.com/how-publishers-can-reduce-revenue-leakage-a-practical-guide/)  
-- [Automotive Platform Case Study](../Automotive-Platform-Case-Study.md)  
+- [Automotive Platform Case Study](../portfolio/projects/case-study-automotive-platform)  
 - [Workday: Top Automation Ideas for Small Business](https://blog.workday.com/en-us/top-automation-ideas-to-streamline-your-small-business.html)
 
 
