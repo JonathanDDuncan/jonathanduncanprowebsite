@@ -166,7 +166,7 @@ A clear, visual map of your current processes is the foundation for automation. 
 - Monitor KPIs (revenue recovery, admin time saved) via dashboards
 - Continuously audit, version, and expand workflows
 
----
+
 ```mermaid
 flowchart TD
   A[1. Audit & Visualize]
@@ -180,6 +180,7 @@ flowchart TD
   C --> D
   D --> E
 ```
+<!-- Diagram ends above. -->
 ---
 
 ## Why Iterative, Business-First Automation Wins
