@@ -11,6 +11,9 @@ nav:
     - Climate Data Pipeline and Integration Platform: portfolio/projects/case-study-climate-data-pipeline.md
     - Real-Time File Monitoring System: portfolio/projects/case-study-file-monitoring-system.md
 
+  - Blog:
+      - blog/index.md
+
 theme:
   name: material
   custom_dir: overrides
@@ -28,6 +31,7 @@ theme:
     - content.tabs.link
     - content.code.copy
     - navigation.footer
+    - navigation.indexes
   language: en
   palette:
     - scheme: slate
@@ -58,8 +62,8 @@ extra:
     - icon: fontawesome/solid/briefcase
       link: https://www.upwork.com/freelancers/jonathanduncan
   analytics:
-    # provider: google
-    # property: G-W9Y130NXVZ
+
+
 
 extra_css:
   - stylesheets/extra.css
@@ -69,6 +73,10 @@ plugins:
   - social:
       cards_layout_options:
         background_color: "#1F1F1F"
+  - blog:
+      blog_dir: blog
+      authors_file: "{blog}/.authors.yml"
+      categories: true
 
 markdown_extensions:
   - attr_list
