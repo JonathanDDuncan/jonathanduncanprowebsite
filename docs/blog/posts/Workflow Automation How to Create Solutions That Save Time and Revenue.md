@@ -25,6 +25,7 @@ $500K+ Earnings on Upwork | Top Rated Plus | 100% Job Success
 - **20–40%** of admin time wasted on manual tasks ([Workday, 2025](https://blog.workday.com/en-us/top-automation-ideas-to-streamline-your-small-business.html))
 - **1–3 months** to positive ROI after automation (internal case studies, 2025–2026)
 
+
 ## Table of Contents
 
 - [Author & Credentials](#author--credentials)
@@ -33,11 +34,11 @@ $500K+ Earnings on Upwork | Top Rated Plus | 100% Job Success
 - [Discovery: Diagnose Before Automating](#discovery-diagnose-before-automating)
 - [Mapping & Visualizing Workflows](#mapping--visualizing-workflows)
 - [Step-by-Step Implementation](#step-by-step-implementation)
-  - [1. Audit & Visualize](#1-audit--visualize)
-  - [2. Architect for Scale & Compliance](#2-architect-for-scale--compliance)
-  - [3. Select & Integrate Tools](#3-select--integrate-tools)
-  - [4. Automate, Test & Optimize](#4-automate-test--optimize)
-  - [5. Train, Measure & Iterate](#5-train-measure--iterate)
+    - [1. Audit & Visualize](#1-audit--visualize)
+    - [2. Architect for Scale & Compliance](#2-architect-for-scale--compliance)
+    - [3. Select & Integrate Tools](#3-select--integrate-tools)
+    - [4. Automate, Test & Optimize](#4-automate-test--optimize)
+    - [5. Train, Measure & Iterate](#5-train-measure--iterate)
 - [Why Iterative, Business-First Automation Wins](#why-iterative-business-first-automation-wins)
 - [Results & Case Study](#results--case-study)
 - [Key Stats (2026 Freshness)](#key-stats-2026-freshness)
@@ -54,7 +55,7 @@ Manual processes, spreadsheet errors, and disconnected tools are the silent kill
 Let’s be honest: nobody wakes up excited to chase down invoices or untangle spreadsheet spaghetti. If you’re still using Excel as your billing system, I have bad news (and a better way). And yes, I’ve seen it all—one client’s “workflow” was basically a game of email ping-pong. Spoiler: they weren’t winning.
 
 > **Visual:**  
-> ![Workflow Bottleneck Illustration](.\vitaly-gariev-8qQaWOBfiV0-unsplash.jpg?auto=format&fit=crop&w=800&q=80 "Workflow bottleneck illustration")
+> ![Workflow Bottleneck Illustration](../assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg "Workflow bottleneck illustration")
 
 Real talk: If your “system” involves sticky notes, a whiteboard, and a prayer, you’re not alone. But you are leaking money. (And if you’re reading this and thinking, “But my process is special,” congratulations—you’re right. It’s especially likely to break at 5pm on a Friday.)
 ## Discovery: Diagnose Before Automating
@@ -171,8 +172,22 @@ Clients often start with one project and expand to many. I adapt to budget const
 
 ---
 
-![Saving Time and Money](kobu-agency-fVi9Ipk7f60-unsplash.jpg)
+
+![Saving Time and Money](../assets/kobu-agency-fVi9Ipk7f60-unsplash.jpg)
 <div align="center"><em>Smart automation: save time, save money, and focus on what matters most.</em></div>
+
+---
+
+<!-- Additional visuals for clarity and engagement -->
+
+![Business Solution Animation](../assets/business-solution-animate.svg)
+<div align="center"><em>Automate business processes for efficiency and growth.</em></div>
+
+![Filing System Animation](../assets/filing-system-animate.svg)
+<div align="center"><em>Reduce paperwork and manual filing with digital workflows.</em></div>
+
+![Jonathan Duncan](../assets/jonathan-duncan.jpg)
+<div align="center"><em>Author: Jonathan Duncan, Workflow Automation Specialist</em></div>
 
 ---
 
@@ -205,27 +220,36 @@ See: [Automotive Platform Case Study](../Automotive-Platform-Case-Study.md)
 
 Before building any automation, I use a structured discovery process to understand your business, goals, and constraints. This ensures we solve the right problems and maximize ROI.
 
-**My Framework Covers:**
 
-- Business context & motivation
-- Current state & bottlenecks
-- Desired outcomes & success criteria
-- Feature & scope definition
-- Technical & operational considerations
-- Constraints & logistics
-- ROI & value assessment
-
-**Top 10 Discovery Questions:**  
-1. Why automate now?  
-2. What does your business do?  
-3. Who is your main user?  
-4. What action do you want users to take?  
-5. What’s happening today instead?  
-6. What works/doesn’t work now?  
-7. What does success look like?  
-8. Must-have vs. nice-to-have features?  
-9. Who manages the system after launch?  
-10. What’s your budget and timeline?
+<div class="framework-discovery-grid">
+  <div class="framework-list">
+    <strong>My Framework Covers:</strong>
+    <ul>
+      <li>Business context & motivation</li>
+      <li>Current state & bottlenecks</li>
+      <li>Desired outcomes & success criteria</li>
+      <li>Feature & scope definition</li>
+      <li>Technical & operational considerations</li>
+      <li>Constraints & logistics</li>
+      <li>ROI & value assessment</li>
+    </ul>
+  </div>
+  <div class="discovery-list">
+    <strong>Top 10 Discovery Questions:</strong>
+    <ol>
+      <li>Why automate now?</li>
+      <li>What does your business do?</li>
+      <li>Who is your main user?</li>
+      <li>What action do you want users to take?</li>
+      <li>What’s happening today instead?</li>
+      <li>What works/doesn’t work now?</li>
+      <li>What does success look like?</li>
+      <li>Must-have vs. nice-to-have features?</li>
+      <li>Who manages the system after launch?</li>
+      <li>What’s your budget and timeline?</li>
+    </ol>
+  </div>
+</div>
 
 ---
 
@@ -245,6 +269,18 @@ Platforms like Activepieces and n8n balance no-code simplicity with code extensi
 **Q3: How quickly will I see results?**  
 Most businesses see 20–40% admin time reduction and 3–7% revenue recovery within 1–3 months of implementation.
 
+---
+
+<div class="cta-panel" markdown>
+
+Need something custom built for a complex workflow?
+
+Schedule a free 30-minute strategy call and I will help you map the right technical approach for your business constraints and growth goals.
+
+[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
+
+</div>
 ---
 
 **SEO Keywords:** workflow automation for small business, custom workflow platform, revenue leakage, admin time reduction, process mapping, architecture decisions, case study, no-code automation, field service workflow, business process optimization, owner freedom.
