@@ -47,41 +47,31 @@ Meta Description: Learn how to create workflow automation solutions that save ti
 <meta name="twitter:description" content="Learn how to create workflow automation solutions that save time and recover lost revenue for small businesses, with a proven, step-by-step process, real case study, and actionable guide." />
 <meta name="twitter:image" content="https://jonathanduncan.pro/assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg" />
 
-> **Answer First:**  
-> Small businesses lose 3–7% of revenue and up to 40% of admin time to manual processes and disconnected tools. My expert, evidence-based workflow automation process—proven case studies—recovers lost profits and owner time, delivering measurable ROI in as little as 30 days.
+ Small businesses lose 3–7% of revenue and up to 40% of admin time to manual processes and disconnected tools. My expert, evidence-based workflow automation process—proven case studies—recovers lost profits and owner time, delivering measurable ROI in as little as 30 days.
 
 
-## Author & Credentials
+## Key Takeaways
 
-**Jonathan Duncan**  
-Software & AI Engineer | 15+ years in custom platform design for SMBs  
-$500K+ Earnings on Upwork | Top Rated Plus | 100% Job Success
+- **3–7%** of small business revenue is lost to process inefficiency
+- **20–40%** of admin time is wasted on manual tasks
+- Most businesses see ROI within **1–3 months** of automation rollout
 
 ---
 
-## Key Stats 
-
-- **3–7%** of SMB revenue lost to process inefficiency ([LedgerUp, 2025](https://www.ledgerup.ai/resources/the-top-5-best-saas-invoicing-and-contract-to-cash-platforms-that-prevent-revenue-leakage-2025))
-- **20–40%** of admin time wasted on manual tasks ([Workday, 2025](https://blog.workday.com/en-us/top-automation-ideas-to-streamline-your-small-business.html))
-- **1–3 months** to positive ROI after automation (internal case studies, 2025–2026)
-
-
 ## Table of Contents
 
-- [Author & Credentials](#author--credentials)
-- [Key Stats](#key-stats)
-- [Why Revenue & Time Leak in SMBs](#why-revenue--time-leak-in-smbs)
+- [Key Takeaways](#key-takeaways)
+- [Why Revenue & Time Leak in SMBs](#why-revenue-time-leak-in-smbs)
 - [Discovery: Diagnose Before Automating](#discovery-diagnose-before-automating)
-- [Mapping & Visualizing Workflows](#mapping--visualizing-workflows)
+- [Mapping & Visualizing Workflows](#mapping-visualizing-workflows)
 - [Step-by-Step Implementation](#step-by-step-implementation)
-    - [1. Audit & Visualize](#1-audit--visualize)
-    - [2. Architect for Scale & Compliance](#2-architect-for-scale--compliance)
-    - [3. Select & Integrate Tools](#3-select--integrate-tools)
-    - [4. Automate, Test & Optimize](#4-automate-test--optimize)
-    - [5. Train, Measure & Iterate](#5-train-measure--iterate)
+    - [1. Audit & Visualize](#1-audit-visualize)
+    - [2. Architect for Scale & Compliance](#2-architect-for-scale-compliance)
+    - [3. Select & Integrate Tools](#3-select-integrate-tools)
+    - [4. Automate, Test & Optimize](#4-automate-test-optimize)
+    - [5. Train, Measure & Iterate](#5-train-measure-iterate)
 - [Why Iterative, Business-First Automation Wins](#why-iterative-business-first-automation-wins)
-- [Results & Case Study](#results--case-study)
-- [Key Stats (2026 Freshness)](#key-stats-2026-freshness)
+- [Results & Case Study](#results-case-study)
 - [Discovery: Diagnosing Before Automating](#discovery-diagnosing-before-automating)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 
@@ -89,13 +79,11 @@ $500K+ Earnings on Upwork | Top Rated Plus | 100% Job Success
 
 ## Why Revenue & Time Leak in SMBs
 
-**Fact:**  
 Manual processes, spreadsheet errors, and disconnected tools are the silent killers of small business efficiency. They cause missed invoices, delayed approvals, and lost revenue—typically 3–7% of annual turnover ([LedgerUp, 2025](https://www.ledgerup.ai/resources/the-top-5-best-saas-invoicing-and-contract-to-cash-platforms-that-prevent-revenue-leakage-2025)). Admins spend 20–40% of their time on repetitive, non-billable tasks ([Workday, 2025](https://blog.workday.com/en-us/top-automation-ideas-to-streamline-your-small-business.html)). The root cause? Lack of visibility and systems tailored to real business operations.
 
 Let’s be honest: nobody wakes up excited to chase down invoices or untangle spreadsheet spaghetti. If you’re still using Excel as your billing system, I have bad news (and a better way). And yes, I’ve seen it all—one client’s “workflow” was basically a game of email ping-pong. Spoiler: they weren’t winning.
 
-> **Visual:**  
-> ![Workflow Bottleneck Illustration](../assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg "Workflow bottleneck illustration")
+> ![Workflow Bottleneck Illustration](../../assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg "Workflow bottleneck illustration")
 
 Real talk: If your “system” involves sticky notes, a whiteboard, and a prayer, you’re not alone. But you are leaking money. (And if you’re reading this and thinking, “But my process is special,” congratulations—you’re right. It’s especially likely to break at 5pm on a Friday.)
 ## Discovery: Diagnose Before Automating
@@ -214,7 +202,7 @@ Clients often start with one project and expand to many. I adapt to budget const
 ---
 
 
-![Saving Time and Money](../assets/kobu-agency-fVi9Ipk7f60-unsplash.jpg)
+![Saving Time and Money](../../assets/kobu-agency-fVi9Ipk7f60-unsplash.jpg)
 <div align="center"><em>Smart automation: save time, save money, and focus on what matters most.</em></div>
 
 ---
@@ -232,17 +220,6 @@ See: [Automotive Platform Case Study](../Automotive-Platform-Case-Study.md)
 
 
 ---
-
-## Key Stats (2026 Freshness)
-
-- **3–7%** of small business revenue is lost to process inefficiency ([LedgerUp SaaS Invoicing, 2025](https://www.ledgerup.ai/resources/the-top-5-best-saas-invoicing-and-contract-to-cash-platforms-that-prevent-revenue-leakage-2025))
-- **20–40%** of admin time is wasted on manual tasks ([Workday, 2025](https://blog.workday.com/en-us/top-automation-ideas-to-streamline-your-small-business.html))
-- Most businesses see ROI within **1–3 months** of automation rollout (internal case studies, 2025–2026)
-
-
-
----
-
 
 ## Discovery: Diagnosing Before Automating
 
