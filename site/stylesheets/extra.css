@@ -596,6 +596,38 @@ body,
   transition: background-color 0.3s ease, color 0.2s ease;
 }
 
+/* ---------- Content links: underline for accessibility ---------- */
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(17, 54, 255, 0.3);
+}
+
+.md-typeset a:hover {
+  text-decoration-color: rgba(17, 54, 255, 0.6);
+}
+
+.md-typeset a:focus-visible {
+  text-decoration-color: rgba(17, 54, 255, 0.8);
+  outline: 2px solid #A5B4FC;
+  outline-offset: 2px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  text-decoration-color: rgba(165, 180, 252, 0.3);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  text-decoration-color: rgba(165, 180, 252, 0.6);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:focus-visible {
+  text-decoration-color: rgba(165, 180, 252, 0.8);
+  outline: 2px solid #1136FF;
+  outline-offset: 2px;
+}
+
 /* ---------- Scroll reveal ---------- */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(14px); }
