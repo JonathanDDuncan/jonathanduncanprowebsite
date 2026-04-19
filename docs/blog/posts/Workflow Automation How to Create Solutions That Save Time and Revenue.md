@@ -28,7 +28,7 @@ Meta Description: Learn how to create workflow automation solutions that save ti
         "@type": "WebPage",
         "@id": "https://jonathanduncan.pro/blog/workflow-automation-create-solutions-save-time-revenue"
     },
-    "image": "https://jonathanduncan.pro/assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg",
+    "image": "https://jonathanduncan.pro/blog/assets/vitaly-gariev-960.webp",
     "keywords": "workflow automation, save time, recover revenue, small business automation, custom workflow solutions, process mapping, case study, no-code automation, business optimization, owner freedom"
 }
 </script>
@@ -38,14 +38,14 @@ Meta Description: Learn how to create workflow automation solutions that save ti
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Workflow Automation: How to Create Solutions That Save Time & Revenue" />
 <meta property="og:description" content="Learn how to create workflow automation solutions that save time and recover lost revenue for small businesses, with a proven, step-by-step process, real case study, and actionable guide." />
-<meta property="og:image" content="https://jonathanduncan.pro/assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg" />
+<meta property="og:image" content="https://jonathanduncan.pro/blog/assets/vitaly-gariev-960.webp" />
 <meta property="og:url" content="https://jonathanduncan.pro/blog/workflow-automation-create-solutions-save-time-revenue" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Workflow Automation: How to Create Solutions That Save Time & Revenue" />
 <meta name="twitter:description" content="Learn how to create workflow automation solutions that save time and recover lost revenue for small businesses, with a proven, step-by-step process, real case study, and actionable guide." />
-<meta name="twitter:image" content="https://jonathanduncan.pro/assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg" />
+<meta name="twitter:image" content="https://jonathanduncan.pro/assets/vitaly-gariev-960.webp" />
 
  Small businesses lose 3–7% of revenue and up to 40% of admin time to manual processes and disconnected tools. My expert, evidence-based workflow automation process—proven case studies—recovers lost profits and owner time, delivering measurable ROI in as little as 30 days.
 
@@ -83,7 +83,7 @@ Manual processes, spreadsheet errors, and disconnected tools are the silent kill
 
 Let’s be honest: nobody wakes up excited to chase down invoices or untangle spreadsheet spaghetti. If you’re still using Excel as your billing system, I have bad news (and a better way). And yes, I’ve seen it all—one client’s “workflow” was basically a game of email ping-pong. Spoiler: they weren’t winning.
 
-> ![Workflow Bottleneck Illustration](../../assets/vitaly-gariev-8qQaWOBfiV0-unsplash.jpg "Workflow bottleneck illustration")
+> ![Workflow Bottleneck Illustration](./assets/vitaly-gariev-8qQaWOBfiV0-unsplash-960.webp){ loading=lazy width="813" height="457" }
 
 Real talk: If your “system” involves sticky notes, a whiteboard, and a prayer, you’re not alone. But you are leaking money. (And if you’re reading this and thinking, “But my process is special,” congratulations—you’re right. It’s especially likely to break at 5pm on a Friday.)
 ## Discovery: Diagnose Before Automating
@@ -202,7 +202,7 @@ Clients often start with one project and expand to many. I adapt to budget const
 ---
 
 
-![Saving Time and Money](../../assets/kobu-agency-fVi9Ipk7f60-unsplash.jpg)
+![Saving Time and Money](./assets/kobu-agency-fVi9Ipk7f60-unsplash-960.webp){ loading=lazy width="813" height="457" }
 <div align="center"><em>Smart automation: save time, save money, and focus on what matters most.</em></div>
 
 ---

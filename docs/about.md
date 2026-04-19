@@ -17,7 +17,7 @@ I'm Jonathan Duncan, a freelance Software and AI Engineer with 25+ years buildin
 I've seen a $1,500 invoice go unbilled because a job slipped through a Google Sheet. I've seen research teams waste weeks collecting data by hand. Those are the problems I build against.
 </div>
 <div class="about-hero-photo">
-<img src="../assets/jonathan-duncan.jpg" alt="Jonathan Duncan — Freelance Software & AI Engineer specializing in custom business automation for SMBs" loading="eager" />
+<img src="../assets/images/jonathan-duncan-256.webp" alt="Jonathan Duncan — Freelance Software & AI Engineer specializing in custom business automation for SMBs" loading="lazy" width="48" height="48" />
 </div>
 </div>
 
