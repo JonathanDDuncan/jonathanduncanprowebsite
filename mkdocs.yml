@@ -50,7 +50,7 @@ theme:
     text: Manrope
     code: JetBrains Mono
   logo: assets/logo.svg
-  favicon: assets/favicon.png
+  favicon: assets/favicon-package/favicon.ico
 
 extra:
   generator: true
