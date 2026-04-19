@@ -1,5 +1,5 @@
 ---
-mode: ask
+agent: ask
 description: "Evaluate or plan any task for Jonathan Duncan's freelance brand, website, content, or business strategy using a multi-expert panel approach."
 ---
 
