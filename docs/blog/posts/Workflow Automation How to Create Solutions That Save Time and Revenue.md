@@ -280,9 +280,9 @@ Most businesses see 20–40% admin time reduction and 3–7% revenue recovery wi
 
 Need something custom built for a complex workflow?
 
-Schedule a free 30-minute strategy call and I will help you map the right technical approach for your business constraints and growth goals.
+Schedule a free 30-minute Discovery Call and I will help you map the right technical approach for your business constraints and growth goals.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
 
 </div>

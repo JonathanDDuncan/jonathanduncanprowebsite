@@ -1,6 +1,6 @@
 ---
-title: Contact | Book a Free Strategy Call
-description: Book a free 30-minute strategy call or send a message to discuss custom software, AI integration, or workflow automation for your business.
+title: Contact | Book a Free Discovery Call
+description: Book a free 30-minute Discovery Call or send a message to discuss custom software, AI integration, or workflow automation for your business.
 ---
 
 # Let's figure out if there's a fit

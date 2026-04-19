@@ -173,7 +173,7 @@ Field devices (Android, Windows laptops, Windows embedded, mobile phones) sync d
 
 If your team is still managing critical operations through manual handoffs and disconnected tools, let's map a system that fits how your business actually runs.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [View all projects :material-arrow-right:](../index.md){ .md-button }
 
 </div>

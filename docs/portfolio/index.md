@@ -32,7 +32,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *WPF · ASP.NET Core · Cosmos DB · Azure · QuickBooks API*
 
     [:octicons-arrow-right-24: Read full case study](projects/case-study-automotive-platform.md)
-    [Facing a similar workflow problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Facing a similar workflow problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about automotive diagnostics platform" }
 
 -   <span class="service-icon icon-color-cyan">☁️</span> **Climate Data Integration Pipeline**
 
@@ -51,7 +51,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *Python · GCP · Apache Airflow · PostGIS*
 
     [:octicons-arrow-right-24: Read full case study](projects/case-study-climate-data-pipeline.md)
-    [Facing a similar data problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Facing a similar data problem? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about climate data pipeline" }
 
 -   <span class="service-icon icon-color-blue">🔧</span> **Diagnostic Visualization Platform**
 
@@ -71,7 +71,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
     *.NET WPF · Azure Virtual Desktop*
        
-    [Need custom visualization for your team? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Need custom visualization for your team? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about diagnostic visualization platform" }
 
 -   <span class="service-icon icon-color-green">📄</span> **Real-Time File Monitoring System**
 
@@ -92,7 +92,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *.NET 9 · Azure Cosmos DB · Docker · Azure Functions*
 
     [:octicons-arrow-right-24: Read full case study](projects/case-study-file-monitoring-system.md)
-    [Need reliable file processing at scale? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Need reliable file processing at scale? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about file monitoring system" }
 
 -   <span class="service-icon icon-color-amber">📍</span> **Canadian Geocoding API**
 
@@ -113,7 +113,7 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
     *FastAPI · PostgreSQL · PostGIS · Statistics Canada Data*
 
    
-    [Have a similar API or data challenge? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Have a similar API or data challenge? Book a call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about Canadian geocoding API" }
 
 </div>
 
@@ -121,9 +121,9 @@ Selected projects showing how I design and deliver full-stack, cloud, and AI-ena
 
 Need something custom built for a complex workflow?
 
-Schedule a free 30-minute strategy call and I will help you map the right technical approach for your business constraints and growth goals.
+Schedule a free 30-minute Discovery Call and I will help you map the right technical approach for your business constraints and growth goals.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
 
 </div>

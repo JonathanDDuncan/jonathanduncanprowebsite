@@ -118,7 +118,7 @@ I designed and implemented a robust, modular pipeline architecture built for sca
 
 If your team is still spending time stitching together fragmented data manually, I can help you design a pipeline that is stable, maintainable, and built for scale.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [View all projects :material-arrow-right:](../index.md){ .md-button }
 
 </div>

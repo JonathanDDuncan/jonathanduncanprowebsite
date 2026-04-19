@@ -95,7 +95,7 @@ I architected and delivered an enterprise-grade monitoring service with intellig
 
 If your business depends on fast, reliable access to large file repositories, I can help you design a real-time, resilient monitoring system that scales with your needs.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [View all projects :material-arrow-right:](../index.md){ .md-button }
 
 </div>

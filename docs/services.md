@@ -153,7 +153,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"This is better than I could have possibly imagined."* — Scot Nichols, after platform delivery
 
-    [Map your automation opportunity :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Map your automation opportunity :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about custom platform build" }
 
 </div>
 
@@ -190,7 +190,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan is a top-notch, detail-oriented developer I recommend to anyone serious about quality and maintainable applications."* — Paul Davis, Upwork verified
 
-    [Assess where AI creates real value :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Assess where AI creates real value :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about AI integration" }
 
 </div>
 
@@ -227,7 +227,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan did great work modernizing our legacy systems into a new environment. He is a strong coder, easy to work with, and knows exactly what he's doing."* — Adrian Noble, Upwork verified
 
-    [Get a cloud architecture assessment :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Get a cloud architecture assessment :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about cloud architecture" }
 
 </div>
 
@@ -264,7 +264,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan was great to work with. He understood requirements quickly, suggested improvements, and asked strong clarifying questions when things were unclear. I'd work with him again."* — Katherine Labelle, Upwork verified
 
-    [Discuss your platform requirements :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Discuss your platform requirements :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about full-stack platform" }
 
 </div>
 
@@ -301,7 +301,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"Jonathan provided a very detailed report, clearly explained the likely issue, and proposed solutions to our web app problems. He was very knowledgeable and understood our concerns."* — Jack Wongpaitoonpiya, Upwork verified
 
-    [Tell me your hypothesis. I'll say if it's buildable in weeks :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Tell me your hypothesis. I'll say if it's buildable in weeks :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about MVP or pilot" }
 
 </div>
 
@@ -338,7 +338,7 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
     > *"It has been a fantastic experience working with Jonathan. He is very knowledgeable and a strong full-stack engineer who can tackle challenges from API solutions to database and cloud efficiencies."* — Alberto Jaramillo, Upwork verified
 
-    [Schedule an architecture advisory session :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+    [Schedule an architecture advisory session :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary aria-label="Book a Free Discovery Call about architecture advisory" }
 
 </div>
 
@@ -352,9 +352,9 @@ I don't sell hours or feature lists. I solve business problems with custom-built
 
 ### Not sure which engagement fits?
 
-Most projects don't fit neatly into one box. Book a free 30-minute strategy call and I'll help you figure out the right scope, timeline, and approach, even if the answer is "not yet."
+Most projects don't fit neatly into one box. Book a free 30-minute Discovery Call and I'll help you figure out the right scope, timeline, and approach, even if the answer is "not yet."
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
 
 </div>

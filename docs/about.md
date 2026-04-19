@@ -176,9 +176,9 @@ Full stack details, including Blazor, WPF, PostGIS, pgvector, Apache Airflow, pa
 
 ### Want to discuss your project?
 
-Book a free 30-minute strategy call. I will ask the right questions, give you direct feedback, and help you figure out the most sensible next step.
+Book a free 30-minute Discovery Call. I will ask the right questions, give you direct feedback, and help you figure out the most sensible next step.
 
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
 
 </div>

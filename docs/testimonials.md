@@ -48,7 +48,7 @@ Selected client feedback from completed projects across custom software engineer
 </div>
 
 <div style="text-align: center; margin: 2rem 0;" markdown>
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 ## On working together
 <div class="testimonial-section--tinted" markdown>
@@ -84,7 +84,7 @@ Selected client feedback from completed projects across custom software engineer
 </div>
 
 <div style="text-align: center; margin: 2rem 0;" markdown>
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 </div>
@@ -114,7 +114,7 @@ Selected client feedback from completed projects across custom software engineer
 </div>
 
 <div style="text-align: center; margin: 2rem 0;" markdown>
-[Book a Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 ## On long-term partnership

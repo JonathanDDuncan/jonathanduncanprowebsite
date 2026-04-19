@@ -107,7 +107,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 </div>
 <div class="hero-full-width">
   <div class="hero-buttons">
-    <a class="md-button md-button--primary" href="https://cal.com/jonathanduncan/free-consultation" target="_blank" rel="noopener">Book a Free 30-Min Strategy Call <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"></path></svg></span></a>
+    <a class="md-button md-button--primary" href="https://cal.com/jonathanduncan/free-consultation" target="_blank" rel="noopener" aria-label="Book a Free Discovery Call">Book a Free Discovery Call <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5 17.59 15.59 7H9V5h10v10h-2V8.41L6.41 19z"></path></svg></span></a>
     <a class="md-button" href="portfolio">See How I've Solved This Before <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg></span></a>
   </div>
 </div>
@@ -228,7 +228,7 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 <div style="text-align: center; margin-top: 0.75rem; margin-bottom: 0.5rem;" markdown>
 [View all client testimonials :material-arrow-right:](testimonials.md){ .md-button }
-[Book a free strategy call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book a Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 </div>
 
 <!-- ────────────── WHY ME ────────────── -->
@@ -276,10 +276,10 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 0.25rem; margin-bottom: 0.75rem;"><em>Most engagements start with a single 30-minute conversation.</em> <a href="https://cal.com/jonathanduncan/free-consultation">Book yours &rarr;</a></p>
+<p style="text-align: center; margin-top: 0.25rem; margin-bottom: 0.75rem;"><em>Most engagements start with a single 30-minute conversation.</em> <a href="https://cal.com/jonathanduncan/free-consultation" aria-label="Book a Free Discovery Call">Book yours &amp;rarr;</a></p>
 
 <p style="text-align: center; margin-bottom: 0.5rem;">
-<a href="https://cal.com/jonathanduncan/free-consultation" class="md-button md-button--primary" target="_blank" rel="noopener">Book a Free Strategy Call ↗</a>
+<a href="https://cal.com/jonathanduncan/free-consultation" class="md-button md-button--primary" target="_blank" rel="noopener">Book a Free Discovery Call ↗</a>
 </p>
 
 </div>
@@ -314,9 +314,9 @@ Custom-built platforms that eliminate manual data entry, connect your systems, a
 
 ### Tell me what's slowing your team down.
 
-I'll give you a straight answer on what to build and what not to. Free 30-minute strategy call. No pitch deck. No obligations.
+I'll give you a straight answer on what to build and what not to. Free 30-minute Discovery Call. No pitch deck. No obligations.
 
-[Book Your Free Strategy Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
+[Book Your Free Discovery Call :material-arrow-top-right:](https://cal.com/jonathanduncan/free-consultation){ .md-button .md-button--primary }
 [or email me directly :material-email:](mailto:jonathan@jonathanduncan.pro){ .md-button }
 
 </div>
